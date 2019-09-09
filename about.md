@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## Resume
 A traditional resume in printable PDF is located here:
 
 ## A brief summary
