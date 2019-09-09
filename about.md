@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, this is my webpage. You can see some of the things I do above: 
 
-### More Information
+My CV includes the usual academic/professional information you expect.
 
-A place to include any other types of information that you'd like to include about yourself.
+The Courtyard Kitchen is a companion blog to the print cookbook I published. 
 
-### Contact me
+The Prince is an illustrated fable for children that I published via KickStarter.
 
-[email@domain.com](mailto:email@domain.com)
+Writings include the novel that I'm writing at a glacial pace, and some essays.   
+
