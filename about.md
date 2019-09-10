@@ -8,12 +8,13 @@ A traditional resume in printable PDF is located here:
 
 # A brief summary
 
-I'm an analyst specializing in big data, currently working in high-dimensional flow cytometry and RNASeq at [Fred Hutch](http://rglab.org). I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect rare proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/). 
+I'm currently working as an analyst at [Fred Hutch](http://rglab.org), specializing in high-dimensional flow cytometry and RNASeq. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/). 
 
 # Project portfolio
 
 ### openCyto & ggCyto
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
+
 
 As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for gating high-dimensional flow-cytometry and mass-cytometry data. I also worked on [ggCyto](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/), an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets.
 
