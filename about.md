@@ -14,11 +14,12 @@ I'm an analyst specializing in big data, currently working in high-dimensional f
 
 ### openCyto & ggCyto
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
+
 As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for gating high-dimensional flow-cytometry and mass-cytometry data. I also worked on [ggCyto](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/), an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets.
 
 ### Structured Illumination Gel Imager (SIGI)
 ![SIGI overview](/images/SIGI-operation.jpg "SIGI-operation.jpg")
-As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using a scientific-grade CCD camera with structured illumination from an auditorium-grade projector, which was granted a US [patent](http://www.freepatentsonline.com/10362237.html) after I graduated.
+As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using structured illumination to increase dynamic range in order to detect rare protein in complex mixtures of cell extracts. This work was granted a US [patent](http://www.freepatentsonline.com/10362237.html) after I graduated.
 
 ### Halobacterium PeptideAtlas 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
