@@ -8,7 +8,7 @@ My resume is located here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf)
 
 # A brief summary
 
-I'm currently working as an analyst at [Fred Hutch](http://rglab.org), specializing in high-dimensional flow cytometry and RNASeq. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/). 
+I'm currently working as an analyst at [Fred Hutch](http://rglab.org), specializing in high-dimensional flow cytometry and RNASeq. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/). My greatest strengths are adaptability and an exceptionally strong work ethic. 
 
 # Major projects from most recent
 
