@@ -24,8 +24,9 @@ As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.go
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 As an intern working at the Institute for Systems Biology, I converted peptide mass spectra from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on [the method used](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/). 
 
-### Inferelator 2.0
+### Archeal oxidative stress response network
 ![EGRIN_OS network](/images/EGRIN_OS-network.jpg "EGRIN_OS-network.jpg")
+
 Continuing my stint at ISB as a research associate, I worked on a refined version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an R algorithm for predicting genetic regulators of gene expression. This work enabled us to build and test a model of oxidative stress response in an extremophilic archaeon. This branch of the algorithm ended up being superseded, but you can see a version of code I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient).
 
 ### Nutria spread in Seattle
