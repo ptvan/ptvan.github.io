@@ -4,7 +4,7 @@ title:
 permalink: /research/
 ---
 
-A traditional resume in printable PDF is located here:
+My resume is located here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf)
 
 # A brief summary
 
