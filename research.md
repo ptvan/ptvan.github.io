@@ -10,7 +10,7 @@ My resume is located here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf)
 
 I'm currently working as an analyst at [Fred Hutch](http://rglab.org), specializing in high-dimensional flow cytometry and RNASeq. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/). 
 
-My greatest strengths are curiosity, adaptability and an exceptionally strong work ethic. I chose my previous projects because they have to potential to impact many people. They also required me to learn new things and work in diverse groups. 
+My greatest strengths are curiosity, adaptability and an exceptionally strong work ethic. I like working at the interface of different fields, since it requires me to master new ideas quickly. I particularly like biology, data science and engineering. 
 
 # Major projects in reverse chronological order
 
