@@ -18,13 +18,13 @@ The last time I worked with maps, it was on a [larger scale](https://github.com/
 
 ### 3. This should be easy, no ?
 
-In reading my coordinates into a webpage, I again into overkill: there are simply [too])(https://www.js-tutorials.com/jquery-tutorials/reading-csv-file-using-jquery/) [many](https://www.papaparse.com/) [solutions](https://www.quora.com/What-is-the-best-way-to-read-a-CSV-file-using-JavaScript-not-JQuery). Could a guy just not have an `open()` call ? In any case, I settled on using [D3][https://github.com/d3/d3-dsv], which had a simple 2-line solution.
+In reading my coordinates into a webpage, I again into overkill: there are simply [too](https://www.js-tutorials.com/jquery-tutorials/reading-csv-file-using-jquery/) [many](https://www.papaparse.com/) [solutions](https://www.quora.com/What-is-the-best-way-to-read-a-CSV-file-using-JavaScript-not-JQuery). Could a guy just not have an `open()` call ? In any case, I settled on using [D3](https://github.com/d3/d3-dsv), which had a simple 2-line solution.
 
 ### 4. Minimally viable product
 
 So, you can see the MVP, which I call CozyCottage [here](https://github.com/ptvan/cozycottage). In the end, I couldn't shake the reliance on JavaScript-everywhere (ie. you still have to serve the resultant HTML with some kind of server), but it was the quickest, least cumbersome way I found to do what I set out to do.
 
-Funnily enough, making an interactive map using [D3], a library known for its visualization, can get rather [involved](https://bl.ocks.org/mbostock/2522624ada2c1f9e0fafb75cca09442b).
+Funnily enough, making an interactive map using D3, a library known for its visualization, can get rather [involved](https://bl.ocks.org/mbostock/2522624ada2c1f9e0fafb75cca09442b).
 
 
 
