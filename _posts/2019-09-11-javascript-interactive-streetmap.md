@@ -10,7 +10,7 @@ I imagined an interactive map that would show the location of each house we look
 
 ### 1. Choose the right technology
 
-Since my map would be web-based and interactive, I thought React would be a good fit. I found a ew different mapping solutions: [google-map-react](https://www.npmjs.com/package/google-map-react) and [react-map-gl](https://uber.github.io/react-map-gl). In the end, using React just to make a clickable map seemed a little overkill to me, especially since [Leaflet](https://leafletjs.com/) already supported some interactivity.  
+Since my map would be web-based and interactive, I thought React would be a good fit. I found a few different mapping solutions: [google-map-react](https://www.npmjs.com/package/google-map-react) and [react-map-gl](https://uber.github.io/react-map-gl). In the end, using React just to make a clickable map seemed a little overkill to me, especially since [Leaflet](https://leafletjs.com/) already supported some interactivity.  
 
 ### 2. Data cleaning
 
