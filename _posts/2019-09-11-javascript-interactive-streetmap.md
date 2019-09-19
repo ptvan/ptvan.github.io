@@ -22,6 +22,8 @@ In reading my coordinates into a webpage, I again into overkill: there are simpl
 
 ### 4. Minimally viable product
 
+![CozyCottage screenshot](/images/cozycottage_screenshot.png "cozycottage_screenshot.png")
+
 So, you can see the MVP, which I call CozyCottage [here](https://github.com/ptvan/cozycottage). In the end, I couldn't shake the reliance on JavaScript-everywhere (ie. you still have to serve the resultant HTML with some kind of server), but it was the quickest, least cumbersome way I found to do what I set out to do.
 
 Funnily enough, making an interactive map using D3, a library known for its visualization, can get rather [involved](https://bl.ocks.org/mbostock/2522624ada2c1f9e0fafb75cca09442b).
