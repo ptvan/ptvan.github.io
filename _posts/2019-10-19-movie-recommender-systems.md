@@ -9,6 +9,8 @@ I watch a lot of movies. I enjoy thinking and talking about movies (you should c
 
 This is where I would look at people who like similar movies to me. The assumption is that people who liked similar movies in the past will also like similar movies in the future. [MovieLens](https://grouplens.org/datasets/movielens/) has 2 free datasets available for public use: a more recent, frequently updated set with ~100,000 ratings and and larger archived set ~27,000,000 ratings.
 
+First, I had to clean my data a bit. Turns out, there are quite a few movies with the same titles (eg. "Richard III", or "Aladdin") but this requires a [trivial fix](https://github.com/ptvan/movies/blob/master/EDA.py).
+
 ### Content-based filtering
 
 This is where I would look at the traits of the movies I like (eg. director/writer/cinematographer, plot, country of origin, release date, etc...), find patterns, and make recommendations based on those patterns. Maybe an open version of IMDB like [OMDBAPI](https://www.omdbapi.com/) ?
