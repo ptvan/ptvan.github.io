@@ -7,9 +7,9 @@ I like filmmaking and cinematography (you should check out the excellent YouTube
 
 ### Apache Spark
 
-For people used to [R](https://r-project.org) and [Slurm](https://slurm.schedmd.com/overview.html) for computationally-intensive tasks, Apache [Spark](https://spark.apache.org/) feel quite different. Some things worth noting:
+For people used to [R](https://r-project.org) and [Slurm](https://slurm.schedmd.com/overview.html) for computationally-intensive tasks, a workflow based on Apache [Spark](https://spark.apache.org/) feels quite different. Some things worth noting:
 
-* Spark is written in Scala and its native API is also in Scala. Which means you're also tied to the JDK for better and worse. Most notably, the most recent version of Spark (2.4.4) only runs on Java 1.8. Depending on your setup, this could be a minor inconvenience, or a better part of an afternoon hunting down unsupported community versions of the JDK and making sure all your tools point to that. If you don't want to use Scala, there are interfaces for Python (PySpark), and R (actually multiple, SparkR and [SparklyR](https://spark.rstudio.com/)). I went with PySpark.
+* Spark is written in Scala and its native API is also in Scala. Which means you're also tied to the JDK for better and worse. Most notably, Spark 2.x only runs on Java 1.8. Depending on your setup, this could be a minor inconvenience, or a better part of an afternoon hunting down unsupported community versions of the JDK and making sure all your tools point to that. If you don't want to use Scala, there are interfaces for Python (PySpark), and R (actually multiple, SparkR and [SparklyR](https://spark.rstudio.com/)). I went with PySpark.
 
 * Job management is a little more robust in Spark, but can also be a bit more involved. Spark has a web GUI (default port 4040) where you can view the queue of current and past jobs.
 
