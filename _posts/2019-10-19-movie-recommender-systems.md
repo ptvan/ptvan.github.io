@@ -3,7 +3,7 @@ layout: post
 title: Recommending movies with Spark
 ---
 
-I like filmmaking and cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies).
+I like filmmaking, particularly cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies).
 
 ### Apache Spark
 
@@ -25,4 +25,4 @@ Then, I ran my data through an [Alternating Least Squares](https://en.wikipedia.
 
 ### Content-based filtering
 
-This is where I would look at the traits of the movies I ranked highly, find patterns, and make recommendations based on those patterns. I obtained an API key from [OMDBAPI](https://www.omdbapi.com/) and performed some queries via the ~~pyCurl~~ `requests` library.
+This is where I would look at the traits of the movies I ranked highly, find patterns, and make recommendations based on those patterns. I obtained an API key from [OMDBAPI](https://www.omdbapi.com/) and fetched the synopses for my favorite movies using the ~~pyCurl~~ `requests` library (pyCurl turned out to be more powerful and much more complicated than I needed).
