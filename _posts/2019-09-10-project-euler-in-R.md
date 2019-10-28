@@ -16,4 +16,4 @@ It's tedious to re-invent low-level algorithms for common tasks. This point comp
 
 * We stand on the shoulder of giants: the body of work in math and algorithm is vast. It's fun to re-trace the steps of pioneers.
 
-You can see the results in this GitHub repository: [euler-r](https://github.com/ptvan/euler-r). 
+You can see the results in this GitHub repository: [euler-r](https://github.com/ptvan/euler-r).
