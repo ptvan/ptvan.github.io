@@ -25,4 +25,4 @@ Then, I ran my data through an [Alternating Least Squares](https://en.wikipedia.
 
 ### Content-based filtering
 
-This is where I would look at the traits of the movies I like (eg. director/writer/cinematographer, plot, country of origin, release date, etc...), find patterns, and make recommendations based on those patterns. Maybe an open version of IMDB like [OMDBAPI](https://www.omdbapi.com/) ?
+This is where I would look at the traits of the movies I ranked highly, find patterns, and make recommendations based on those patterns. I obtained an API key from [OMDBAPI](https://www.omdbapi.com/) and performed some queries via the ~pyCurl~ `requests` library.
