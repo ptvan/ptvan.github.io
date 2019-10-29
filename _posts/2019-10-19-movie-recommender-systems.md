@@ -25,4 +25,4 @@ Then, I ran my data through an [Alternating Least Squares](https://en.wikipedia.
 
 ### Content-based filtering
 
-This is where I would look at the traits of the movies I ranked highly, find patterns, and make recommendations based on those patterns. I obtained an API key from [OMDBAPI](https://www.omdbapi.com/) and fetched the synopses for my favorite movies using the ~~pyCurl~~ `requests` library (pyCurl turned out to be more powerful and much more complicated than I needed).
+This is where I would look at the traits of the movies I ranked highly, find patterns, and make recommendations based on those patterns. I obtained an API key from [OMDBAPI](https://www.omdbapi.com/) and fetched the synopses for my favorite movies using the ~~pyCurl~~ `requests` library (pyCurl turned out to be more powerful but much more complicated than I needed).
