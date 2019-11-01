@@ -14,7 +14,7 @@ Since my map would be web-based and interactive, I thought React would be a good
 
 ### 2. Data cleaning
 
-The last time I worked with maps, it was on a [larger scale](https://github.com/ptvan/nutria2007) and I didn't have to worry about street addresses. Mapping street address to geographical coordinates ("geocoding") can get a little complicated. Thankfully, since it's a fairly common problem, there are tons of tools available. I naturally gravitated towards R, where there are some excellent packages like [tmap](https://github.com/mtennekes/tmap) and [tmaptools](https://github.com/mtennekes/tmaptools). These combined with [OpenStreetMap](https://www.openstreetmap.org)'s API gave me latitudes and longitudes of the houses in a few minutes. 
+The last time I worked with maps, it was on a [larger scale](https://github.com/ptvan/nutria2007) and I didn't have to worry about street addresses. Mapping street address to geographical coordinates ("geocoding") can get a little complicated. Thankfully, since it's a fairly common problem, there are tons of tools available. I naturally gravitated towards R, where there are some excellent packages like [tmap](https://github.com/mtennekes/tmap) and [tmaptools](https://github.com/mtennekes/tmaptools). These combined with [OpenStreetMap](https://www.openstreetmap.org)'s API gave me latitudes and longitudes of the houses in a few minutes. As I do with all datasets, I also did a bit of [exploratory data analysis](https://github.com/ptvan/python-snippets/blob/master/cozycottage_EDA.ipynb).
 
 ### 3. This should be easy, no ?
 
