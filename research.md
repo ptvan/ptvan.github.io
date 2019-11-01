@@ -21,7 +21,7 @@ As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R 
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
 
 ### Structured Illumination Gel Imager (SIGI)
-As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using structured illumination to increase dynamic range in order to detect rare protein in complex mixtures of cell extracts. This work was granted a US [patent](http://www.freepatentsonline.com/10362237.html) after I graduated.
+As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using structured illumination to increase dynamic range in order to detect rare protein in complex mixtures of cell extracts. Carnegie Mellon was granted a US [patent](https://patents.justia.com/patent/10362237) on this work after I graduated.
 ![SIGI overview](/images/SIGI-operation.jpg "SIGI-operation.jpg")
 
 ### Archeal oxidative stress response network
