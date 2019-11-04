@@ -5,7 +5,7 @@ title: Recommending movies, part 2 - Content-based filtering
 
 See [part 1](https://ptvan.github.io/movie-recommender-part1) for background information and results from collaborative filtering. Onward...
 
-I obtained an API key from [OMDBAPI](https://www.omdbapi.com/) and fetched the synopses for my favorite movies using the ~~pyCurl~~ `requests` library (pyCurl turned out to be more powerful but much more complicated than I needed).
+I obtained an API key from [OMDBAPI](https://www.omdbapi.com/). Next, using the ~~pyCurl~~ `requests` library (pyCurl turned out to be more powerful but much more complicated than I needed), I [fetched the metadata](https://github.com/ptvan/movies/blob/master/fetch_movie_metadata.py) for my favorite movies.
 
 ### Some words about tools: Pandas, ggplot, seaborn
 
