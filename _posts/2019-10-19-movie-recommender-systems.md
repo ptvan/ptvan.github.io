@@ -15,7 +15,7 @@ For people used to [R](https://r-project.org) and [Slurm](https://slurm.schedmd.
 
 * Spark's basic data structure is the Resilient Distributed Dataset ([RDD](https://spark.apache.org/docs/latest/rdd-programming-guide.html)). You can work with RDD directly, but for analyses it's nicer to use [Spark DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html). Spark DataFrames have similarities with, but are not entirely equivalent to [Pandas dataframes](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dataframe). For one, Spark DataFrames are immutable, since they're based on RDDs, which are themselves immutable, while Pandas dataframes are mutable. If that's not enough ways to work, Spark also has an [SQL interface](https://spark.apache.org/sql/)
 
-* Spark's machine learning API is changing from `spark.mllib` (supporting RDD) to `spark.ml` (supporting DataFrame), so new code should use the latter, though apparently the former is [not deprecated](https://spark.apache.org/docs/latest/ml-guide.html#announcement-dataframe-based-api-is-primary-api).
+* Spark's machine learning API is changing from `spark.mllib` (supporting RDDs) to `spark.ml` (supporting Spark DataFrames), so new code should use the latter, though apparently the former is [not deprecated](https://spark.apache.org/docs/latest/ml-guide.html#announcement-dataframe-based-api-is-primary-api). You can also plug in your favorite deep learning frameworks ([Keras](http://maxpumperla.com/elephas/), [DeepLearning4J](https://deeplearning4j.org/docs/latest/deeplearning4j-scaleout-intro)) to do deep learning.
 
 
 ### Collaborative filtering
