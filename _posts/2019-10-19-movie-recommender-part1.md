@@ -9,7 +9,7 @@ I like filmmaking, particularly cinematography (you should check out the excelle
 
 This is where I would look at people who like similar movies to me. The assumption is that people who liked similar movies in the past will also like similar movies in the future. [MovieLens](https://grouplens.org/datasets/movielens/) has 2 free datasets available for public use: a more recent, frequently updated set with ~100,000 ratings and and larger archived set ~27,000,000 ratings.
 
-First, I had to clean my data a bit. Turns out, there are quite a few movies with the same titles (eg. "Richard III", or "Aladdin") but for simplicity's sake I simply [excluded them](https://github.com/ptvan/movies/blob/master/EDA.py).
+First, I had to clean my data a bit. Turns out, there are quite a few movies with the same titles (eg. "Richard III", or "Aladdin") but for simplicity's sake I simply [excluded them](https://github.com/ptvan/movies/blob/master/clean_movies_for_ALS.py).
 
 Then, I ran my data through an [Alternating Least Squares](https://en.wikipedia.org/wiki/Matrix_completion#Alternating_least_squares_minimization) (ALS) function. This involved training a model on MovieLens, adding my movies, then generating [predictions](https://github.com/ptvan/movies/blob/master/spark_ALS.py).
 
