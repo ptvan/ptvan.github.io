@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recommending movies, part 2 - Content-based Filtering
+title: Recommending movies, part 2 - Content-based Filtering with Scikit-Learn
 ---
 
 See [part 1](https://ptvan.github.io/movie-recommender-part1) for background information and results from collaborative filtering. Onward to content-based filtering:
