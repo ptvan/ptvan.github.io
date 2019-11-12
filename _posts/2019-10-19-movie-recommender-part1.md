@@ -1,11 +1,19 @@
 ---
 layout: post
-title: Recommending movies, part 1 - Collaborative Filtering with Spark
+title: Recommending movies, part 1 - Overview & Collaborative Filtering with Spark
 ---
 
-I like filmmaking, particularly cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies). Two common approaches to recommender systems are:
+I like filmmaking, particularly cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies). Some common approaches to recommender systems are:
 
-### Recommender approach 1: collaborative filtering
+### Demographic-based Recommendation
+
+This approach recommends movie based on demographics (age, gender, race, etc...) of the user or the user's friends. It has the benefit of not needing more detailed information from the user. But I'm not comfortable with scraping my friend's social media feeds, so won't be using it. 
+
+### Context-based Recommendation
+
+This is where recommendations would be made based on the user's current context (eg. what webpages they view, products they buy, etc...). Sounds like it could be very accurate at least in the short term, but I also won't be using it for reasons similar to above.
+
+### Collaborative Filtering
 
 This is where I would look at people who like similar movies to me. The assumption is that people who liked similar movies in the past will also like similar movies in the future. [MovieLens](https://grouplens.org/datasets/movielens/) has 2 free datasets available for public use: a more recent, frequently updated set with ~100,000 ratings and and larger archived set ~27,000,000 ratings.
 
@@ -26,7 +34,7 @@ Since I'd be handling fairly large datasets, Apache Spark was worth looking into
 * Spark's machine learning API is changing from `spark.mllib` (supporting RDDs) to `spark.ml` (supporting Spark DataFrames), so new code should use the latter, though apparently the former is [not deprecated](https://spark.apache.org/docs/latest/ml-guide.html#announcement-dataframe-based-api-is-primary-api). You can also plug in your favorite deep learning frameworks ([Keras](http://maxpumperla.com/elephas/), [DeepLearning4J](https://deeplearning4j.org/docs/latest/deeplearning4j-scaleout-intro)) to do deep learning.
 
 
-### Recommender approach 2: content-based filtering
+### Content-based filtering
 
 This is where I would look at find patterns in movies I like, and make recommendations based on those patterns. This is the subject of [another post](https://ptvan.github.io/movie-recommender-part2).
 
