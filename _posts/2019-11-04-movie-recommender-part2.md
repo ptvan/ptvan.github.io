@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recommending movies, part 2 - Content-based filtering
+title: Recommending movies, part 2 - Content-based Filtering
 ---
 
 See [part 1](https://ptvan.github.io/movie-recommender-part1) for background information and results from collaborative filtering. Onward...
