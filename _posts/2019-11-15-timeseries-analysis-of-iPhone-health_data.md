@@ -10,10 +10,10 @@ I had exported biking distance, running distance and step counts from my iPhone 
 The relevant data structures are base R's `ts` (time-series), `xts` (extended time-series) and `zoo`. The major packages are `lubridate` (mostly for cleaning and extracting times and dates), `zoo`, and `forecast`. For those interested in stock prediction/quantitative finance, there is `tidyquant`, which speaks xts and zoo, while interoperating with more domain-specific packages (`quantmod`, `PerformanceAnalytics`, etc..) and wrapped up in a Tidyverse user experience.
 
 ### Handling times and dates
-This is fairly straightforward: you can clean your data with `lubridate`, aggregate with `dplyr`, then convert it into one of the structures mentioned above.
+This is fairly straightforward: you can clean your data with `lubridate`, aggregate with `dplyr`, then convert it into one of the structures mentioned above. One thing to watch out for is missing data: a lot of the functions expect an entry for every timepoint, so you may have to do some imputation.
 
 ### Exploratory analysis
-This is where we test for stationarity, find spurious correlation by looking at diffs and lags, and impute missing data.
+This is where we test for stationarity by looking at [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) and [partial autocorrelation](https://en.wikipedia.org/wiki/Partial_autocorrelation_function), look for spurious correlation with other variables in the dataset or external factors. 
 
 ### Decomposing data into seasonal, trend, and irregular components 
 We can start with base R's `stl` function.
