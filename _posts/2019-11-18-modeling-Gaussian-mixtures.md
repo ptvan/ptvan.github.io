@@ -10,7 +10,7 @@ It was very straightforward to deconvolve my [iphone step count dataset](https:/
 ### Using `mclust` to model Gaussian mixtures
 
 - Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself. For density estimation, it is literally a one-liner: 
-`
+{% highlight r %}
 dens <- densityMclust(steps$stepsWalked)
-`
+{% endhighlight %}
 - `mclust` can also do clustering and perform cross-validation.
