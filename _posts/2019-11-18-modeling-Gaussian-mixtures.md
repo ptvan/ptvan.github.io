@@ -7,12 +7,11 @@ Thanks to R's roots as a statistical programming language it has very strong sup
 
 ### Finding mean step counts using `mclust` 
 
-Analyzing my [iphone step count dataset](https://github.com/ptvan/datasets/tree/master/iphone_health) is pretty straightforward, which I have documented in [modeling_gaussian_mixtures.R](https://github.com/ptvan/R-snippets/blob/master/modeling_gaussian_mixtures.R)
+Analyzing my [iphone step count dataset](https://github.com/ptvan/datasets/tree/master/iphone_health) is pretty straightforward. Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself. For density estimation, it is literally a one-liner: 
 
-Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself. For density estimation, it is literally a one-liner: 
 ```r
 dens <- densityMclust(steps$stepsWalked)
 ```
-This output has parameters for the component Gaussians, as well as the parameter selection for diagnostic purposes. For my steps data, were 4 components, with approximate mean step counts of 3000, 6000, 10000 and 12000. 
+This output has parameters for the component Gaussians, as well as the parameter selection for diagnostic purposes. For my steps data, were 4 components, with approximate mean step counts of 3000, 6000, 10000 and 12000, which I have documented in [modeling_gaussian_mixtures.R](https://github.com/ptvan/R-snippets/blob/master/modeling_gaussian_mixtures.R)
 
 `mclust` can also do clustering and perform cross-validation, but since my step data is neither very large nor very metadata-rich, there was little else to do.
