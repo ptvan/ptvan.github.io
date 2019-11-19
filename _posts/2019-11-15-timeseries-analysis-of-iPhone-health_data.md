@@ -4,7 +4,9 @@ title: Time-series analysis of iPhone health data
 ---
 
 I had exported biking distance, running distance and step counts from my iPhone in a
-[previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a supposed change in step count, using `pymc3` to model two different distributions. Since my biking has _some_ periodicity (and presumably is also a [stationary process](https://en.wikipedia.org/wiki/Stationary_process)), we can do more analyses beyond change point detection. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R):
+[previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a supposed change in step count, using `pymc3` to model two different distributions. 
+
+We can do more analyses beyond modeling a single change point (though modeling them explicitly does confer some benefits...). For example, my biking likely has _some_ periodicity (and presumably is also a [stationary process](https://en.wikipedia.org/wiki/Stationary_process)), . Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R):
 
 ### The R time-series analysis ecosystem
 The relevant data structures are base R's `ts` (time-series), `xts` (extended time-series) and `zoo`. The major packages are `lubridate` (mostly for cleaning and extracting times and dates), `zoo`, and `forecast`. For those interested in quantitative finance, there is `tidyquant`, which speaks xts and zoo in the Tidyverse syntax while interoperating with other domain-specific packages (`quantmod`, `PerformanceAnalytics`, etc..) 
