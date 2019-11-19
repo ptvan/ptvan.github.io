@@ -4,7 +4,7 @@ title: Time-series analysis of iPhone health data
 ---
 
 I had exported biking distance, running distance and step counts from my iPhone in a
-[previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a supposed change in step count, using `pymc3` to model two different distributions. That was a valid, but rather simplistic approach. Since my step count has fairly good periodicity (and presumably is also a [stationary process](https://en.wikipedia.org/wiki/Stationary_process)), it's better to use time-series analysis. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R):
+[previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a supposed change in step count, using `pymc3` to model two different distributions. Since my biking has _some_ periodicity (and presumably is also a [stationary process](https://en.wikipedia.org/wiki/Stationary_process)), we can do more analyses beyond change point detection. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R):
 
 ### The R time-series analysis ecosystem
 The relevant data structures are base R's `ts` (time-series), `xts` (extended time-series) and `zoo`. The major packages are `lubridate` (mostly for cleaning and extracting times and dates), `zoo`, and `forecast`. For those interested in quantitative finance, there is `tidyquant`, which speaks xts and zoo in the Tidyverse syntax while interoperating with other domain-specific packages (`quantmod`, `PerformanceAnalytics`, etc..) 
@@ -17,6 +17,11 @@ This is where we test for stationarity by looking at [autocorrelation](https://e
 
 ### Decomposing data into seasonal, trend, and irregular components 
 We can start with base R's `stl` function. If your data isn't seasonal (or seasonal enough), `stl` will fail with an informative message, which I think is better than trying to find an answer anyway.
+
+### Changepoint detection
+For detecting changepoints, I used the `changepoint` package, which implements many different algorithms, including [Binary Segmentation](https://www.jstor.org/stable/2529204), At Most One Change([AMOC](https://www.jstor.org/stable/2334932)), and the newer Prune Exact Linear Time ([PELT](https://arxiv.org/pdf/1101.1438.pdf)). This is much faster and more robust than the `pymc3` approach I used previously. For one I could detect multiple change points in my steps data. 
+
+The functions you call depend on whether the data's mean, variance, or both have changed. You then need to specify penalties for calculating the changepoint(s), or have the algorithms calculate them for you. A nice walkthrough of the package is found [here](http://members.cbio.mines-paristech.fr/~thocking/change-tutorial/RK-CptWorkshop.html).
 
 ### Modeling & prediction
 Some techniques can get pretty sophisticated (eg. [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter))
