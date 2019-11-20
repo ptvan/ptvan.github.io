@@ -7,11 +7,13 @@ Thanks to R's roots as a statistical programming language it has very strong sup
 
 ### Finding mean step counts using `mclust` 
 
-Analyzing my [iphone step count dataset](https://github.com/ptvan/datasets/tree/master/iphone_health) is pretty straightforward. Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself. For density estimation, it is literally a one-liner: 
+Analyzing my [iphone step count dataset](https://github.com/ptvan/datasets/tree/master/iphone_health) is pretty straightforward. For density estimation, it is literally a one-liner: 
 
 ```r
 dens <- densityMclust(steps$stepsWalked)
 ```
-This output has parameters for the component Gaussians, as well as the parameter selection for diagnostic purposes. For my steps data, were 4 components, with approximate mean step counts of 3000, 6000, 10000 and 12000, which I have documented in [modeling_gaussian_mixtures.R](https://github.com/ptvan/R-snippets/blob/master/modeling_gaussian_mixtures.R)
+Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself (eg. `G=10` for exactly 10 clusters, the default is `G=1:9`) 
 
-`mclust` can also do clustering and perform cross-validation, and will work on data of higher dimensions (which I suspect is what most people actually use it for). But since my step data is neither very large nor very metadata-rich, there was little more to do.
+The output contains parameters for the component Gaussians, as well as the parameter selection for diagnostic purposes. For my steps data, the algorithm found 4 component univariate Gaussians, with approximate mean step counts of 3000, 6000, 10000 and 12000, which I have documented in [modeling_gaussian_mixtures.R](https://github.com/ptvan/R-snippets/blob/master/modeling_gaussian_mixtures.R)
+
+`mclust` also works on data of higher dimensions with the same syntax, which I applied on the merged biking and step count data . It can also do clustering and perform cross-validation. But since my step data is neither very large nor very metadata-rich, there was little more to do.
