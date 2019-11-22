@@ -3,7 +3,7 @@ layout: post
 title: Modeling Gaussian mixtures
 ---
 
-Thanks to R's roots as a statistical programming language it has very strong support for common statistical tasks like modeling and prediction. In modeling your data as a mixture of distributions, there are many R packages, as reviewed by [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5096736/), and I'm sure more are being developed all the time. I was told by my colleague Chad about `mclust`, which seems to strike a good balance between features, ease-of-use, and speed (thanks Chad!).
+Thanks to R's roots as a statistical programming language it has very strong support for common statistical tasks like modeling and prediction. In modeling your data as a mixture of distributions, I know of the `mixtools` package, though there are many others, as reviewed by [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5096736/), and presumably more are being developed all the time. I was told by my colleague Chad about `mclust`, which seems to strike a good balance between features, ease-of-use, and speed (thanks Chad!).
 
 ### Finding mean step counts using `mclust` 
 
