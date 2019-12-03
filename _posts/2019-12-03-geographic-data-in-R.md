@@ -10,7 +10,7 @@ Probably the most well-known package (at least to me) is `sf`, which allows you 
 
 For the data itself, the `rnaturalearth` package draws from the excellent [database of the same name](http://www.naturalearthdata.com/), similarly `osmdata` pulls from [OpenStreetMap](https://www.openstreetmap.org). For plotting, `ggplot2` conveniently implements `geom_sf` for static maps, and `coord_sf` for projection, as described in this [great writeup on r-spatial.org](https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html). 
 
-Geocoding requires a bit more work, `ggmap` supports GoogleMaps and OpenStreetMap (which I prefer since it doesn't require an API key). If you want to geocode IP addresses, there is an appropriately name[r_IPgeocode](https://github.com/cengel/r_IPgeocode) package for that, of course.
+Geocoding requires a bit more work, `ggmap` supports GoogleMaps and OpenStreetMap (which I prefer since it doesn't require an API key). If you want to geocode IP addresses, there is an appropriately named [r_IPgeocode](https://github.com/cengel/r_IPgeocode) package for that, of course.
 
 ### Scale matters
 Before you install every R geographic package in CRAN (GitHub?), it's important to know the scale you're working at. Mapping at street level is different when mapping countries or entire regions. For one, you don't need to worry about projection in the former but they are critically important in the latter. So a static map of the continental US only needs a [single function call](https://github.com/ptvan/R-snippets/blob/master/geographic_analysis.R). Similarly, if you want to highlight certain cities on that map, just adding the corresponding markers directly via their latitude+longitude is enough, without the overkill of geocoding.
