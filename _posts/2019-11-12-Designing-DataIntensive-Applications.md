@@ -12,3 +12,14 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 2. Differing system loads: Posting a tweet (low load) vs. viewing Twitter home timeline (high load). Two different approaches: keeping a global collection of tweets vs. maintaining each user's collection of tweets and retweets. Implementation varies by type of user: high-intensity users (ie. celebrities) served by first approach, regular users served by second
 
 3. Latency vs. response: latency is duration a request is waiting to be served, response is what the user sees
+
+### Chapter 2
+
+1. For data with many-to-many relationships, document model is better than relational model. Interestingly, document models apparently go way back to CODASYL in the 1970's.
+
+2. Cost of schema changes must be incorporated into architecture planning, as they can be very expensive, requiring the entire table to be rewritten in the extreme case.
+
+3. Modern RDBMS's support XML, which has some features of document models
+
+4. Querying using MapReduce can be more powerful but more complicated, as you have to write two separate coordinated queries for one operation.
+
