@@ -23,3 +23,4 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 
 4. Querying using MapReduce can be more powerful but more complicated, as you have to write two separate coordinated queries for one operation.
 
+5. An overview of graph databases and their query languages: [Cypher](https://neo4j.com/developer/cypher-query-language/), [SPARQ](https://www.w3.org/TR/rdf-sparql-query/) and [Datalog](https://clojure.github.io/clojure-contrib/doc/datalog.html)
