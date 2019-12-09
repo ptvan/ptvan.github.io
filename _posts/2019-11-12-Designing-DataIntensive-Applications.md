@@ -5,7 +5,7 @@ title: Designing Data-Intensive Applications
 
 I've run across Martin Kleppman's [Designing Data-Intensive Applications](https://dataintensive.net/) book before, and it piqued my interest. A few weeks ago a colleague mentioned it again in passing, so I thought it was time to finally read it. Below are my thoughts, added as I work my way through the book:
 
-### Chapter 1
+### Chapter 1: Introduction
 
 1. Handling faults vs. avoiding them: ~1 harddrive goes bad every day in a 10,000-drive data center. Deliberately introduce faults into systems to test resilience: NetFlix's [Chaos Monkey](https://github.com/Netflix/chaosmonkey).  
 
@@ -13,7 +13,7 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 
 3. Latency vs. response: latency is duration a request is waiting to be served, response is what the user sees.
 
-### Chapter 2
+### Chapter 2: Data Models
 
 1. For data with many-to-many relationships, document model is better than relational model. Interestingly, document models apparently go way back to CODASYL in the 1970's.
 
@@ -25,6 +25,13 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 
 5. An overview of graph databases and their query languages: [Cypher](https://neo4j.com/developer/cypher-query-language/), [SPARQ](https://www.w3.org/TR/rdf-sparql-query/) and [Datalog](https://clojure.github.io/clojure-contrib/doc/datalog.html).  
 
-### Chapter 3
+### Chapter 3: Storage and Retrieval
 
 1. The hash-map is the simplest data index, easiest to implement. If kept to append-only, hash-map indices can be very fast, concurrency is simple, especially if only one writer thread is allowed. Limitations are memory sizes if implemented in memory, range queries are not efficient.
+
+2. By contrast, SSTable (Sorted String Table) allows for larger-than-memory merging. Since they're sorted, finding a particular key is also faster.
+
+3. LSM (Log-Structured Merge) trees are faster for write, B-trees are faster for reads.
+
+4. "Fact tables" represent events (eg. each row in a fact table is a sale). "Dimension tables", linked to the fact table via foreign keys, represent who/what/where/why/how of that event (eg. detailed product descriptions, where the product was shipped to/from, discounts in prices). This forms a "star schema" with the fact table at the center and dimension tables as points of the star.
+
