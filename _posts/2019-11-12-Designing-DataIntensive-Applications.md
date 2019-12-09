@@ -33,5 +33,7 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 
 3. LSM (Log-Structured Merge) trees are faster for write, B-trees are faster for reads.
 
-4. "Fact tables" represent events (eg. each row in a fact table is a sale). "Dimension tables", linked to the fact table via foreign keys, represent who/what/where/why/how of that event (eg. detailed product descriptions, where the product was shipped to/from, discounts in prices). This forms a "star schema" with the fact table at the center and dimension tables as points of the star.
+4. "Fact tables" represent events (eg. each row in a fact table is a sale). "Dimension tables", linked to the fact table via foreign keys, represent who/what/where/why/how of that event (eg. detailed product descriptions, where the product was shipped to/from, discounts in prices). This forms a "star schema" with the fact table at the center and dimension tables as points of the star. A variation of star schema is snowflake schema, where data in dimension tables are further broken down (eg. dim_product could contain product brand and category as foreign keys), but simple star schema is simpler for analytics.
 
+5. In real world applications, fact tables can have hundreds of columns, with analytics often only needing
+to query a few columns. Column-oriented stoage where columns store single bits (column bitmasking) can provide significant performance improvements since bitwise operations are very fast.
