@@ -7,7 +7,7 @@ When performing classification, one problem occurs when you have much more data 
 
 These scenarios occur fairly often, especially in financial fraud detection. So much so that there is a well-known [Kaggle challenge](https://www.kaggle.com/mlg-ulb/creditcardfraud).
 
-### Approaches for handling with imbalanced data
+### Approaches for handling imbalanced data
 
 As detailed in several articles ([here](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) and [here](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)), there are multiple ways to deal with imbalanced data:
 
@@ -19,8 +19,8 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 4. Penalized models: impose costs on mistaken prediction, pushing your predictions away from the majority class
 
-5. Try a different approach like anomaly/change detection. 
-
+5. Try a different approach like anomaly/change detection.  
 
 ### Tools for handling imbalanced data
 
+1. SMOTE (Synthetic Minority Oversampling TEchnique) is implemented in R and Python.
