@@ -9,7 +9,7 @@ These scenarios occur fairly often, especially in financial fraud detection. So 
 
 ### Approaches for handling with imbalanced data
 
-As detailed in several [different](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) [articles](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18), there are multiple ways to deal with imbalanced data:
+As detailed in several articles ([here](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) and [here](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)), there are multiple ways to deal with imbalanced data:
 
 1. Redefining your metric: accuracy isn't the only thing you can use to measure the performance of a model.
 
