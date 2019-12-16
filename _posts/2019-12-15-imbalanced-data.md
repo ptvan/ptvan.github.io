@@ -23,4 +23,4 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 ### Tools for handling imbalanced data
 
-1. SMOTE (Synthetic Minority Oversampling TEchnique) is implemented in R and Python.
+1. SMOTE (Synthetic Minority Oversampling TEchnique) was presented in a [2002 JAIR paper](https://www.jair.org/index.php/jair/article/view/10302). R has, among others, the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package, which has a nice explanation [here](http://rikunert.com/SMOTE_explained). Python has the [imbalanced-learn](https://pypi.org/project/imbalanced-learn/) package.
