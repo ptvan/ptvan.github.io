@@ -19,7 +19,7 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 4. Penalized models: impose costs on mistaken prediction, pushing your predictions away from the majority class
 
-5. Try a different approach like anomaly/change detection.  
+5. Try a different approach. You can decompose the larger class into smaller classes, which can then be paired against the minority class using ensemble classifiers. Alternatively, you can treat the scenario like outlier detection and using [one-class classifiers](https://en.wikipedia.org/wiki/One-class_classification). 
 
 ### Tools for handling imbalanced data
 
