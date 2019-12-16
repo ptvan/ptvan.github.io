@@ -15,7 +15,7 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 2. Resampling: if you have a lot of data (tens of thousands of rows or more), you could try oversampling the rare class, or alternately, undersampling the abundant class.
 
-3. Generate synthetic data: like resampling, this attempts to shift the balance of the data's classes more to your favor by generating data that is similar to the rare class. There are mature algorithms for this (see below).
+3. Generate synthetic data: like resampling, this attempts to shift the balance of the classes to your favor by generating data that is similar to the rare class. There are mature algorithms for this (see below).
 
 4. Penalized models: impose costs on mistaken prediction, pushing your predictions away from the majority class
 
@@ -23,4 +23,8 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 ### Tools for handling imbalanced data
 
-1. SMOTE (Synthetic Minority Oversampling TEchnique) was presented in a [2002 JAIR paper](https://www.jair.org/index.php/jair/article/view/10302). R has, among others, the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package, which has a nice explanation [here](http://rikunert.com/SMOTE_explained). Python has the [imbalanced-learn](https://pypi.org/project/imbalanced-learn/) package.
+R has, among others, the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package. Python has the [imbalanced-learn](https://pypi.org/project/imbalanced-learn/) package, which implements the algorithms below:
+
+- SMOTE (Synthetic Minority Oversampling TEchnique) was presented in a [2002 JAIR paper](https://www.jair.org/index.php/jair/article/view/10302), which has a nice explanation [here](http://rikunert.com/SMOTE_explained). SMOTE generates additional samples of rare class by selecting their K-nearest neighbors.
+
+- ADASYN (Adaptive Synthetic Sampling), published in [2008](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2008-He-ieee.pdf) builds upon SMOTE. More data is generated for minority class samples that are harder to learn, trying to make your predictions more robust.   
