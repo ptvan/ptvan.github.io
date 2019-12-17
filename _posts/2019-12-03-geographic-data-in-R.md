@@ -3,7 +3,7 @@ layout: post
 title: Geographic Data in R
 ---
 
-This post is written as a follow-up to my post on [JavaScript mapping](https://ptvan.github.io/javascript-interactive-streetmap/). In the early 2000's I worked in ecology as a GIS modeler and (very briefly) [in the field](https://www.fs.usda.gov/colville/). Back then ArcView dominated GIS, especially in government agencies. In 2019 ArcView is called [ArcGIS](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview), and still looks to be dominant, though alternatives like the open-source [qGIS](https://www.qgis.org) and commercial [eSpatial](https://www.espatial.com/mapping-software) have matured. Also now you can do many GIS tasks like geocoding and spatial querying without having a full-blown GIS. You just need R and its friendly neighborhood packages.
+This post is written as a follow-up to my post on [JavaScript mapping](https://ptvan.github.io/javascript-interactive-streetmap/). In the early 2000's I worked in ecology as a GIS modeler and (very briefly) [in the field](https://www.fs.usda.gov/colville/). Back then ArcView dominated GIS, especially in government agencies. In 2019 ArcView is called [ArcGIS](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview), and still looks to be dominant, though alternatives like the open-source [qGIS](https://www.qgis.org) and the commercial [eSpatial](https://www.espatial.com/mapping-software) have matured. Also now you can do many GIS tasks like geocoding and spatial querying without having a full-blown GIS. You just need R and its friendly neighborhood packages.
 
 ### The R ecosystem for working with geographic data
 
