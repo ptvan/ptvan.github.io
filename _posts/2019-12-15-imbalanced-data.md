@@ -13,7 +13,7 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 1. Redefining your metric: accuracy isn't the only thing you can use to measure the performance of a model. There are also [F-scores](https://en.wikipedia.org/wiki/F1_score), [Cohen's &kappa;](https://en.wikipedia.org/wiki/Cohen%27s_kappa), etc.
 
-2. Resampling: if you have a lot of data (tens of thousands of rows), you could try oversampling the rare class, or alternately, undersampling the abundant class. Caveats are that oversampling increases the possibility of overfitting, while undersampling could potentially leave out information useful for your model.
+2. Resampling: if you have a lot of data (tens of thousands of rows), you could try oversampling the rare class, or alternately, undersampling the abundant class. The caveats are: oversampling increases the possibility of overfitting, while undersampling could potentially leave out information useful for your model.
 
 3. Generate synthetic data: like resampling, this attempts to shift the balance of the classes to your favor by generating data that is similar to the rare class. There are mature algorithms for this (see below).
 
