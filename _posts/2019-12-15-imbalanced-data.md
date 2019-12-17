@@ -23,10 +23,10 @@ As detailed in several articles ([here](https://machinelearningmastery.com/tacti
 
 ### Tools for handling imbalanced data
 
-R has, among others, the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package. Python has the [imbalanced-learn](https://pypi.org/project/imbalanced-learn/) package, which implements the oversampling algorithms below:
+For oversampling, R has, among others, the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package. Python has the [imbalanced-learn](https://pypi.org/project/imbalanced-learn/) package. Both R and Python implements the oversampling algorithms below:
 
 - SMOTE (Synthetic Minority Oversampling TEchnique) was presented in a [2002 JAIR paper](https://www.jair.org/index.php/jair/article/view/10302), which has a nice explanation [here](http://rikunert.com/SMOTE_explained). SMOTE generates additional samples of rare class by selecting their K-nearest neighbors.
 
 - ADASYN (Adaptive Synthetic Sampling), published in [2008](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2008-He-ieee.pdf) builds upon SMOTE. More data is generated for minority class samples that are harder to learn, trying to make your predictions more robust.   
 
-ROSE (Random Over-Sampling Examples), published in [2012](https://link.springer.com/article/10.1007/s10618-012-0295-5), and implemented in the [ROSE](https://cran.r-project.org/web/packages/ROSE/) R package, uses both over- and under-sampling.
+On the other hand, ROSE (Random Over-Sampling Examples), published in [2012](https://link.springer.com/article/10.1007/s10618-012-0295-5), and implemented in the [ROSE](https://cran.r-project.org/web/packages/ROSE/) R package, uses both over- and under-sampling.
