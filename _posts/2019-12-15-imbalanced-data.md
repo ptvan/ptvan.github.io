@@ -3,9 +3,9 @@ layout: post
 title: Imbalanced Data
 ---
 
-When performing classification, one problem occurs when you have much more data in one class than another class (roughly defined as 4:1 or greater ratio in the binary case). In these scenarios, the [accuracy paradox](https://en.wikipedia.org/wiki/Accuracy_paradox) states that you can get very high accuracy but really your predictions are mostly biased towards the more abundant class.
+When performing classification, one problem occurs when you have much more data in one class than another class, roughly defined as 4:1 or greater ratio in the binary case, though imbalance can also occur in multi-class datasets. In these scenarios, the [accuracy paradox](https://en.wikipedia.org/wiki/Accuracy_paradox) states that you can get very high accuracy but really your predictions are mostly biased towards the more abundant class. 
 
-These scenarios occur fairly often in certain fields, like customer surveys since the vast majority of people don't fill out the forms, or financial fraud detection since the majority of purchases are legitimate. In fact, there is a well-known [Kaggle challenge](https://www.kaggle.com/mlg-ulb/creditcardfraud).
+These scenarios occur fairly often in certain fields, like customer surveys since the vast majority of people don't fill out the forms, or financial fraud detection since the majority of purchases are legitimate. In fact, there is a well-known Kaggle challenge on detecting [credit card fraud](https://www.kaggle.com/mlg-ulb/creditcardfraud).
 
 ### Approaches for handling imbalanced data
 
