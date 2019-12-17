@@ -19,4 +19,4 @@ Where the tidyverse comes with its own visualization library, the well-known [gg
 
 Being written in 2014, `Data Science at the Command Line` undoubtedly will feel a bit limited or quaint for newer generations of data science folks. Still, it is a useful guide for people looking to expand their toolkit, and the author should be commended. As they say, the classics never die.
 
-* _maybe I'm just old and cranky :)_
+*_maybe I'm just old and cranky :)_
