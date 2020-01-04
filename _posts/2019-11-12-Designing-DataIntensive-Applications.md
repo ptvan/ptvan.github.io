@@ -37,3 +37,11 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 
 5. In real world applications, fact tables can have hundreds of columns, with analytics often only needing
 to query a few columns. Column-oriented stoage where columns store single bits (column bitmasking) can provide significant performance improvements since bitwise operations are very fast.
+
+### Chapter 4: Encoding and Evolution
+
+1. Avoid language-specific data encodings, such as Ruby's [Marshal](https://ruby-doc.org/core-2.6.3/Marshal.html), Python's [Pickle](https://docs.python.org/3/library/pickle.html) and Java's [Kryo](https://github.com/EsotericSoftware/kryo). Using these means you're tied to a particular language, and opening new attack surfaces (since restoring the data requires instantiate arbitrary classes). They're also likely not optimized.
+
+2. XML, JSON, and CSV also have some shortcomings: encoding of numbers is ambiguous, and encoding binary data using base64 is inefficient. Furthermore, CSV doesn't support schemas, and is extra ambiguous (eg. if data contains commas/semicolons normally used as terminators)
+
+
