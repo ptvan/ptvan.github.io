@@ -44,4 +44,4 @@ to query a few columns. Column-oriented stoage where columns store single bits (
 
 2. XML, JSON, and CSV also have some shortcomings: encoding of numbers is ambiguous, and encoding binary data using base64 is inefficient. Furthermore, CSV doesn't support schemas, and is extra ambiguous (eg. if data contains commas/semicolons normally used as terminators)
 
-
+3. Apache [Thrift](https://thrift.apache.org/) and [Protocol Buffers](https://developers.google.com/protocol-buffers) are binary encoding libraries that require schemas.  
