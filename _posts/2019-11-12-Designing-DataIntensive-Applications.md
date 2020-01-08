@@ -44,4 +44,8 @@ to query a few columns. Column-oriented stoage where columns store single bits (
 
 2. XML, JSON, and CSV also have some shortcomings: encoding of numbers is ambiguous, and encoding binary data using base64 is inefficient. Furthermore, CSV doesn't support schemas, and is extra ambiguous (eg. if data contains commas/semicolons normally used as terminators)
 
-3. Apache [Thrift](https://thrift.apache.org/) and [Protocol Buffers](https://developers.google.com/protocol-buffers) are binary encoding libraries that require schemas.  
+3. Apache [Thrift](https://thrift.apache.org/) and [Protocol Buffers](https://developers.google.com/protocol-buffers) are binary encoding libraries that require schemas. Both, use field tags, essentially aliases for fields. Thrift has two different protocols: BinaryProtocol and CompactProtocol, the latter packs field type and tag number into a single byte to be efficient. Apache [Avro](https://avro.apache.org/), originally a subproject of Hadoop, is another binary encoding library that that obtains additional efficiency by not having field tags at all.
+
+4. In general, new schema versions means adding field tags while leaving existing field tags to preserve compatibility, with field tags either marked as required or optional.
+
+5. When working with data across machines (ie. web services), there are two major approaches: [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and [SOAP](https://en.wikipedia.org/wiki/SOAP). REST is tightly coupled with HTTP, using it for caching, authentication, content-type negotiation and URLs for locating resources. By contrast, while SOAP is used over HTTP, it implements a variety of different HTTP-independent standards using XML.
