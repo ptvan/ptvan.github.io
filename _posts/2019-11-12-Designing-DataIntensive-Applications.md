@@ -51,3 +51,7 @@ to query a few columns. Column-oriented stoage where columns store single bits (
 5. When working with data across machines (ie. web services), there are two major approaches: [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and [SOAP](https://en.wikipedia.org/wiki/SOAP). REST is tightly coupled with HTTP, using it for caching, authentication, content-type negotiation and URLs for locating resources. By contrast, while SOAP is used over HTTP, it implements a variety of different HTTP-independent standards using XML.
 
 6. Remote Procedure Calls (RPC) has several implementations: JSON over HTTP ([Rest.li](https://linkedin.github.io/rest.li/)), Protocol Buffer's [gRPC](https://grpc.io/), and as a built-in feature of Avro. Still, RPC has some shortcomings . First, rather than returning values, RPC could fail because of network interruption. Second, a network request is much slower than disk I/O. Third, calling complex functions with pointers gets costly over the network. Lastly, the client and the server could be running different languages, requiring overhead in translation.
+
+### Chapter 5: Replication
+
+1. There are 3 major modes of replication data between different machines: _leaderless_, _single-leader_ and _multi-leader_. 
