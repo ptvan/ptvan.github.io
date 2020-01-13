@@ -56,7 +56,9 @@ to query a few columns. Column-oriented stoage where columns store single bits (
 
 ### Chapter 5: Replication
 
-1. There are 3 major modes of replication data between different machines: _leaderless_, _single-leader_ and _multi-leader_. 
+1. There are 3 major modes of replicating data between different machines: _leaderless_, _single-leader_ and _multi-leader_. Furthermore, the replication can also be either _synchronous_ or _asynchronous_. Synchronous replication has the benefit of being sure that the data is always up-to-date, but if there is a break in communication, the write is not processed. As a result, typical setups will have one synchronous follower and the rest will be asynchronous.
+
+
 
 
 
