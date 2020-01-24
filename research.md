@@ -14,7 +14,7 @@ My greatest strength is adaptability: I have had success as [field ecologist](ht
 
 I enjoy explaining and applying complex ideas. I lectured introductory biology to 200 students and mentored 3 undergraduate teams during my PhD, and am currently collaborating with a diverse international team of researchers. Outside my research day job, I'm a strong advocate for science literacy, mentoring students from elementary school through PhD, and curating an open [wiki of data science best practices](https://sciwiki.fredhutch.org).
 
-# Major projects in reverse chronological order
+# Published projects in reverse chronological order
 
 ### openCyto & ggCyto
 As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for gating high-dimensional flow-cytometry and mass-cytometry data. I also worked on [ggCyto](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/), an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets.
