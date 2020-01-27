@@ -21,15 +21,15 @@ As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R 
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
 
 ### Structured Illumination Gel Imager (SIGI) (2014)
-As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using structured illumination to increase dynamic range in order to detect rare protein in complex mixtures of cell extracts. Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on this work after I graduated.
+As part of my PhD thesis, I built a protein [imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using structured illumination to increase dynamic range in order to detect rare protein in complex mixtures of cell extracts. Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on SIGI after I graduated.
 ![SIGI overview](/images/SIGI-operation.jpg "SIGI-operation.jpg")
 
 ### Archeal oxidative stress response network (2008)
-Working at the Institute for Systems Biology as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an R algorithm for predicting regulators of gene expression. This branch of the algorithm ended up being superseded, but you can see a version of code I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of [oxidative stress response](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/) in an extremophilic archaeon. 
+Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an R algorithm for predicting regulators of gene expression. This branch of the algorithm ended up being superseded, but you can see a version of code I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of [oxidative stress response](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/) in an extremophilic archaeon. 
 ![EGRIN_OS network](/images/EGRIN_OS-network.jpg "EGRIN_OS-network.jpg")
 
 ### Halobacterium PeptideAtlas (2008)
-As an intern working at ISB, I converted peptide mass spectra from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on [the method used](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/). 
+During my internship at ISB, I converted peptide mass spectra from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on [the method used](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/). 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 
 ### Nutria spread in Seattle (2007)
