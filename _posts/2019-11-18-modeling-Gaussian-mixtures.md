@@ -17,3 +17,7 @@ Absent explicit parameters, `mclust` will pick the number of distributions for y
 The output contains parameters for the component Gaussians, as well as the parameter selection for diagnostic purposes. For my steps data, the algorithm found 4 component univariate Gaussians, with approximate mean step counts of 3000, 6000, 10000 and 12000, which I have documented in [modeling_gaussian_mixtures.R](https://github.com/ptvan/R-snippets/blob/master/modeling_gaussian_mixtures.R)
 
 `mclust` also works on data of higher dimensions with the same syntax, which I applied on the merged biking and step count data . It can also do dimensional reduction, do clustering/discriminant analysis and perform cross-validation. But since my step data is neither very large nor very metadata-rich, there was little more to do.
+
+### What about in Python ?
+
+There is good infrastucture for creating Gaussian mixtures in [scikit-learn](https://scikit-learn.org/stable/modules/mixture.html), but you have perform [model selection yourself](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_selection.html#sphx-glr-auto-examples-mixture-plot-gmm-selection-py). The `mixture.GaussianMixture()` call returns means and covariance matrix, which you can use to make [diagnostic plots](https://www.visiondummy.com/2014/04/geometric-interpretation-covariance-matrix/).
