@@ -11,7 +11,7 @@ Since my phone has been tracking my running (via RunKeeper) and biking (via Stra
 
 It was fairly straightforward to extract the XML from the iPhone's Health app, [parse it](https://github.com/ptvan/R-snippets/blob/master/parse_apple_health_export.R) and save as a [dataset](https://github.com/ptvan/datasets/tree/master/iphone_health).
 
-From there it wasn't too hard to model some distributions using the `pymc3` package: exponential for each &lambda; representing the step count before and after a hypothesized shift in activity level, and &tau; for the actual time of the shift. 
+From there it wasn't too hard to model some distributions using the `pymc3` package: exponential for each &lambda; representing the step count before and after a hypothesized shift in activity level, and &tau; for the actual time of the shift. However, if I only wanted to detect when a change occurred in the step count data, building a full model is an overkill. It's better to simply use time-series methods like [outlier or changepoint detection](https://ptvan.github.io/timeseries-analysis-of-iPhone-health_data).
 
 ### Detecting students who cheat on tests
 
