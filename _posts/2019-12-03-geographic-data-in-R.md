@@ -19,6 +19,7 @@ For plotting, `ggplot2` conveniently implements `geom_sf` for static maps, and `
 
 Geocoding requires a bit more work. `ggmap` supports GoogleMaps and OpenStreetMap, which I prefer since it doesn't require an API key. If you want to geocode IP addresses, there is an appropriately named [r_IPgeocode](https://github.com/cengel/r_IPgeocode) package for that, of course.
 
+To detect clusters of objects in geographic data, particularly useful in spatial epidemiology, `SpatialEpi` lets you detect clusters of disease outbreaks via the classic [Besag-Newell](https://www.jstor.org/stable/2982708) algorithm, and `scanstatistics` implements [Kulldorff's spatial scan](https://www.tandfonline.com/doi/abs/10.1080/03610929708831995).
 
 
 
