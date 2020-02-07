@@ -13,7 +13,7 @@ Before you install every R geographic package in CRAN or GitHub, it's important 
 
 For obtaining data, the `rnaturalearth` package draws from the excellent [database of the same name](http://www.naturalearthdata.com/), similarly `osmdata` pulls from [OpenStreetMap](https://www.openstreetmap.org). 
 
-For data structures, one well-known package is `sf`, which allows you to store *S*imple *F*eatures. Geographic data are for the most part tabular, so you can do all the wrangling using `tidyverse` tools if you wish. To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package. 
+For data structures, one well-known package is `sf`, which allows you to store _S_imple _F_eatures. Geographic data are for the most part tabular, so you can do all the wrangling using `tidyverse` tools if you wish. To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package. 
 
 To detect clusters of objects in geographic data, particularly useful in spatial epidemiology, `SpatialEpi` implements the classic [Besag-Newell](https://www.jstor.org/stable/2982708) algorithm, and `scanstatistics` implements different scan statistics, such as [Kulldorff's](https://www.tandfonline.com/doi/abs/10.1080/03610929708831995).
  
