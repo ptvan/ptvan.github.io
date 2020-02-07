@@ -11,11 +11,13 @@ Before you install every R geographic package in CRAN or GitHub, it's important 
 
 ### The R ecosystem for working with geographic data
 
-One well-known package is `sf`, which allows you to store Simple Features (hence the name abbreviation). Geographic data are for the most part tabular, so you can do all the wrangling using `tidyverse` tools if you wish. 
+For obtaining data, the `rnaturalearth` package draws from the excellent [database of the same name](http://www.naturalearthdata.com/), similarly `osmdata` pulls from [OpenStreetMap](https://www.openstreetmap.org). 
 
-For the data itself, the `rnaturalearth` package draws from the excellent [database of the same name](http://www.naturalearthdata.com/), similarly `osmdata` pulls from [OpenStreetMap](https://www.openstreetmap.org). For plotting, `ggplot2` conveniently implements `geom_sf` for static maps, and `coord_sf` for projection, as described in this [great writeup on r-spatial.org](https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html). To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package.
+For data structures, one well-known package is `sf`, which allows you to store *S*imple *F*eatures. Geographic data are for the most part tabular, so you can do all the wrangling using `tidyverse` tools if you wish. 
 
-Geocoding requires a bit more work, `ggmap` supports GoogleMaps and OpenStreetMap (which I prefer since it doesn't require an API key). If you want to geocode IP addresses, there is an appropriately named [r_IPgeocode](https://github.com/cengel/r_IPgeocode) package for that, of course.
+For plotting, `ggplot2` conveniently implements `geom_sf` for static maps, and `coord_sf` for projection, as described in this [great writeup on r-spatial.org](https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html). To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package.
+
+Geocoding requires a bit more work. `ggmap` supports GoogleMaps and OpenStreetMap, which I prefer since it doesn't require an API key. If you want to geocode IP addresses, there is an appropriately named [r_IPgeocode](https://github.com/cengel/r_IPgeocode) package for that, of course.
 
 
 
