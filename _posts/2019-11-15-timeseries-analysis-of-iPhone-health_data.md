@@ -6,7 +6,10 @@ title: Time-series analysis of iPhone health data
 I had exported biking distance, running distance and step counts from my iPhone in a
 [previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a supposed change in step count, using `pymc3` to model two different distributions. 
 
-We can do more analyses beyond modeling a single change point (though modeling them explicitly does confer some benefits...). For example, my biking is presumably a [stationary process](https://en.wikipedia.org/wiki/Stationary_process) and possibly could have _some_ periodicity, we can try to model these using time-series tools. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R):
+We can do more analyses beyond modeling a single change point (though modeling them explicitly does confer some benefits...). For example, my biking is presumably a [stationary process](https://en.wikipedia.org/wiki/Stationary_process) and possibly could have _some_ periodicity, we can try to model these using time-series tools. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R).
+
+### Time-series data sources
+Along with the well-known Kaggle [time-series datasets](https://www.kaggle.com/tags/time-series), the US Centers for Disease Control sponsors a competition to forecast flu spread at [FluSight](https://predict.cdc.gov/), providing ground truth using actual flu surveillance data.
 
 ### The R time-series analysis ecosystem
 The relevant data structures are base R's `ts` (time-series), `xts` (extended time-series) and `zoo`. The major packages are `lubridate` (mostly for cleaning and extracting times and dates), `zoo`, and `forecast`. For those interested in quantitative finance, there is `tidyquant`, which speaks xts and zoo in the Tidyverse syntax while interoperating with other domain-specific packages (`quantmod`, `PerformanceAnalytics`, etc..) 
@@ -15,10 +18,10 @@ The relevant data structures are base R's `ts` (time-series), `xts` (extended ti
 This is fairly straightforward: you can clean your data with `lubridate`, aggregate with `dplyr`, then convert it into one of the structures mentioned above. One thing to watch out for is missing data: many time-series functions expect an entry for every timepoint, so you may have to do some imputation.
 
 ### Exploratory analysis
-This is where we test for stationarity by looking at [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) and [partial autocorrelation](https://en.wikipedia.org/wiki/Partial_autocorrelation_function), look for spurious correlation with other variables in the dataset or external factors. 
+This is where we test for stationarity by looking at [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) and [partial autocorrelation](https://en.wikipedia.org/wiki/Partial_autocorrelation_function), look for spurious correlation with other variables in the dataset or external factors. You may also need to perform smoothing using [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter).
 
 ### Decomposing data into seasonal, trend, and irregular components 
-We can start with base R's `stl` (Seasonal Decomposition of Time Series by Loess). If your data isn't seasonal (or seasonal enough), `stl()` will fail with an informative message, which I think is better than trying to find an answer anyway. After removing seasonal and trend components, we can start looking at detecting anomalies.
+We can start with base R's `stl` (Seasonal Decomposition of Time Series by Loess). If your data isn't seasonal (or seasonal enough), `stl()` will fail with an informative message, which I think is better than trying to find an answer anyway. After removing seasonal and trend components, we can start looking at detecting anomalies. STL can also perform forecasting (see below).
 
 ### Anomaly detection
 Timeseries anomalies are generally divided into *outliers*, which are local temporary data points, and *changepoints*, which represents a shift to a fundamentally state in the data.
@@ -29,10 +32,12 @@ For detecting changepoints, I used the `changepoint` package, which implements m
 
 The functions you call depend on whether the data's mean, variance, or both have changed. You then need to specify penalties for calculating the changepoint(s), or have the algorithms calculate them for you. A nice walkthrough of the package is found [here](http://members.cbio.mines-paristech.fr/~thocking/change-tutorial/RK-CptWorkshop.html).
 
+### Modeling & forecasting
+Time series data can be modeled in different ways: [Hidden Markov Models](https://en.wikipedia.org/wiki/Hidden_Markov_model)(HMMs), linear Gaussian models with the Kalman filter applied, or Bayesian structures, each having its own strengths and weaknesses. 
 
-### Modeling & prediction
-Some techniques can get pretty sophisticated (eg. [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter))
+For forecasting, extensions to STL could be used (eg. STLM, STLF), or depending on application you can use [Exponential Smoothing](https://pkg.robjhyndman.com/forecast/reference/ets.html) (ETS), [Autoregressive Integrated Moving Average](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)(ARIMA), or [Box-Cox transform, ARMA errors, Trend, and Seasonal](https://robjhyndman.com/papers/ComplexSeasonality.pdf)(BATS/TBATS). 
+
 
 ### Reference
 
-Since it's not exactly a new field, there are many, many books on time-series analysis. A recent one I find interesting is Aileen Nielsen's [Practical Time Series Analysis](https://www.oreilly.com/library/view/practical-time-series/9781492041641/). The writing is very accessible, there are plenty of references, and Nielsen alternated code examples between R and python. For some this could be a little disorienting, but I actually kind of liked it, since it showcases multiple tools.
+Since the field has been around a while, there are many, many books on time-series analysis. A recent one I find interesting is Aileen Nielsen's [Practical Time Series Analysis](https://www.oreilly.com/library/view/practical-time-series/9781492041641/). The writing is very accessible, there are plenty of references, and Nielsen alternated code examples between R and python. I can see this style becoming a little disorienting for some readers, but I actually liked it, since it forces you to focus on the concepts rather than implementation details while giving a good survey of available tools.
