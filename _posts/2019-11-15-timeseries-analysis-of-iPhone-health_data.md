@@ -6,9 +6,6 @@ title: Time-series analysis of iPhone health data
 I had exported biking distance, running distance and step counts from my iPhone in a
 [previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a supposed change in step count, using `pymc3` to model two different distributions. While this achieves the goal of detecting a single change point, there is a lot more we can do with this time series. For example, my biking is presumably a [stationary process](https://en.wikipedia.org/wiki/Stationary_process) and possibly could have _some_ periodicity, we can try to model these using time-series tools. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R).
 
-### Time-series data sources
-Along with the well-known Kaggle [time-series datasets](https://www.kaggle.com/tags/time-series), the US Centers for Disease Control sponsors a competition to forecast flu spread at [FluSight](https://predict.cdc.gov/), providing ground truth using actual flu surveillance data.
-
 ### The R time-series analysis ecosystem
 The relevant data structures are base R's `ts` (time-series), `xts` (extended time-series) and `zoo`. The major packages are `lubridate` (mostly for cleaning and extracting times and dates), `zoo`, and `forecast`. For those interested in quantitative finance, there is `tidyquant`, which speaks xts and zoo in the Tidyverse syntax while interoperating with other domain-specific packages (`quantmod`, `PerformanceAnalytics`, etc..) 
 
@@ -33,8 +30,10 @@ The functions you call depend on whether the data's mean, variance, or both have
 ### Modeling & forecasting
 Time series data can be modeled in different ways: [Hidden Markov Models](https://en.wikipedia.org/wiki/Hidden_Markov_model)(HMMs), linear Gaussian models with the Kalman filter applied, or Bayesian structures, each having its own strengths and weaknesses. 
 
-For forecasting, extensions to STL could be used (eg. STLM, STLF), or depending on application you can use [Exponential Smoothing](https://pkg.robjhyndman.com/forecast/reference/ets.html) (ETS), [Autoregressive Integrated Moving Average](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)(ARIMA), or [Box-Cox transform, ARMA errors, Trend, and Seasonal](https://robjhyndman.com/papers/ComplexSeasonality.pdf)(BATS/TBATS). 
+For forecasting, extensions to STL could be used (eg. STLM, STLF), or depending on application you can use [Exponential Smoothing](https://pkg.robjhyndman.com/forecast/reference/ets.html) (ETS), [Autoregressive Integrated Moving Average](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) (ARIMA), or [Box-Cox transform, ARMA errors, Trend, and Seasonal](https://robjhyndman.com/papers/ComplexSeasonality.pdf) (BATS/TBATS). 
 
+### Time-series data sources
+Since my personal datasets are tiny, it's good to know sources for larger, richer datasets. Along with the well-known Kaggle [time-series datasets](https://www.kaggle.com/tags/time-series), the US Centers for Disease Control sponsors a competition to forecast flu spread at [FluSight](https://predict.cdc.gov/), providing ground truth using actual flu surveillance data.
 
 ### Reference
 
