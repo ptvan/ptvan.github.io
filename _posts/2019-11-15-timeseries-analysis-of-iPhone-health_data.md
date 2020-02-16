@@ -36,3 +36,5 @@ Since my personal datasets are tiny, it's good to know sources for larger, riche
 ### Reference
 
 Since the field has been around a while, there are many, many books on time-series analysis. A recent one I find interesting is Aileen Nielsen's [Practical Time Series Analysis](https://www.oreilly.com/library/view/practical-time-series/9781492041641/). The writing is very accessible, there are plenty of references, and Nielsen alternated code examples between R and python. I can see this style becoming a little disorienting for some readers, but I actually liked it, since it forces you to focus on the concepts rather than implementation details while giving a good survey of available tools.
+
+The author of the `forecast` R package Rob Hyndman has published [extensively](https://robjhyndman.com/publications/) on forecasting, including the book "Forecasting: Principles and Practice", which is [freely accessible online](https://otexts.com/fpp2/).
