@@ -3,8 +3,8 @@ layout: post
 title: Time-series analysis of iPhone health data
 ---
 
-I had exported biking distance, running distance and step counts from my iPhone in a
-[previous post](https://ptvan.github.io/Python-MCMC-nuggets/). In that post, I tried to detected a possible change in daily step count, using `pymc3` to model two different distributions. While this achieves the goal of detecting a single changepoint, there is a lot more we can do with this time series. For example, my biking is presumably a [stationary process](https://en.wikipedia.org/wiki/Stationary_process) and possibly could have _some_ periodicity, we can try to model these using time-series tools. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R).
+In a previous blog post, I had exported biking distance, running distance and step counts from my iPhone.
+In [that post](https://ptvan.github.io/Python-MCMC-nuggets/), I tried to detect a possible change in daily step count, using `pymc3` to model two different distributions. While this achieves the goal of detecting a single changepoint, there is a lot more we can do with this time series. For example, my biking is presumably a [stationary process](https://en.wikipedia.org/wiki/Stationary_process) and possibly could have _some_ periodicity, we can try to model these using time-series tools. Relevant R code is found in my [timeseries_analysis.R](https://github.com/ptvan/R-snippets/blob/master/timeseries_analysis.R).
 
 This blog post is not about mobile health. You definitely *can* do a seriously [deep dive](https://towardsdatascience.com/run-or-walk-detecting-user-activity-with-machine-learning-and-core-ml-part-1-9658c0dcdd90), where you extract the raw accelerometer events from your device through, for example, Apple's [CoreMotion API](https://developer.apple.com/documentation/coremotion), then process it using something like [GGIR](https://cran.r-project.org/web/packages/GGIR/vignettes/GGIR.html). Apple also provides [CoreML](https://developer.apple.com/documentation/coreml) so you can potentially do on-device analyses.
 
