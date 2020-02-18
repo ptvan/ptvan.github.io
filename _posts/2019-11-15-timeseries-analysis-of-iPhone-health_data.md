@@ -8,7 +8,7 @@ I had exported biking distance, running distance and step counts from my iPhone 
 
 I should note that you can do a seriously [deep dive](https://towardsdatascience.com/run-or-walk-detecting-user-activity-with-machine-learning-and-core-ml-part-1-9658c0dcdd90) into mobile health, where you extract the raw accelerometer events from your device through, for example, Apple's [CoreMotion API](https://developer.apple.com/documentation/coremotion), then process it using something like [GGIR](https://cran.r-project.org/web/packages/GGIR/vignettes/GGIR.html). Apple also provides [CoreML](https://developer.apple.com/documentation/coreml) so you can potentially do on-device analyses.
 
-I just wanted to play with my own (very limited) health data, as you can see below.
+I just wanted to use my iPhone as a source for (very limited) time-series data, as you can see below.
 
 ### The R time-series analysis ecosystem
 The relevant data structures are base R's `ts` (time-series), `xts` (extended time-series) and `zoo`. The major packages are `lubridate` (mostly for cleaning and extracting times and dates), `zoo`, and `forecast`. For those interested in quantitative finance, there is `tidyquant`, which speaks xts and zoo in the Tidyverse syntax while interoperating with other domain-specific packages (`quantmod`, `PerformanceAnalytics`, etc..) 
