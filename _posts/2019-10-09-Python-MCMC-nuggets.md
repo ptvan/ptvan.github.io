@@ -3,7 +3,7 @@ layout: post
 title: Python MCMC nuggets
 ---
 
-I recently ran across the excellent book [Bayesian Methods for Hackers](https://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838/) and worked through variants of the exercises. I've put the relevant code [here](https://github.com/ptvan/python-snippets/blob/master/pymc3.py). Detailed notes are below.
+I recently ran across the excellent book [Bayesian Methods for Hackers](https://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838/) and worked through variants of the exercises. I've put the relevant code [here](https://github.com/ptvan/python-snippets/blob/master/pymc3_snippets.py). Detailed notes are below.
 
 ### Modelling a change in iPhone daily step count
 
