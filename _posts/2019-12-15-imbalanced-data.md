@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Imbalanced Data
+title: Handling imbalanced data
 ---
 
 When performing classification, one problem occurs when you have much more data in one class than another class, roughly defined as 4:1 or greater ratio in the binary case, though imbalance can also occur in multi-class datasets. In these scenarios, the [accuracy paradox](https://en.wikipedia.org/wiki/Accuracy_paradox) states that you can get very high accuracy but really your predictions are mostly biased towards the more abundant class. 
