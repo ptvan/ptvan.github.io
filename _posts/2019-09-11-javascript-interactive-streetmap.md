@@ -3,7 +3,7 @@ layout: post
 title: Interactive street maps in JavaScript
 ---
 
-During summer of 2019, my girlfriend and I started looking at buying a house. Due to Seattle's [infamously hot housing market](https://seattlebubble.com/blog/2018/04/19/reader-comment-now-all-i-seem-to-be-able-to-afford-are-the-meth-houses/), we ended up looking at >30 houses before making an offer. The geek in me saw this as an opportunity to do some 
+During summer of 2019, my then-girlfriend and I started looking at buying a house. Due to Seattle's [infamously hot housing market](https://seattlebubble.com/blog/2018/04/19/reader-comment-now-all-i-seem-to-be-able-to-afford-are-the-meth-houses/), we ended up looking at >30 houses before making an offer. The geek in me saw this as an opportunity to do some 
 mapping and visualization, and also learn some new technologies.
 
 I imagined an interactive map that would show the location of each house we looked at, along with metadata so we could potentially look at trends. I was hoping to use open-source data, rather than GoogleMaps which require an API key.

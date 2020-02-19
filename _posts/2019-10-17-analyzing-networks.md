@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analyzing and visualizing network data
+title: Analyzing networks
 ---
 
 A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which reminded me about the many ways to analyze network data. This also inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. The [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) I wrote was intended to show the different research circles I was apart of over the years and was fairly straightforward.
@@ -13,3 +13,4 @@ Igraph has plotting capabilities but I personally frankly find its plots too pla
 ![coauthor-network](/images/coauthor-network.png "coauthor-network.png")
 
 That's good enough for my purposes. But if you need interactivity, [visNetwork](https://datastorm-open.github.io/visNetwork/) is likely what you want.
+
