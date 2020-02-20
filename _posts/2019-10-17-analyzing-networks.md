@@ -11,7 +11,7 @@ The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
 
 ### Network properties
 
-Networks has basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory) and [centrality](https://en.wikipedia.org/wiki/Centrality). Depending on its _type_ of data, a network can also additional properties brought on by the metadata of the nodes and edges.
+Networks has basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also additional properties brought on by the metadata of the nodes and edges.
 
 ### Working with networks in R
 
