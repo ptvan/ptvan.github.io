@@ -22,7 +22,7 @@ For programmatic access, the cross-platform [igraph](https://igraph.org/r/) libr
 
 That's good enough for my purposes. But if you need interactivity, [visNetwork](https://datastorm-open.github.io/visNetwork/) is likely what you want.
 
-For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. For quick interactive explorations, you can also use [gephi](https://gephi.org/) which has a GUI.
+For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. For quick interactive explorations, you can also use [gephi](https://gephi.org/) and/or [Cytoscape](https://cytoscape.org/).
 
 ### References
 
