@@ -3,7 +3,7 @@ layout: post
 title: Recommender Systems
 ---
 
-I like filmmaking, particularly cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies). Some common approaches to recommender systems are:
+I like movies, particularly cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies). Some common approaches to recommender systems are:
 
 ### Demographic-based Recommendation
 
@@ -15,11 +15,11 @@ This is where recommendations would be made based on the user's current context 
 
 ### Collaborative Filtering
 
-This is where I would look at people who like similar movies to me. The assumption is that people who liked similar movies in the past will also like similar movies in the future. [MovieLens](https://grouplens.org/datasets/movielens/) has 2 free datasets available for public use: a more recent, frequently updated set with ~100,000 ratings and and larger archived set ~27,000,000 ratings.
+This is where I would look at people who like similar movies to me. The general assumption is that people who liked similar movies in the past will also like similar movies in the future. Collaborative filtering got attention in the wake othe [Netflix Prize](https://www.netflixprize.com/), where some competitors used [matrix factorization](https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)) on the matrix of reviews. One complication, called the "cold start" problem, is that since not everyone will have seen every movie, this matrix can be very sparse. 
 
-First, I had to clean my data a bit. Turns out, there are quite a few movies with the same titles (eg. "Richard III", or "Aladdin") but for simplicity's sake I simply [excluded them](https://github.com/ptvan/movies/blob/master/clean_movies_for_ALS.py).
+For my exercise, [MovieLens](https://grouplens.org/datasets/movielens/) has 2 free datasets available for public use: a more recent, frequently updated set with ~100,000 ratings and and larger archived set ~27,000,000 ratings. First, I had to clean my data a bit. Turns out, there are quite a few movies with the same titles (eg. "Richard III", or "Aladdin") but for simplicity's sake I simply [excluded them](https://github.com/ptvan/movies/blob/master/clean_movies_for_ALS.py).
 
-Then, I ran my data through an [Alternating Least Squares](https://en.wikipedia.org/wiki/Matrix_completion#Alternating_least_squares_minimization) (ALS) function. This involved training a model on MovieLens, adding my movies, then generating [predictions](https://github.com/ptvan/movies/blob/master/spark_ALS.py).
+Then, I ran my data through an [Alternating Least Squares](https://en.wikipedia.org/wiki/Matrix_completion#Alternating_least_squares_minimization) (ALS) function. This involved training a model on MovieLens, adding my movies, then generating [predictions](https://github.com/ptvan/movies/blob/master/spark_ALS.py). The Spark [implementation of ALS](https://spark.apache.org/docs/latest/ml-collaborative-filtering.html) allows users to deal with cold-start by either allowing NaN values for the prediction, or to drop rows containing them.
 
 #### Some words about tools: Apache Spark
 
