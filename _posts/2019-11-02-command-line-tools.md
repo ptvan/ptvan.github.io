@@ -13,5 +13,5 @@ Finally, the author covered [Weka](https://www.cs.waikato.ac.nz/ml/weka/), a Jav
 
 Written in 2014, `Data Science at the Command Line` may feel a bit limited or outdated for some. Still, it is a useful guide for people looking to expand their toolkit, and the author should be commended. As they say, the classics never die.
 
-*_maybe I'm just old and cranky :)_
+https://www.nytimes.com/2014/09/30/science/the-odds-continually-updated.html?_r=1
 
