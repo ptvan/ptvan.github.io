@@ -23,26 +23,31 @@ Another project involves collaborators at the [South African Tuberculosis Vaccin
 
 My third project involves developing a positivity call for Intracellular Cytokine Staining (ICS) data from HIV vaccine trials. The goal of this project is to increase accuracy of the ICS assay while reducing the number of markers required.
 
-### openCyto & ggCyto (2014 - 2018)
+### Flow cytometry (2014 - 2018)
 As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for analyzing high-dimensional flow-cytometry and mass-cytometry data. I also worked on [ggCyto](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/), an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets.
 
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
 
-### Structured Illumination Gel Imager (SIGI) (2014)
-My PhD work 
-As part of my PhD thesis, I built a [protein imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) using structured illumination to increase dynamic range in order to detect rare protein in complex mixtures of cell extracts. Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on SIGI after I graduated.
+### Structured Illumination Gel Imager (SIGI) and 2DE protein gels (2009 - 2014)
+My PhD contained 3 parts: first, I built a high-dynamic-range [protein imager](https://www.ncbi.nlm.nih.gov/pubmed/24935033) to detect rare proteins in 2-dimensional electrophoretic (2DE) gels, which we dubbed SIGI. SIGI captured multiple exposures of the 2DE gels containing fluorescently-labelled proteins with structured illumination from an LCD projector and automatically assembled the final 32-bit grayscale images. SIGI also contained a robotic cutting arm that can excise the proteins from the gels for sequencing by tandem mass spectra (MS/MS).  Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on SIGI after I graduated. 
+
+Second, I developed and refined a agarose gel that improved protein retention during the preparation of 2DE gels for MS/MS sequencing.
+
+Lastly, I mentored three 2-person teams of CMU undergrads in preparing 2DE protein gels, operating the imager and performed data analysis on the output.
+
 ![SIGI overview](/images/SIGI-operation.jpg "SIGI-operation.jpg")
 
-### Archeal oxidative stress response network (2008)
+### Archeal oxidative stress response network (2008 - 2009)
 Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression at the time implemented in R. This branch of the algorithm ended up being superseded, but you can see what I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of [oxidative stress response](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/) in an extremophilic archaeon. 
 
 ![EGRIN_OS network](/images/EGRIN_OS-network.jpg "EGRIN_OS-network.jpg")
 
-### Halobacterium PeptideAtlas (2008)
+### Halobacterium PeptideAtlas (2006 - 2008)
 During my internship at ISB, I converted peptide mass spectra from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on [the method used](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/). 
 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 
-### Nutria spread in Seattle (2007)
+### Nutria spread in Seattle (2006 - 2007)
 As University of Washington undergrads, my good friend Filip and I collected sightings of [nutria](https://en.wikipedia.org/wiki/Coypu) (Myocastor coypus) in western Washington, mainly in areas surrounding Union Bay. I ran a linear model to predict the spread of the species in Seattle using R and ArcGIS. This ended up informing a decision by the UW's Environmental Health and Safety not to undertake eradication efforts, since much of the population was not surviving through the winters anyway. 
+
 ![UBNA nutria map](/images/UBNA-model.jpg "UBNA-model.jpg")
