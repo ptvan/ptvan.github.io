@@ -38,16 +38,16 @@ Lastly, I mentored three 2-person teams of CMU undergrads in preparing 2DE prote
 ![SIGI overview](/images/SIGI-operation.jpg "SIGI-operation.jpg")
 
 ### Microbial oxidative stress response network (2008 - 2009)
-Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression at the time implemented in R. This branch of the algorithm ended up being superseded, but you can see what I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of oxidative stress response in an extremophilic archaeon. [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/) 
+Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression at the time implemented in R. This branch of the algorithm ended up being superseded, but you can see what I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of oxidative stress response in the archaeon _Halobacterium salinarum_, which can survive extremely salty environments like the Great Salt Lake. [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/) 
 
 ![EGRIN_OS network](/images/EGRIN_OS-network.jpg "EGRIN_OS-network.jpg")
 
-### Halobacterium PeptideAtlas (2006 - 2008)
-During my internship at ISB, I converted peptide mass spectra from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on the method used. [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/)
+### Microbial PeptideAtlas database and web portal (2006 - 2008)
+During my internship at ISB, I converted peptide mass spectra of _Halobacterium_ experiments from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on the sequencing method used. [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/)
 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 
-### Nutria spread in Seattle (2006 - 2007)
-As University of Washington undergrads, my good friend Filip and I collected sightings of [nutria](https://en.wikipedia.org/wiki/Coypu) (Myocastor coypus) in western Washington, mainly in areas surrounding Union Bay. I ran a linear model to predict the spread of the species in Seattle using R and ArcGIS. This ended up informing a decision by the UW's Environmental Health and Safety not to undertake eradication efforts, since much of the population was not surviving through the winters anyway. 
+### Rodent spread in Seattle (2006 - 2007)
+As University of Washington undergrads, my good friend Filip and I collected sightings of the rodent [nutria](https://en.wikipedia.org/wiki/Coypu) (Myocastor coypus) in western Washington, mainly in areas surrounding Union Bay. I create a linear model to predict the spread of the species in Seattle using R and ArcGIS. This ended up informing a decision by the UW's Environmental Health and Safety not to undertake eradication efforts, since much of the nutria population was not surviving through the winters anyway. 
 
 ![UBNA nutria map](/images/UBNA-model.jpg "UBNA-model.jpg")
