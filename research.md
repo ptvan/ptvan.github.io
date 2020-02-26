@@ -47,7 +47,7 @@ During my internship at ISB, I converted peptide mass spectra of _Halobacterium_
 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 
-### Rodent spread in Seattle (2006 - 2007)
+### Predicting odent spread in Seattle (2006 - 2007)
 As part of our Bachelor theses, my University of Washington classmate and good friend Filip and I collected sightings of the rodent [nutria](https://en.wikipedia.org/wiki/Coypu) (Myocastor coypus) in western Washington, mainly in areas surrounding Union Bay. I create a linear model to predict the spread of the species in Seattle using R and ArcGIS. This project ended up informing a decision by the UW's Environmental Health and Safety not to undertake eradication efforts, since much of the nutria population was not surviving through the winters anyway. 
 
 ![UBNA nutria map](/images/UBNA-model.jpg "UBNA-model.jpg")
