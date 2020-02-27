@@ -4,7 +4,7 @@ title:
 permalink: /research/
 ---
 
-My resume is located here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf)
+My CV is located here: [PhuTVan-CV.pdf](PhuTVan-CV.pdf)
 
 # A brief summary
 
