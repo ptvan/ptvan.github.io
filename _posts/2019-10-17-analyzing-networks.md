@@ -13,9 +13,9 @@ The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
 
 Networks has basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
-### Working with networks 
+### Working with networks
 
-First, you have to pick a data format for your graph. The simplest is a table containing nodes and edges, which most software can parse. If you have a lot of network data, you may want to use a graph database like [Neo4J](https://neo4j.com/).
+First, you have to get your data into a format amenable to network analysis. The simplest is a table containing nodes and edges, which most software can parse. If you have a lot of network data, you may want to use a graph database like [Neo4J](https://neo4j.com/).
 
 For programmatic access, the cross-platform [igraph](https://igraph.org/r/) library is fairly well-known and has its own data structure. If you're working in R there is [intergraph](https://cran.r-project.org/web/packages/intergraph/) to interconvert between `igraph`, `network` and basic `data.frames` of nodes and edges. While `igraph` has plotting capabilities, I personally find its plots unattractive. Instead I used [ggnetwork](https://briatte.github.io/ggnetwork/) and [ggraph](https://github.com/thomasp85/ggraph), which uses Grammar of Graphics syntax (made famous by the now standard [ggplot2](https://ggplot2.tidyverse.org/)), producing this image for my co-authorship network:
 ![coauthor-network](/images/coauthor-network.png "coauthor-network.png")
@@ -24,7 +24,10 @@ That's good enough for my purposes. But if you need interactivity, [visNetwork](
 
 For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. For quick interactive explorations, you can also use [gephi](https://gephi.org/) and/or [Cytoscape](https://cytoscape.org/).
 
+### Performance considerations
+
+Depending on how big and complex your network is, you may want to create a subgraph, work on it before applying changes to the entire dataset. You can also choose to work with the edge and/or node attributes in tabular format before applying them to the network.
+
 ### References
 
 A fairly academic introduction to networks can be found in [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book). A more practical reference is [Complex Network Analysis in Python](http://www.networksciencelab.com/).
-
