@@ -5,18 +5,27 @@ title: Modeling Gaussian mixtures
 
 Thanks to R's roots as a statistical programming language it has very strong support for common statistical tasks like modeling and prediction. In modeling your data as a mixture of distributions, I know of the `mixtools` package, though there are many others, as reviewed by [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5096736/), and presumably more are being developed all the time. I was told by my colleague Chad about `mclust`, which seems to strike a good balance between features, ease-of-use, and speed (thanks Chad!).
 
-### Finding mean step counts using `mclust` 
+### Modeling my daily iPhone step counts in R
 
-Analyzing my [iphone step count dataset](https://github.com/ptvan/datasets/tree/master/iphone_health) is pretty straightforward. For density estimation, it is literally a one-liner: 
+Analyzing my [iphone step count dataset](https://github.com/ptvan/datasets/tree/master/iphone_health) is pretty straightforward. For density estimation, it is literally a one-liner using `mclust`:
 
 ```r
 dens <- densityMclust(steps$stepsWalked)
 ```
-Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself (eg. `G=10` for exactly 10 clusters, the default is `G=1:9`) 
+
+Absent explicit parameters, `mclust` will pick the number of distributions for you through [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), or you can specify yourself (eg. `G=10` for exactly 10 clusters, the default is `G=1:9`).
 
 The output contains parameters for the component Gaussians, as well as the parameter selection for diagnostic purposes. For my steps data, the algorithm found 4 component univariate Gaussians, with approximate mean step counts of 3000, 6000, 10000 and 12000, which I have documented in [modeling_gaussian_mixtures.R](https://github.com/ptvan/R-snippets/blob/master/modeling_gaussian_mixtures.R)
 
 `mclust` also works on data of higher dimensions with the same syntax, which I applied on the merged biking and step count data . It can also do dimensional reduction, do clustering/discriminant analysis and perform cross-validation. But since my step data is neither very large nor very metadata-rich, there was little more to do.
+
+Using `mixtools`, the process is pretty similar, starting with the one-liner:
+
+```r
+mixauto <- normalmixEM(steps$stepsWalked)
+```
+
+The algorithm attempts to estimate `K` by clustering the data, and the modeling is done using [classic EM](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm).
 
 ### What about in Python ?
 

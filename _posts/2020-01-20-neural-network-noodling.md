@@ -5,7 +5,6 @@ title: Neural network noodling
 
 One lesson I took away from my time in graduate school was the importance of understanding things from first principles. So for learning about neural networks, I really enjoyed reading [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), which implements neural networks using only `numpy`, keeping the reader from being bogged down with implementation details. Another excellent introduction is [this video](https://www.manning.com/livevideo/3blue1brown-neural-networks) video from Grant Sanderson*, which also goes into mathematical details. After that, Michael Nielsen's [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) is a good followup.
 
-
 ### A bit of history
 
 The idea of artificial neural networks has been around since at least 1940s in the form of [Hebbian theory](https://en.wikipedia.org/wiki/Hebbian_theory). But neural networks really took off after Geoffrey Hinton's [famous 1986 paper](https://www.nature.com/articles/323533a0) on backpropagation combined with the availability of big datasets and increased computational power.
@@ -16,7 +15,4 @@ One of the interesting and frustrating problems in modeling complex data is over
 
 [Neural Smithing](https://mitpress.mit.edu/books/neural-smithing) covers some network tuning issues.
 
-*_Vlogging on YouTube as [3Blue1Brown](https://en.wikipedia.org/wiki/3Blue1Brown), Sanderson has an excellent series where he [explained math concepts visually](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)._
-
-
-
+*_Vlogging on YouTube as [3Blue1Brown](https://en.wikipedia.org/wiki/3Blue1Brown), Sanderson has an excellent series where he [explained math concepts visually](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
