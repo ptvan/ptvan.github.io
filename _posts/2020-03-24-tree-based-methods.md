@@ -9,8 +9,8 @@ In prediction and forecasting, the understandability of the model is often as im
 
 These are the classic implementations, reported in the 1950s but the ideas of branching decision-making likely dated back much further.
 
-### Extensions to tree-based methods
+### Refinements and extensions
 
-More recent developments include [CHAID](https://en.wikipedia.org/wiki/Chi-square_automatic_interaction_detection) (Chi-square Automatic Interaction Detection), a non-parametric decision tree incorporating Bonferroni correction for significance testing.
+More recent developments to CART include [CHAID](https://en.wikipedia.org/wiki/Chi-square_automatic_interaction_detection) (Chi-square Automatic Interaction Detection), a non-parametric decision tree incorporating Bonferroni correction for significance testing.
 
-Further developments to address trees' inherent instability include boosted trees, bagged trees (of which [random forest](https://en.wikipedia.org/wiki/Random_forest) is one example), which take some average of multiple trees.
+To address trees' inherent instability include boosted trees, bagged trees (of which [random forest](https://en.wikipedia.org/wiki/Random_forest) is one example), which take some average of multiple trees.
