@@ -13,4 +13,4 @@ These are the classic implementations, reported in the 1950s but the ideas of br
 
 More recent developments to CART include [CHAID](https://en.wikipedia.org/wiki/Chi-square_automatic_interaction_detection) (Chi-square Automatic Interaction Detection), a non-parametric decision tree incorporating Bonferroni correction for significance testing.
 
-To address trees' inherent instability include boosted trees, and bagged trees which take some average of multiple trees.[Random forest](https://en.wikipedia.org/wiki/Random_forest), an example of bagged trees, is implemented in the R package of the same name.
+Enhancements that take some average of multiple trees to address instability of a single tree include boosted trees and bagged trees. [Random forest](https://en.wikipedia.org/wiki/Random_forest), an example of bagged trees, is implemented in the R package of the same name.
