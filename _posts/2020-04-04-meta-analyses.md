@@ -11,4 +11,4 @@ The `metafor` package is well-known and [well-documented](http://www.metafor-pro
 
 ### Meta-analyses in Python
 
-`PyMeta` is an [online tool](http://www.pymeta.com/), which has a pip package counterpart called [PythonMeta]](https://pypi.org/project/PythonMeta/).
+`PyMeta` is an [online tool](http://www.pymeta.com/), which has a pip package counterpart called [PythonMeta](https://pypi.org/project/PythonMeta/).
