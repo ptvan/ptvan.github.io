@@ -7,7 +7,7 @@ Meta analyses have been around for a long time. By some accounts, the first meta
 
 ### Visualization
 
-For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot) is helpful in assessing the datasets' distritbutions. For comparing results across studies (eg. [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)), a [forest plot](https://en.wikipedia.org/wiki/Forest_plot) is used.
+For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot) is helpful in assessing the datasets' distributions for anomalies. For comparing results across studies (eg. [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)), a [forest plot](https://en.wikipedia.org/wiki/Forest_plot) is used.
 
 ### Meta-analyses in R
 
