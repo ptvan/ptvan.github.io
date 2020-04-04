@@ -3,7 +3,7 @@ layout: post
 title: Meta-analyses
 ---
 
-While meta analyses have been around for a long time (eg. the [Cochrane Reviews](https://www.cochranelibrary.com/)), the growth of open data initiatives have made it easier to perform data-integration and meta analyses in your favorite languages.
+Meta analyses have been around for a long time. By some accounts, the first meta-analyses trace back to 17th century astronomy research. They are also prevalent in medical research, with papers starting in 1900s. Since 1993, the [Cochrane Reviews](https://www.cochranelibrary.com/) have published comparative health findings. More recently, the growth of open data initiatives have made it easier to perform data-integration and meta analyses in your favorite languages.
 
 ### Visualization
 
