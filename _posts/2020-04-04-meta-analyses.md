@@ -7,7 +7,7 @@ Meta analyses have been around for a long time. By some accounts, the first meta
 
 ### Rationale
 
-Meta-analyses, when done properly, have both conceptual and statistical benefits. Conceptually, meta-analyses can detect presence of publication bias. Statistically, results can be combined to be more generalizable, and estimates can have improved precision and accuracy.
+Meta-analyses, when done properly, have both conceptual and statistical benefits. Conceptually, meta-analyses can detect presence of publication bias. Statistically, results from individual studies can be combined to make conclusions more generalizable, and estimates can have improved precision and accuracy.
 
 ### Visualization
 
