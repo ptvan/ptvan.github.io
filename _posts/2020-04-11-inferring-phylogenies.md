@@ -19,7 +19,7 @@ The basic steps of inferring a phylogeny are:
 
 ### Working with sequence data
 
-In 2020, getting sequence data is very straightforward given. There are a number of general sources like [NCBI](https://www.ncbi.nlm.nih.gov/nucleotide/) or [modENCODE](http://www.modencode.org/) and more specific ones like [https://www.viprbrc.org/](ViPR)
+In 2020, getting sequence data is very straightforward given. There are a number of general sources like [NCBI](https://www.ncbi.nlm.nih.gov/nucleotide/) or [modENCODE](http://www.modencode.org/) and more specific ones like [ViPR](https://www.viprbrc.org/). Handling sequence data is readily supported for both R (through Bioconductor's [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html), among others) and Python (through biopython's [Seq](https://biopython.org/wiki/Seq) class).
 
 ### Perform sequence alignment
 

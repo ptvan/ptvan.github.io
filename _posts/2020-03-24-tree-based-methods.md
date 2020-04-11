@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tree-based methods
+title: Tree-based regression and classification
 ---
 
 In prediction and forecasting, the understandability of the model is often as important as accuracy or recall. Decision trees split up the solution space with each branching point. Despite their age, decision trees often have an advantage in interpretability, since branch points are associated with particular thresholds (or classes) in the input data. As a result, decision trees are often used in clinical and operation management contexts.
