@@ -23,6 +23,9 @@ In 2020, getting sequence data is very straightforward given. There are a number
 
 ### Perform sequence alignment
 
+Whether your data is from different species or multiple sampling of the same rapidly-evolving species, the first step in inferring phylogenies is to perform a __multiple sequence alignment__ . Some of the tools used are [Clustal](http://www.clustal.org/clustal2/) and the newer [MAFFT](https://mafft.cbrc.jp/alignment/software/).
+
 ### Infer phylogenetic trees
+
 
 ### Phylodynamic modeling
