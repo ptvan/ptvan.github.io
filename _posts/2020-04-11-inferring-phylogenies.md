@@ -15,7 +15,7 @@ The basic steps of inferring a phylogeny are:
 
 3. Infer a phylogenetic tree [[R code](https://github.com/ptvan/R-snippets/blob/master/phylogenetic_trees_snippets.R)]
 
-4. Assign time scales (phylodynamic modelling)
+4. Assign time scales
 
 ### Working with sequence data
 
@@ -29,9 +29,15 @@ Whether your data is from different species or multiple sampling of the same rap
 
 Once you have obtained the MSA, you can construct a phylogenetic tree with one of several algorithms: [IQ-TREE](http://www.iqtree.org/), [RAxML](https://sco.h-its.org/exelixis/web/software/raxml/), or [FastTree](http://www.microbesonline.org/fasttree/). You will need to determine a [substitution model](https://en.wikipedia.org/wiki/Substitution_model) to represent how the sequences evolved in your organism(s), though some tools like IQ-TREE can also do this for you as part of tree construction. For more on substitution models, check out [Paul Lewis](https://phylogeny.uconn.edu/)' excellent primer seminars at the equally excellent [http://phyloseminar.org/recorded.html](PhyloSeminar) repository of talks.
 
+At this stage, it's good to familiarize yourself with the relevant file formats like [NEXUS](https://en.wikipedia.org/wiki/Nexus_file) and [Newick](http://evolution.genetics.washington.edu/phylip/newicktree.html). In R, trees can be stored as `phylo` S3 objects, supported by many phylogenetic packages (eg. [ape](http://ape-package.ird.fr/), [phylobase](https://github.com/fmichonneau/phylobase)). More recently, [treeio](https://guangchuangyu.github.io/software/treeio/) implements in the R4 `treedata` class, which interoperates with the [tidytree](https://cran.r-project.org/web/packages/tidytree/index.html) package, not to be confused with [TidyTree](https://cdcgov.github.io/TidyTree/), a Javascript tree visualization tool from the CDC.
+
 ### Phylodynamic modeling
 
 Assigning time scales to branching points, or __phylodynamic__ modeling, can be done using [treetime](https://github.com/neherlab/treetime).
+
+### Visualization
+
+The `treeio` package readily works with `ggtree`, and the interoperability is [very well documented](https://yulab-smu.github.io/treedata-book/) by their author.
 
 ### Acknowledgements
 
