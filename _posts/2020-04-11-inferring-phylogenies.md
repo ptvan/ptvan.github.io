@@ -41,4 +41,4 @@ The `treeio` package readily works with `ggtree`, and the interoperability is [v
 
 ### Acknowledgements
 
-Much of the information in this blog post wouldn't be possible without the great bodies of work by my FredHutch colleagues [Erick Matsen](https://matsen.fhcrc.org/) and [Trevor Bedford](https://bedford.io/).
+A fairly comprehensive reference is [The Phylogenetic Handbook](https://www.kuleuven.be/aidslab/phylogenybook/home.html). Also, much of the information in this blog post wouldn't be possible without the great bodies of work by my FredHutch colleagues [Erick Matsen](https://matsen.fhcrc.org/) and [Trevor Bedford](https://bedford.io/).
