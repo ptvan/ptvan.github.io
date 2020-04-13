@@ -11,7 +11,7 @@ Meta-analyses, when done properly, have both conceptual and statistical benefits
 
 ### Visualization
 
-For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot) is helpful in assessing the datasets' distributions for anomalies. For comparing results across studies (eg. [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)), a [forest plot](https://en.wikipedia.org/wiki/Forest_plot) is used.
+For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot) is helpful in assessing the datasets' distributions for anomalies. For comparing results across studies (eg. [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)), a [forest plot](https://en.wikipedia.org/wiki/Forest_plot) or [funnel plot](https://en.wikipedia.org/wiki/Funnel_plot) can also be employed.
 
 ### Meta-analyses in R
 
