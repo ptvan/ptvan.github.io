@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inferring phylogenies
+title: Inferring phylogenies from genomic data
 ---
 
 Besides fundamental scientific interest, the phylogeny of infectious pathogens is also important for understanding and thus ultimately controlling the spread of epidemics. This is increasingly important in modern times in light of recurrent outbreaks (eg. MERS, SARS, COVID19). The accessibility of sequencing technologies mean that phylogenies can be rooted in genomic data, often at near [real-time speeds](https://nextstrain.org/).
