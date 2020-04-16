@@ -20,7 +20,7 @@ First, you have to get your data into a format amenable to network analysis. The
 For programmatic access, the cross-platform [igraph](https://igraph.org/r/) library is fairly well-known and has its own data structure. If you're working in R there is [intergraph](https://cran.r-project.org/web/packages/intergraph/) to interconvert between `igraph`, `network` and basic `data.frames` of nodes and edges. While `igraph` has plotting capabilities, I personally find its plots unattractive. Instead I used [ggnetwork](https://briatte.github.io/ggnetwork/) and [ggraph](https://github.com/thomasp85/ggraph), which uses Grammar of Graphics syntax (made famous by the now standard [ggplot2](https://ggplot2.tidyverse.org/)), producing this image for my co-authorship network:
 ![coauthor-network](/images/coauthor-network.png "coauthor-network.png")
 
-That's good enough for my purposes. But if you need interactivity, [visNetwork](https://datastorm-open.github.io/visNetwork/) is likely what you want.
+That's good enough for my purposes. But if you need interactivity, [visNetwork](https://datastorm-open.github.io/visNetwork/) is likely what you want. A collection of R network analysis packages is maintained and documented at [statnet](https://statnet.org).
 
 For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. For quick interactive explorations, you can also use [gephi](https://gephi.org/) and/or [Cytoscape](https://cytoscape.org/).
 
@@ -30,4 +30,4 @@ Depending on how big and complex your network is, you may want to create a subgr
 
 ### References
 
-A fairly academic introduction to networks can be found in [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book). A more practical reference is [Complex Network Analysis in Python](http://www.networksciencelab.com/).
+A fairly academic introduction to networks can be found in the book [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book). A more practical book is [Complex Network Analysis in Python](http://www.networksciencelab.com/). The aforementioned `statnet` maintains a collection of tutorials on their [Github page](https://github.com/statnet/Workshops/wiki) that includes both theory and R-specific examples.
