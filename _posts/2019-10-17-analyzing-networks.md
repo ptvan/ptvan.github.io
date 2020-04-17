@@ -13,6 +13,10 @@ The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
 
 Networks has basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
+### Simulating networks
+
+Rather than obtaining data on existing networks, the other approach to network analysis is simulating a network using preset rules, which garnered a lot of attention during [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models.
+
 ### Working with networks
 
 First, you have to get your data into a format amenable to network analysis. The simplest is a table containing nodes and edges, which most software can parse. If you have a lot of network data, you may want to use a graph database like [Neo4J](https://neo4j.com/). For ease of manipulation graph data, you may want to consider [tidygraph](https://github.com/thomasp85/tidygraph), which uses syntax inspired by the [tidyverse](https://www.tidyverse.org/).
