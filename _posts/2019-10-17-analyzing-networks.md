@@ -7,7 +7,7 @@ A while back, my labmate Ju showed me a visualization he was working on to explo
 
 ### Getting network data
 
-The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) has publicly accessible datasets, as do [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/).
+The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) has publicly accessible datasets, as do [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [UCIrvine](http://networkdata.ics.uci.edu/), [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/).
 
 ### Generating your own networks
 
@@ -34,7 +34,9 @@ Depending on how big and complex your network is, you may want to create a subgr
 
 ### Dynamic networks
 
-Epidemiological modeling garnered a lot of attention during [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). Epidemiologic models require considerable expertise and are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models, some are modelled and visualized using networks. One of the more informative explanations of epidemic simulations I have found is this [demonstration from Grant Sanderson](https://www.youtube.com/watch?v=gxAaO2rsdIs).
+More interesting but complex are networks whose nodes, edges and attributes change over time. These can be relatively simple, like the classic [Marriage and Elite Structure in Renaissance Florence, 1282-1500](http://home.uchicago.edu/jpadgett/papers/unpublished/maelite.pdf) to the more complex network of people during the [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic).
+
+Epidemiologic models require considerable expertise and are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models, some are modelled and visualized using networks. One of the more informative explanations of epidemic simulations I have found is this [demonstration from Grant Sanderson](https://www.youtube.com/watch?v=gxAaO2rsdIs).
 
 ### References
 
