@@ -9,11 +9,9 @@ A while back, my labmate Ju showed me a visualization he was working on to explo
 
 The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) has publicly accessible datasets, as do [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/).
 
-### Simulating networks
+### Generating your own networks
 
-Rather than obtaining data on existing networks, the other approach to network analysis is simulating a network using preset rules, which garnered a lot of attention during [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models. These epidemiologic models require considerable expertise and are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19).
-
-More classically, you can generate networks using different models, like [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model), [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models), or simply placing points randomly using [Sobol sequences](https://cran.r-project.org/web/packages/SobolSequence/vignettes/sobolsequence.html).
+Rather than obtaining data on existing networks, you can also create a network using preset rules. More classically, you can generate networks using different models, like [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model), [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models), or simply placing points randomly using [Sobol sequences](https://cran.r-project.org/web/packages/SobolSequence/vignettes/sobolsequence.html).
 
 ### Network properties
 
@@ -33,6 +31,10 @@ For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. Fo
 ### Performance considerations
 
 Depending on how big and complex your network is, you may want to create a subgraph, work on it before applying changes to the entire dataset. You can also choose to work with the edge and/or node attributes in tabular format before applying them to the network.
+
+### Dynamic networks
+
+Epidemiological modeling garnered a lot of attention during [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). Epidemiologic models require considerable expertise and are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models, some are modelled and visualized using networks. One of the more informative explanations of epidemic simulations I have found is this [demonstration from Grant Sanderson](https://www.youtube.com/watch?v=gxAaO2rsdIs).
 
 ### References
 
