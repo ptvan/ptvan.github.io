@@ -36,4 +36,4 @@ I should note that while the tools are readily available, _eg._ from the [Instit
 
 ### References
 
-A fairly academic introduction to networks can be found in the book [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book). A more practical book is [Complex Network Analysis in Python](http://www.networksciencelab.com/). The aforementioned `statnet` maintains a collection of tutorials on their [Github page](https://github.com/statnet/Workshops/wiki) that includes both theory and R-specific examples.
+A fairly academic introduction to networks can be found in the book [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book). A more practical book is [Complex Network Analysis in Python](http://www.networksciencelab.com/). The previously-mentioned `statnet` maintains a collection of tutorials on their [Github page](https://github.com/statnet/Workshops/wiki) that includes both theory and R-specific examples.
