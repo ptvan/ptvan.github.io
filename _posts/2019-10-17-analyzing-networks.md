@@ -15,7 +15,9 @@ Networks has basic graph properties like [assortativity](https://en.wikipedia.or
 
 ### Simulating networks
 
-Rather than obtaining data on existing networks, the other approach to network analysis is simulating a network using preset rules, which garnered a lot of attention during [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models.
+Rather than obtaining data on existing networks, the other approach to network analysis is simulating a network using preset rules, which garnered a lot of attention during [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models. These epidemiologic models require considerable expertise and are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19).
+
+More classically, you can generate networks using different models, like [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) or [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models).
 
 ### Working with networks
 
