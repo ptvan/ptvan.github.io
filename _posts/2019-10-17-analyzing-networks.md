@@ -7,7 +7,7 @@ A while back, my labmate Ju showed me a visualization he was working on to explo
 
 ### Getting network data
 
-The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) has publicly accessible datasets, as do [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [UCIrvine](http://networkdata.ics.uci.edu/), [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/).
+There are many public sources of network data, notably [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/), [UCIrvine Network Data Repository](http://networkdata.ics.uci.edu/), [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/).
 
 ### Generating your own networks
 
