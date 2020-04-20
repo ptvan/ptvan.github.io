@@ -15,7 +15,7 @@ For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%8
 
 ### Meta-analyses in R
 
-The `metafor` package is well-known and [well-documented](http://www.metafor-project.org/doku.php/help). It supports fixed-, random-, and mixed-effects models, and also implements many of the visualizations above. Other packages include `meta` and `rmeta`.
+There are a number of R packages to do meta-analyses, including [`metafor`](http://www.metafor-project.org/doku.php/help), `meta` and `rmeta`. `metafor` supports fixed-, random-, and mixed-effects models, and also implements many of the visualizations above, and its documentation has a handy chart [comparing the three packages](https://cran.r-project.org/web/packages/metafor/vignettes/metafor.pdf).
 
 ### Meta-analyses in Python
 
