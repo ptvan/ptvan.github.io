@@ -11,11 +11,13 @@ Meta-analyses, when done properly, have both conceptual and statistical benefits
 
 ### General steps
 
-1. Normalize the studies' reported metrics ((eg. [relative risk](https://en.wikipedia.org/wiki/Relative_risk), [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)))
+1. Exploratory analysis to identify any missing data or anomalies 
 
-2. Choose the appropriate model(s) (eg. fixed-, random-, or mixed-effects)
+2. Normalize the studies' reported metrics ((eg. [relative risk](https://en.wikipedia.org/wiki/Relative_risk), [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)))
 
-3. Validate the result
+3. Choose the appropriate model(s) (eg. fixed-, random-, or mixed-effects)
+
+4. Validate the results
 
 ### Visualization
 
