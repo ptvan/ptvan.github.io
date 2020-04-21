@@ -11,7 +11,7 @@ Meta-analyses, when done properly, have both conceptual and statistical benefits
 
 ### General steps
 
-1. Exploratory analysis to identify any missing data or anomalies 
+1. Exploratory analysis to identify data anomalies, identifying possible [publication bias](https://en.wikipedia.org/wiki/Publication_bias)
 
 2. Normalize the studies' reported metrics ((eg. [relative risk](https://en.wikipedia.org/wiki/Relative_risk), [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)))
 
@@ -25,6 +25,10 @@ For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%8
 
 ### Implementations
 
-There are a number of R packages to do meta-analyses, including `meta`, `rmeta`, and [`metafor`](http://www.metafor-project.org/doku.php/help). The documentation for `metafor` has a handy chart [comparing the three packages](https://cran.r-project.org/web/packages/metafor/vignettes/metafor.pdf). The `metafor` package allows models to be entered using R's formula interface, but apparently as of package version 2.4, not all its features were implemented.
+There are a number of R packages to perform meta-analyses, including `meta`, `rmeta`, and [`metafor`](http://www.metafor-project.org/doku.php/help). The documentation for `metafor` has a handy chart [comparing the three packages](https://cran.r-project.org/web/packages/metafor/vignettes/metafor.pdf). The `metafor` package allows models to be entered using R's formula interface, but apparently as of package version 2.4, not all its features were implemented.
 
 `PyMeta` is an [online tool](http://www.pymeta.com/), which has a pip package counterpart called [PythonMeta](https://pypi.org/project/PythonMeta/).
+
+### References
+
+A basic overview of meta-analyses can be found in [Haidich 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3049418/).
