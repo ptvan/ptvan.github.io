@@ -13,9 +13,9 @@ Meta-analyses, when done properly, have both conceptual and statistical benefits
 
 1. Exploratory analysis to identify data anomalies, identifying possible [publication bias](https://en.wikipedia.org/wiki/Publication_bias)
 
-2. Normalize the studies' reported metrics ((eg. [relative risk](https://en.wikipedia.org/wiki/Relative_risk), [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio)))
+2. Normalize the studies' reported metrics (eg. [relative risk](https://en.wikipedia.org/wiki/Relative_risk), [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio))
 
-3. Choose the appropriate model(s) (eg. fixed-, random-, or mixed-effects)
+3. Choose and fit the appropriate model(s) (eg. fixed-, random-, or mixed-effects)
 
 4. Validate the results
 
