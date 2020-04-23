@@ -13,7 +13,7 @@ The basic steps of inferring a phylogeny are:
 
 2. Perform alignment [[shell code](https://github.com/ptvan/workflows/blob/master/metagenomics_workflow.sh)]
 
-3. Infer a phylogenetic tree [[R code](https://github.com/ptvan/R-snippets/blob/master/phylogenetic_trees_snippets.R)]
+3. Infer a phylogenetic tree [[R code](https://github.com/ptvan/R-snippets/blob/master/phylogenetic_analysis.R)]
 
 4. Assign time scales
 
