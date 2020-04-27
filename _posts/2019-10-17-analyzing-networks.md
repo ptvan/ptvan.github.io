@@ -3,11 +3,11 @@ layout: post
 title: Analyzing networks
 ---
 
-A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a small snippet of code [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on [gene networks](https://github.com/ptvan/R-snippets/blob/master/gene_networks_analysis.R).
+A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a small snippet of code [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on gene networks (see below).
 
 ### Getting network data
 
-There are many public sources of network data, notably [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/), [UCIrvine Network Data Repository](http://networkdata.ics.uci.edu/), [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/).
+There are many public sources of network data, notably [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/), [UCIrvine Network Data Repository](http://networkdata.ics.uci.edu/), [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/). Biological data can be obtained from [KEGG](https://www.genome.jp/kegg/) or [STRING](https://string-db.org/). 
 
 ### Generating your own networks
 
