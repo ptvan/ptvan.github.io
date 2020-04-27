@@ -3,7 +3,7 @@ layout: post
 title: Analyzing networks
 ---
 
-A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which reminded me about the many ways to analyze network data. This also inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. The [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) I wrote was intended to show the different research circles I participated in over the years and was fairly straightforward (see below).
+A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a small snippet of code [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on [gene networks](https://github.com/ptvan/R-snippets/blob/master/gene_networks_analysis.R).
 
 ### Getting network data
 
