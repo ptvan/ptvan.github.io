@@ -22,6 +22,8 @@ First, you have to get your data into a format amenable to network analysis. The
 For programmatic access, the cross-platform [igraph](https://igraph.org/r/) library is fairly well-known and has its own data structure. If you're working in R there is [intergraph](https://cran.r-project.org/web/packages/intergraph/) to interconvert between `igraph`, `network` and basic `data.frames` of nodes and edges. While `igraph` has plotting capabilities, I personally find its plots unattractive. Instead I used [ggnetwork](https://briatte.github.io/ggnetwork/) and [ggraph](https://github.com/thomasp85/ggraph), which uses Grammar of Graphics syntax (made famous by the now standard [ggplot2](https://ggplot2.tidyverse.org/)), producing this image for my co-authorship network:
 ![coauthor-network](/images/coauthor-network.png "coauthor-network.png")
 
+Biological data can also benefit from network analysis, like genes that show co-expression or proteins that share structural similarity. Due to the availability of annotation data from sources like STRING, it's fairly straight-forward to [query and analyze](https://github.com/ptvan/R-snippets/blob/master/gene_networks_analysis.R) gene networks.
+
 That's good enough for my purposes. But if you need interactivity, [visNetwork](https://datastorm-open.github.io/visNetwork/) is likely what you want. A collection of R network analysis packages is maintained and documented at [statnet](https://statnet.org).
 
 For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. For quick interactive explorations, you can also use [gephi](https://gephi.org/) and/or [Cytoscape](https://cytoscape.org/).
