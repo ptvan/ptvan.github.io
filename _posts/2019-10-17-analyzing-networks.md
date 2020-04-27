@@ -15,6 +15,10 @@ Rather than obtaining data on existing networks, you can also create a network u
 
 More sophisticated network models include [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) or [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models).
 
+### Network properties
+
+Most networks have basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
+
 ### Working with networks
 
 First, you have to get your data into a format amenable to network analysis. The simplest is a table containing nodes and edges, which most software can parse. If you have a lot of network data, you may want to use a graph database like [Neo4J](https://neo4j.com/). For ease of manipulation graph data, you may want to consider [tidygraph](https://github.com/thomasp85/tidygraph), which uses syntax inspired by the [tidyverse](https://www.tidyverse.org/). Depending on how big and complex your network is, you may want to create a subgraph, work on it before applying changes to the entire dataset. You can also choose to work with the edge and/or node attributes in tabular format before applying them to the network.
@@ -27,10 +31,6 @@ Biological data can also benefit from network analysis, like genes that show co-
 That's good enough for my purposes. But if you need interactivity, [visNetwork](https://datastorm-open.github.io/visNetwork/) is likely what you want. A collection of R network analysis packages is maintained and documented at [statnet](https://statnet.org).
 
 For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. For quick interactive explorations, you can also use [gephi](https://gephi.org/) and/or [Cytoscape](https://cytoscape.org/).
-
-### Network properties
-
-Most networks have basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
 ### Dynamic networks
 
