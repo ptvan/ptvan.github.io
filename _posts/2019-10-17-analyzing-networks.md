@@ -17,7 +17,9 @@ More sophisticated network models include [Barabasi-Albert](https://en.wikipedia
 
 ### Graph properties
 
-Most networks have basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
+Most networks have basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Graphs, especially multigraphs can pose interesting traversal problems, like [Eulerian](https://en.wikipedia.org/wiki/Hamiltonian_path) or [Hamiltonian path](https://en.wikipedia.org/wiki/Eulerian_path).
+
+Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
 ### Working with networks
 
