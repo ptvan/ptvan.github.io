@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analyzing networks
+title: Analyzing graphs and networks
 ---
 
 A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a small snippet of code [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on gene networks (see below).
@@ -15,7 +15,7 @@ Rather than obtaining data on existing networks, you can also create a network u
 
 More sophisticated network models include [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) or [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models).
 
-### Network properties
+### Graph properties
 
 Most networks have basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
