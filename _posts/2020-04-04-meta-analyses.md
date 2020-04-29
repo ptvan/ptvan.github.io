@@ -35,4 +35,4 @@ There are a number of R packages to perform meta-analyses, including `meta`, `rm
 
 ### References
 
-A basic overview of meta-analyses can be found in [Haidich 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3049418/).
+A basic overview of meta-analyses, including PRISMA can be found in [Haidich 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3049418/).
