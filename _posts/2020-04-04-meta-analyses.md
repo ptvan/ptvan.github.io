@@ -9,9 +9,13 @@ Meta analyses have been around for a long time. By some accounts, the first meta
 
 Meta-analyses, when done properly, have both conceptual and statistical benefits. Conceptually, meta-analyses can detect the presence of publication bias. Statistically, results from individual studies can be combined to make conclusions more generalizable, and estimates can have improved precision and accuracy.
 
-### General steps
+### Publication bias
 
-1. Exploratory analysis to identify data anomalies, identifying possible [publication bias](https://en.wikipedia.org/wiki/Publication_bias)
+Since meta-analyses use published data, a concern is [publication bias](https://en.wikipedia.org/wiki/Publication_bias). [PRISMA](http://www.prisma-statement.org/), criteria for minimum levels of evidence is used by both authors and reviewers to identifying and reducing publication bias.
+
+### General steps of meta-analysis workflow
+
+1. Exploratory analysis to identify data anomalies
 
 2. Normalize the studies' reported metrics (eg. [relative risk](https://en.wikipedia.org/wiki/Relative_risk), [odds ratios](https://en.wikipedia.org/wiki/Odds_ratio))
 
