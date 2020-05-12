@@ -7,7 +7,7 @@ Besides fundamental scientific interest, the phylogeny of infectious pathogens i
 
 ### Overview
 
-The basic steps of inferring a phylogeny are:
+To grossly oversimply things, the basic steps of inferring a phylogeny are:
 
 1. Obtain and format sequence data
 
