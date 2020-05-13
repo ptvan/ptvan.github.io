@@ -11,7 +11,7 @@ The oldest GUI interface for Python is [tkinter](https://docs.python.org/3/libra
 
 ### PyQt
 
-A more modern interface is [PyQT](https://wiki.python.org/moin/PyQt), the python bindings to [Qt](https://www.qt.io/), itself written in C++. Like any GUI framework, you can specify the GUI you're building by hand in Python, but this gets increasingly tedious. Instead, Qt comes with [Qt Designer], a GUI application to build your GUI.
+A more modern interface is [PyQT](https://wiki.python.org/moin/PyQt), the python bindings to [Qt](https://www.qt.io/), itself written in C++. Like any GUI framework, you can specify the GUI you're building by hand in Python, but this gets increasingly tedious. Instead, Qt comes with [Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html), a GUI application to build your GUI.
 
 ### wxpython
 
