@@ -7,7 +7,14 @@ When working in R, my work mostly involved reproducible analyses, and consisted 
 
 ### tkinter
 
-### Qt
+The oldest GUI interface for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python.
+
+### PyQt
+
+A more modern interface is [PyQT](https://wiki.python.org/moin/PyQt), the python bindings to [Qt](https://www.qt.io/), itself written in C++
 
 ### wxpython
 
+### A small example application
+
+One task that I find easier with a GUI is renaming lots of files in a programmatic way. It was fairly straightforward to develop one, as you can see in my [batchRenamer](https://github.com/ptvan/batchRenamer) repository.
