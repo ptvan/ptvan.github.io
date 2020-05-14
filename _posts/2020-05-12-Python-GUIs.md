@@ -11,7 +11,7 @@ The oldest GUI interface for Python is [tkinter](https://docs.python.org/3/libra
 
 ### wxpython
 
-Slightly more modern is [wxPython](https://wxpython.org/), a GUI based on the cross-platform [wxWidgets](https://www.wxwidgets.org/). Setting up `wxPython` was problematic without using Conda, and the documentation is somewhat spotty, so I decided to skip wxpython altogether.
+Slightly more modern is [wxPython](https://wxpython.org/), a GUI based on the cross-platform [wxWidgets](https://www.wxwidgets.org/) library.
 
 ### PyQt
 
@@ -19,4 +19,6 @@ The newest interface is [PyQt](https://wiki.python.org/moin/PyQt), the Python bi
 
 ### A small example application
 
-One task that I find easier with a GUI is renaming lots of files in a programmatic way. It was fairly straightforward to develop one, as you can see in my [batchRenamer](https://github.com/ptvan/batchRenamer) repository.
+One task that I find easier with a GUI is renaming lots of files in a programmatic way. It was fairly straightforward to develop batch file renamer, as you can see in my [repository](https://github.com/ptvan/batchRenamer).
+
+Setting up `wxPython` was problematic without using Conda, and the documentation is somewhat spotty, so I decided to skip wxpython altogether.
