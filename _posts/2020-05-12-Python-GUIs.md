@@ -20,6 +20,8 @@ Setting up `wxPython` was problematic without using Conda, and the documentation
 
 ### PyQt
 
-The newest interface is [PyQt](https://wiki.python.org/moin/PyQt), the Python bindings to [Qt](https://www.qt.io/), another C++ cross-platform library. Like any GUI framework, you can specify the GUI you're building by hand in Python, but this gets increasingly tedious. Instead, Qt comes with [Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html), a GUI application to build your GUI.
+The newest interface is [PyQt](https://wiki.python.org/moin/PyQt), the Python bindings to [Qt](https://www.qt.io/), another C++ cross-platform library. Like any GUI framework, you can specify the GUI you're building by hand in Python, but this gets increasingly tedious. Instead, Qt comes with [Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html), a graphical layout application to build your GUI.
+
+Being more modern, PyQt has more widgets, most notably `table`, which allow a spreadsheet-like layout. I used this to show the old and new file names side-by-side. 
 
 It was fairly straightforward to develop my batch file renamer in PyQt even without using Qt Designer as you can see in my [repository](https://github.com/ptvan/batchRenamer).
