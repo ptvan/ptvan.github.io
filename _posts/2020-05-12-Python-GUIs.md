@@ -15,14 +15,14 @@ One task that I find easier with a GUI is renaming lots of files, and it turns o
 
 ### wxpython
 
-[wxPython](https://wxpython.org/)is a GUI based on the cross-platform [wxWidgets](https://www.wxwidgets.org/) library.
+[wxPython](https://wxpython.org/) is a GUI library based on the cross-platform [wxWidgets](https://www.wxwidgets.org/) library.
 Setting up `wxPython` was problematic without using Conda, and although it's newer than `tkinter`, the documentation is somewhat spotty, so I decided to skip wxpython altogether.
 
 ### tkinter
 
-The oldest GUI interface for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python, though you still have to install `python3-tk`. You can specify the GUI you're building by hand in Python, or use the [Python Automatic GUI Generator](http://page.sourceforge.net/) (PAGE).
+The oldest GUI library for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python, though you still have to install `python3-tk`. You can specify the GUI you're building by hand in Python, or use the [Python Automatic GUI Generator](http://page.sourceforge.net/) (PAGE).
 
-The widgets provided by `tkinter` are adequate for most purposes. I created two text fields to display the old and new file names.
+The widgets provided by `tkinter` are adequate for most purposes. I created two text fields in my app to display the old and new file names.
 
 Event-handling is accomplished using the widgets' `validation` mechanism, which sadly is rather [poorly documented](https://stackoverflow.com/questions/4140437/interactively-validating-entry-widget-content-in-tkinter). Drag-and-drop support is [spotty](https://docs.python.org/3.9/library/tkinter.dnd.html).
 
@@ -31,5 +31,3 @@ Event-handling is accomplished using the widgets' `validation` mechanism, which 
 The newest interface is [PyQt](https://wiki.python.org/moin/PyQt), the Python bindings to [Qt](https://www.qt.io/), another C++ cross-platform library. Qt also comes with [Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html), a graphical layout tool to build your GUI, but it's certainly possible to create simple applications without it, as you can see in my [repository](https://github.com/ptvan/batchRenamer).
 
 Being more modern, PyQt has more widgets, most notably `table`, which allow a spreadsheet-like layout. I used this to show the old and new file names side-by-side instead of two separate text fields in the `tkinter` version of the app.
-
-It was fairly straightforward to develop my batch file renamer in PyQt even without using Qt Designer a
