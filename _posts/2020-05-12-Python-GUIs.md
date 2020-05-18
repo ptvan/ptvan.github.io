@@ -20,9 +20,9 @@ Setting up `wxPython` was problematic without using Conda, and although it's new
 
 ### tkinter: old and hacky
 
-The oldest GUI library for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python, though you still have to install `python3-tk`. You can specify the GUI you're building by hand in Python, or use the [Python Automatic GUI Generator](http://page.sourceforge.net/) (PAGE).
+The oldest GUI library for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python, though you still have to install `python3-tk`. You can use the [Python Automatic GUI Generator](http://page.sourceforge.net/) (PAGE), or specify the GUI you're building by hand in Python, which was what I did.
 
-The widgets provided by `tkinter` are adequate for most purposes. I created two text fields in my app to display the old and new file names.
+The widgets provided by `tkinter` are adequate for most purposes. To display the old and new file names in my app, I created two text fields then populated one file name per line. Hacky, but functional.  
 
 Event-handling is accomplished using the widgets' `validation` mechanism, which sadly is rather [poorly documented](https://stackoverflow.com/questions/4140437/interactively-validating-entry-widget-content-in-tkinter). Drag-and-drop support is [spotty](https://docs.python.org/3.9/library/tkinter.dnd.html).
 
