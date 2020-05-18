@@ -3,20 +3,24 @@ layout: post
 title: Building Graphical User Interfaces for Python code
 ---
 
-When working in R, my work mostly involved reproducible analyses, and consisted mostly of scripts. For the occasional interactive report, [Shiny](https://shiny.rstudio.com) works well for creating graphical interfaces that can be made into stand-alone applications. For building GUIs in Python, there are more options, the most common are, in roughly chronological order, `tkinter`, `wxPython` and `PyQt`.
+When working in R, my work mostly involved reproducible analyses, and consisted mostly of scripts. For the occasional interactive report, [Shiny](https://shiny.rstudio.com) works well for creating graphical interfaces that can be made into stand-alone applications. For building GUIs in Python, there are more options, some of the most common are, in roughly chronological order, `tkinter`, `wxPython` and `PyQt`.
 
 ### A graphical batch file renamer
 
-One task that I find easier with a GUI is renaming lots of files. I wanted control over the various renaming options: prefixing, suffixing, numbering, *etc*, with a live preview of the new file names. If possible, I would also like to be able to drag-and-drop the files into the application.
+One task that I find easier with a GUI is renaming lots of files, and it turns out to provide a good use case:
 
-### tkinter
-
-The oldest GUI interface for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python, though you still have to install `python3-tk`.
+* The various renaming options (prefixing, suffixing, numbering, *etc*) require different types of widgets.
+* Live preview of the new file names require event-handling
+* If possible, I would also like to be able to drag-and-drop the files into the application.
 
 ### wxpython
 
-Slightly more modern is [wxPython](https://wxpython.org/), a GUI based on the cross-platform [wxWidgets](https://www.wxwidgets.org/) library.
-Setting up `wxPython` was problematic without using Conda, and the documentation is somewhat spotty, so I decided to skip wxpython altogether.
+[wxPython](https://wxpython.org/)is a GUI based on the cross-platform [wxWidgets](https://www.wxwidgets.org/) library.
+Setting up `wxPython` was problematic without using Conda, and although it's newer than `tkinter`, the documentation is somewhat spotty, so I decided to skip wxpython altogether.
+
+### tkinter
+
+The oldest GUI interface for Python is [tkinter](https://docs.python.org/3/library/tkinter.html), which usually comes bundled with Python, though you still have to install `python3-tk`. The widgets are somewhat limited. Event-handling is accomplished using the widgets' `validation` mechanism, which sadly is rather [poorly documented](https://stackoverflow.com/questions/4140437/interactively-validating-entry-widget-content-in-tkinter). Drag-and-drop support is [spotty](https://docs.python.org/3.9/library/tkinter.dnd.html).
 
 ### PyQt
 
