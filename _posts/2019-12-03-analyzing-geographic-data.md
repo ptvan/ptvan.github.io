@@ -21,6 +21,8 @@ For plotting maps, `ggplot2` conveniently implements `geom_sf` for static maps, 
 
 Geocoding requires a bit more work. `ggmap` supports GoogleMaps and OpenStreetMap, which I prefer since it doesn't require an API key. If you want to geocode IP addresses, there is an appropriately named [r_IPgeocode](https://github.com/cengel/r_IPgeocode) package for that, of course.
 
+If instead you want to create [hexbin maps](https://www.data-to-viz.com/graph/hexbinmap.html), _eg._ election results, the `rgeos` package can calculate centroids of each bin, which can then be fortified to a ```geom_polygon```, as demonstrated [here](https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html).
+
 ### It's good to be polyglot: geographic data in Python
 
 If you're working in Python, [GeoViews](http://geoviews.org/) for handling large-scale maps, part of the [HoloViz](http://holoviz.org)* collection of libraries. For visualization, you can use the old-school [matplotlib](https://matplotlib.org/), the new-school [seaborn](https://seaborn.pydata.org/), as well as a [Python version of ggplot](http://ggplot.yhathq.com/). If you need interactivity, the web-oriented [Bokeh](https://docs.bokeh.org/en/latest) works well.
