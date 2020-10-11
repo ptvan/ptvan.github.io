@@ -8,3 +8,9 @@ Linear models have been around for a long time, and despite the press given to m
 ### A little history
 
 Least squares linear regression have been known to [Legrendre](https://en.wikipedia.org/wiki/Adrien-Marie_Legendre) and [Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss).
+
+### Extensions to the linear model
+
+### Implementations
+
+### References
