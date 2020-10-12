@@ -14,3 +14,5 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 ### Implementations
 
 ### References
+
+There are plenty of books on linear models, though I find [Linear Models with R](https://people.bath.ac.uk/jjf23/LMR/index.html) and [Extending the Linear Model with R](https://people.bath.ac.uk/jjf23/ELM/index.html) from Julian Faraway particularly helpful.
