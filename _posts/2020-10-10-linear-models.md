@@ -9,6 +9,12 @@ Linear models have been around for a long time, and despite the press given to m
 
 Least squares linear regression have been known to [Legrendre](https://en.wikipedia.org/wiki/Adrien-Marie_Legendre) and [Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss).
 
+### Basic formulation
+
+### Model diagnostics
+
+Linear models make certain assumptions, which are worth checking before relying on their results. 
+
 ### Extensions to the linear model
 
 ### Implementations
