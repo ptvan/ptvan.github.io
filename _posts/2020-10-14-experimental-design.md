@@ -9,6 +9,10 @@ Having worked at the wet bench, I had my fair share of experimental design. Thou
 
 ### Choosing your variables
 
+### Confounding
+
+### Statistical power
+
 ### References
 
 There are plenty of books on experimental design.
