@@ -3,7 +3,7 @@ layout: post
 title: Linear models
 ---
 
-Linear models have been around for a long time, and despite the press given to more modern methods, they remain relevant. The principle behind them is easy to understand, though once you look at them rigorously there are a lot to consider.
+Linear models have been around for a long time, and despite the press given to more modern methods, they remain relevant. The principle behind them is easy to understand, though once you look at them rigorously there are a lot to consider. This simplicity means they can also be extended and built upon for new data types and applications.
 
 ### A little history
 
