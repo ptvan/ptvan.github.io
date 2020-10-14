@@ -13,11 +13,13 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 ### Model diagnostics
 
-Linear models make certain assumptions, which are worth checking before relying on their results. 
+Linear models make certain assumptions, which are worth checking before relying on their results.
 
 ### Extensions to the linear model
 
 ### Implementations
+
+Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, with `stats::lm()` normally built as part of a core installation.
 
 ### References
 
