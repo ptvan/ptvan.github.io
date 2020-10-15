@@ -15,6 +15,8 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 Linear models make certain assumptions, which are worth checking before relying on their results.
 
+Collinearity causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors.
+
 ### Extensions to the linear model
 
 ### Implementations
