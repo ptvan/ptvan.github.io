@@ -15,9 +15,11 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 It's always good to check the model before accepting the results since problems could arise either from the data, or violation of the model's assumptions.
 
-Collinearity causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors. This can be detected using tests (Condition Number Test, Farrar-Glauber), Variance Inflation Factor, or explicitly testing the stability of the coefficients by perturbing the data with random noise.
+*Collinearity* causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors. This can be detected using tests (Condition Number Test, Farrar-Glauber), Variance Inflation Factor, or explicitly testing the stability of the coefficients by perturbing the data with random noise.
 
 ### Extensions to the linear model
+
+Notably in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma) for gene expression, conceived for microarrays, extended for RNASeq, with many refinements along the way.
 
 ### Implementations
 
