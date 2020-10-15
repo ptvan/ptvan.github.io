@@ -13,9 +13,9 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 ### Model diagnostics
 
-Linear models make certain assumptions, which are worth checking before relying on their results.
+It's always good to check the model before accepting the results since problems could arise either from the data, or violation of the model's assumptions.
 
-Collinearity causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors.
+Collinearity causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors. This can be detected using tests (Condition Number Test, Farrar-Glauber), Variance Inflation Factor, or explicitly testing the stability of the coefficients by perturbing the data with random noise.
 
 ### Extensions to the linear model
 
