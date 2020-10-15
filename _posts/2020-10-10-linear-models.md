@@ -19,7 +19,9 @@ It's always good to check the model before accepting the results since problems 
 
 ### Extensions to the linear model
 
-Notably in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma) for gene expression, conceived for microarrays, extended for RNASeq, with many refinements along the way.
+A natural extension to basic lienar regression is logistic regression.
+
+Notably in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma)conceived for microarrays, extended for RNASeq, with many refinements along the way.
 
 ### Implementations
 
