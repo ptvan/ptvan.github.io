@@ -15,7 +15,9 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 ### Model diagnostics
 
-It's always good to check the model before accepting the results since problems could arise either from the data, or violation of the model's assumptions.
+It's always good to check the model before accepting the results, since problems could arise either from the data or violations of the model's assumptions.
+
+*Heteroscedascity* occurs when the variance of the data is not constant.
 
 *Collinearity* causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors. This can be detected using tests (Condition Number Test, Farrar-Glauber), Variance Inflation Factor, or explicitly testing the stability of the coefficients by perturbing the data with random noise.
 
