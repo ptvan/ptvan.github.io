@@ -7,7 +7,7 @@ Linear models have been around for a long time, and despite the press given to m
 
 ### Basic formulation
 
-At its core, a linear model assumes that the output can is correlated with a linear combination of the input. To find the optimal solution, errors is minimized between the predicted and actual output.
+At its core, a linear model assumes that the output can is correlated with a linear combination of the input. To find the optimal solution, residuals are minimized between the observed output and predicted values.
 
 ### A little history
 
