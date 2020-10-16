@@ -5,13 +5,13 @@ title: Linear models
 
 Linear models have been around for a long time, and despite the press given to more modern methods, they remain relevant. The principle behind them is easy to understand, though once you look at them rigorously there are a lot to consider. This simplicity means linear models can be extended and built upon for new data types and applications.
 
+### Basic formulation
+
+At its core, a linear model assumes that the output can is correlated with a linear combination of the input. To find the optimal solution, errors is minimized between the predicted and actual output.
+
 ### A little history
 
 Least squares linear regression have been known to [Legrendre](https://en.wikipedia.org/wiki/Adrien-Marie_Legendre) and [Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss).
-
-### Basic formulation
-
-At its core, a lienar model assumes that the outcome can is correlated with a linear combination of the input.
 
 ### Model diagnostics
 
