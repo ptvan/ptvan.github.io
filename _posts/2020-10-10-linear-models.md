@@ -23,7 +23,7 @@ It's always good to check the model before accepting the results since problems 
 
 A natural extension to basic linear regression is logistic regression.
 
-*Regularization* can be helpful when too many predictors are present in the input.
+*Regularization* can be helpful when too many predictors are present in the input. Least angle regression (LARS), by [Tibshirani](http://statweb.stanford.edu/~tibs/) and [Hastie](https://web.stanford.edu/~hastie/) shrinks the coefficients of certain predictors to zero, performing variable selection on the fly.
 
 Notable in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma) conceived for microarrays, extended for RNASeq, with many refinements along the way.
 
