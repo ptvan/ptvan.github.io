@@ -11,6 +11,7 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 ### Basic formulation
 
+At its core, a lienar model assumes that the outcome can is correlated with a linear combination of the input.
 
 ### Model diagnostics
 
