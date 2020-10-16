@@ -19,13 +19,17 @@ It's always good to check the model before accepting the results since problems 
 
 ### Extensions to the linear model
 
-A natural extension to basic lienar regression is logistic regression.
+A natural extension to basic linear regression is logistic regression.
+
+*Regularization* can be helpful when too many predictors are present in the input.
 
 Notably in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma)conceived for microarrays, extended for RNASeq, with many refinements along the way.
 
 ### Implementations
 
 Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, with `stats::lm()` normally built as part of a core installation.
+
+In Python, the `linear_model` module in scikit-learn is fairly extensive, with OLS, regularization, logistic and GLM. 
 
 ### References
 
