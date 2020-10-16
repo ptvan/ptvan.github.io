@@ -17,4 +17,4 @@ Having worked at both the wet bench and in field ecology, I had my fair share of
 
 ### References
 
-There are plenty of books on experimental design. On the short side, [Experimental Design for Biologists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4280443/), which covers reagents and choice of model organisms. 
+There are plenty of books on experimental design. On the short side, [Experimental Design for Biologists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4280443/), which covers reagents and choice of model organisms.

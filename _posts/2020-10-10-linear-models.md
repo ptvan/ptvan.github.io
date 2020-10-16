@@ -17,7 +17,7 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 It's always good to check the model before accepting the results, since problems could arise either from the data or violations of the model's assumptions.
 
-*Heteroscedascity* occurs when the variance of the data is not constant.
+*Heteroscedascity* occurs when the variance of the data is not constant. This causes the estimated standard error to be wrong, which in turn leads to incorrect hypothesis testing and confidence intervals.
 
 *Collinearity* causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors. This can be detected using tests (Condition Number Test, Farrar-Glauber), Variance Inflation Factor, or explicitly testing the stability of the coefficients by perturbing the data with random noise.
 
