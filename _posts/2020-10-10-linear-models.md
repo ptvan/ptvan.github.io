@@ -23,6 +23,8 @@ It's always good to check the model before accepting the results since problems 
 
 A natural extension to basic linear regression is logistic regression.
 
+*Cox proportional hazard* models are survival models that are based on regression.
+
 *Regularization* can be helpful when too many predictors are present in the input. Least angle regression (LARS), by [Tibshirani](http://statweb.stanford.edu/~tibs/) and [Hastie](https://web.stanford.edu/~hastie/) shrinks the coefficients of certain predictors to zero, performing variable selection on the fly.
 
 Notable in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma) conceived for microarrays, extended for RNASeq, with many refinements along the way.
@@ -31,7 +33,7 @@ Notable in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/pe
 
 Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, with `stats::lm()` normally built as part of a core installation.
 
-In Python, the `linear_model` module in scikit-learn is fairly extensive, with OLS, regularization, logistic and GLM. 
+In Python, the `linear_model` module in scikit-learn is fairly extensive, with OLS, regularization, logistic and GLM.
 
 ### References
 
