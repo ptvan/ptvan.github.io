@@ -11,6 +11,7 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 ### Basic formulation
 
+
 ### Model diagnostics
 
 It's always good to check the model before accepting the results since problems could arise either from the data, or violation of the model's assumptions.
@@ -23,7 +24,7 @@ A natural extension to basic linear regression is logistic regression.
 
 *Regularization* can be helpful when too many predictors are present in the input.
 
-Notably in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma)conceived for microarrays, extended for RNASeq, with many refinements along the way.
+Notable in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth)'s LInear Models for MicroArray (limma) conceived for microarrays, extended for RNASeq, with many refinements along the way.
 
 ### Implementations
 
