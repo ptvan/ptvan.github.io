@@ -23,7 +23,9 @@ It's always good to check the model before accepting the results, since problems
 
 ### Extensions to the linear model
 
-A natural extension to basic linear regression is logistic regression.
+A natural extension to basic linear regression to perform hypothesis testing, comparing two different explanatory models of the data
+
+Another natural extension is logistic regression.
 
 *Cox proportional hazard* models are survival models that are based on regression.
 
@@ -35,7 +37,7 @@ Notable in the bioinformatic space is [Gordon Smythe](https://www.wehi.edu.au/pe
 
 Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, with `stats::lm()` normally built as part of a core installation. The `glmnet` package handles regularization using the LARS/Lasso approach as well as the newer elastic net.
 
-In Python, the `linear_model` module in scikit-learn is fairly comprehensive, with OLS, regularization, logistic and GLM. Alternatvely, [statsmodels](https://www.statsmodels.org/stable/index.html) also provides these functionalities as well as survival and time series analysis. 
+In Python, the `linear_model` module in scikit-learn is fairly comprehensive, with OLS, regularization, logistic and GLM. Alternatvely, [statsmodels](https://www.statsmodels.org/stable/index.html) also provides these functionalities as well as survival and time series analysis.
 
 ### References
 
