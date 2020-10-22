@@ -5,13 +5,13 @@ title: Linear models
 
 Linear models have been around for a long time, and despite the press given to more modern methods, they remain relevant. The principle behind them is easy to understand, though once you look at them rigorously there are a lot to consider. This simplicity means linear models can be extended and built upon for new data types and applications.
 
-### Basic formulation
-
-At its core, a linear model assumes that the output can is correlated with a linear combination of the input. To find the optimal solution, residuals are minimized between the observed output and predicted values.
-
 ### A little history
 
 Least squares linear regression have been known to [Legrendre](https://en.wikipedia.org/wiki/Adrien-Marie_Legendre) and [Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss).
+
+### Basic formulation
+
+At its core, a linear model assumes that the output (presumably a continuous value) can is correlated with a linear combination of the input. To find the optimal solution, residuals are minimized between the observed output and predicted values.
 
 ### Model diagnostics
 
@@ -25,9 +25,9 @@ It's always good to check the model before accepting the results, since problems
 
 ### Extensions to the linear model
 
-A natural extension to basic linear regression to perform hypothesis testing, comparing two different explanatory models of the data
+A natural extension to basic linear regression to perform hypothesis testing, comparing two different explanatory models of the data.
 
-Another natural extension is logistic regression.
+Another natural extension is logistic regression, predicting two categorical outcomes
 
 *Cox proportional hazard* models are survival models that are based on regression.
 
