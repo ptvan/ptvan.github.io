@@ -19,6 +19,10 @@ The lack of replication is often associated with failed experiments, and when co
 
 ### Statistical power
 
+For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly. 
+
+For large clinical trials where the incidence of disease is uncertain, statistical power is estimated before hand to assure that a certain number of cases occurs.
+
 ### References
 
 There are plenty of books on experimental design. On the short side, [Experimental Design for Biologists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4280443/), which covers reagents and choice of model organisms.
