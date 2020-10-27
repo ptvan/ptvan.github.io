@@ -13,7 +13,7 @@ Having worked at both the wet bench and in field ecology, I had my fair share of
 
 Replication is central to reproducible research. Bench experiments should have both biological and technical replicates, while only the latter is possible for entirely _in silico_ experiments.
 
-The lack of replication is often associated with failed experiments, and when coupled with intent, constitutes scientific fraud.
+The lack of replication is often associated with failed experiments, and when coupled with intent, constitutes scientific fraud. More subtle, and therefore more common is _pseudoreplication_ where the number of replicates is inflated due to complicated experimental design.
 
 ### Confounding
 
