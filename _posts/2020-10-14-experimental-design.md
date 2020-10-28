@@ -13,13 +13,13 @@ Having worked at both the wet bench and in field ecology, I had my fair share of
 
 Replication is central to reproducible research. Bench experiments should have both biological and technical replicates, while only the latter is possible for entirely _in silico_ experiments.
 
-The lack of replication is often associated with failed experiments, and when coupled with intent, constitutes scientific fraud. More subtle, and therefore more common is _pseudoreplication_ where the number of replicates is inflated due to complicated experimental design.
+The lack of replication is often associated with failed experiments, and when coupled with intent, constitutes scientific fraud. More subtle, and therefore more common is _pseudoreplication_ where the number of replicates is perceived to be higher due to complicated experimental design, as outlined in Stuart Hurlbert's now classic [paper](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1942661).
 
 ### Confounding
 
 ### Statistical power
 
-For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly. 
+For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly.
 
 For large clinical trials where the incidence of disease is uncertain, statistical power is estimated before hand to assure that a certain number of cases occurs.
 
