@@ -17,7 +17,7 @@ The lack of replication is often associated with failed experiments, and when co
 
 ### Confounding
 
-A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable.
+A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable. An example would be if the experiment looks to compare healthy and sick subjects, but all healthy subjects come from one location and all sick subjects came from another location. In this scenario, location is completely confounded with health status.
 
 ### Statistical power
 
