@@ -17,6 +17,8 @@ The lack of replication is often associated with failed experiments, and when co
 
 ### Confounding
 
+A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable.
+
 ### Statistical power
 
 For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly.
