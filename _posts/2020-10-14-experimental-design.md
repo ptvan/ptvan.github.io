@@ -3,7 +3,7 @@ layout: post
 title: The design of experiments
 ---
 
-Having worked at both the wet bench and in field ecology, I had my fair share of experimental design. Though I have to admit having controls for a PCR or picking field sites is a far cry from designing a complex multi-site vaccine trial or longitudinal studies.
+Having worked at both the wet bench and in field ecology, I had my fair share of experimental design. At the same time, I have to admit having controls for a PCR or picking field sites is entirely different from designing a complex multi-site vaccine trial or longitudinal studies. As our capacity for larger bench and dry experiments grow, their designs become increasingly important.
 
 ### Why experiments
 
