@@ -19,6 +19,8 @@ The lack of replication is often associated with failed experiments, and when co
 
 A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable. An example would be if the experiment looks to compare healthy and sick subjects, but all healthy subjects come from one location and all sick subjects came from another location. In this scenario, location is completely confounded with health status.
 
+There are a number of ways to address confounders. Case-control studies aim to have equal confounders in cases and controls. If confounders are identified after the study has stareted, they can be added as covariates in subsequent analyses.
+
 ### Statistical power
 
 For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly.
