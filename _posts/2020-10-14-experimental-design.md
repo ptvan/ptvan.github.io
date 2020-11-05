@@ -7,7 +7,15 @@ Having worked at both the wet bench and in field ecology, I had my fair share of
 
 ### Why experiments
 
-Purely observational studies can be informative, but are subject to biases in observation. Controlling some parts of your experiment enables you to identify and test [causal relationships](https://en.wikipedia.org/wiki/Bradford_Hill_criteria).
+Purely observational studies can be informative, but are subject to biases in observation. Controlling some parts of your experiment enables you to identify and test causal relationships.
+
+### Causality and confounding
+
+Causality is a tricky philosophical concept. Thankfully in the smaller scope of experimental design, tools like [Bradford's Criteria]((https://en.wikipedia.org/wiki/Bradford_Hill_criteria)) help setting up concrete goals.
+
+A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable. An example would be if the experiment looks to compare healthy and sick subjects, but all healthy subjects come from one location and all sick subjects came from another location. In this scenario, location is completely confounded with health status.
+
+There are a number of ways to address confounders. Case-control studies aim to have equal confounders in cases and controls. If confounders are identified after the study has stareted, they can be added as covariates in subsequent analyses.
 
 ### Choosing your variables
 
@@ -16,12 +24,6 @@ Purely observational studies can be informative, but are subject to biases in ob
 Replication is central to reproducible research. Bench experiments should have both biological and technical replicates, while only the latter is possible for entirely _in silico_ experiments.
 
 The lack of replication is often associated with failed experiments, and when coupled with intent, constitutes scientific fraud. More subtle, and therefore more common is _pseudoreplication_ where the number of replicates is perceived to be higher due to complicated experimental design, as outlined in Stuart Hurlbert's now classic [paper](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1942661).
-
-### Confounding
-
-A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable. An example would be if the experiment looks to compare healthy and sick subjects, but all healthy subjects come from one location and all sick subjects came from another location. In this scenario, location is completely confounded with health status.
-
-There are a number of ways to address confounders. Case-control studies aim to have equal confounders in cases and controls. If confounders are identified after the study has stareted, they can be added as covariates in subsequent analyses.
 
 ### Statistical power
 
