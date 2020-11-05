@@ -7,6 +7,8 @@ Having worked at both the wet bench and in field ecology, I had my fair share of
 
 ### Why experiments
 
+Purely observational studies can be informative, but are subject to biases in observation. Controlling some parts of your experiment enables you to identify and test [causal relationships](https://en.wikipedia.org/wiki/Bradford_Hill_criteria).
+
 ### Choosing your variables
 
 ### Replication, real or pseudo
@@ -25,7 +27,7 @@ There are a number of ways to address confounders. Case-control studies aim to h
 
 For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly.
 
-For large clinical trials where the incidence of disease is uncertain, statistical power is estimated before hand to assure that a certain number of cases occurs.
+For large clinical trials where the incidence of disease is uncertain, statistical power is estimated beforehand to ensure that a certain number of cases occurs.
 
 ### References
 
