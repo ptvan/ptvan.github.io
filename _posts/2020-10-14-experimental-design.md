@@ -19,6 +19,8 @@ There are a number of ways to address confounders. Case-control studies aim to h
 
 ### Choosing your variables
 
+Your choice of the experiment's outcome affect the type of distribution you would use for modelling the results: counts, continuous or ipsative.
+
 ### Replication, real or pseudo
 
 Replication is central to reproducible research. Bench experiments should have both biological and technical replicates, while only the latter is possible for entirely _in silico_ experiments.
