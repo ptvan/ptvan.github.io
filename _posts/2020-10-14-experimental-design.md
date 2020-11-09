@@ -19,7 +19,7 @@ There are a number of ways to address confounders. Case-control studies aim to h
 
 ### Choosing your variables
 
-Your choice of the experiment's outcome affect the type of distribution you would use for modelling the results: counts, continuous or ipsative.
+Your choice of the experiment's outcome affect the type of distribution you would use for modelling the results: counts, continuous or [ipsative](https://en.wikipedia.org/wiki/Ipsative).
 
 ### Replication, real or pseudo
 
