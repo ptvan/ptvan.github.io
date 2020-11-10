@@ -19,7 +19,7 @@ There are a number of ways to address confounders. Case-control studies aim to h
 
 ### Choosing your variables
 
-Your choice of the experiment's outcome affect the type of distribution you would use for modelling the results: counts, continuous or [ipsative](https://en.wikipedia.org/wiki/Ipsative).
+A common experiment design is to compare means between two or more groups. Your choice of the experiment's outcome affect the type of distribution you would use for modelling the results: counts, continuous or [ipsative](https://en.wikipedia.org/wiki/Ipsative).
 
 ### Replication, real or pseudo
 
@@ -32,6 +32,8 @@ The lack of replication is often associated with failed experiments, and when co
 For many experiments, a p-value threshold is established for hypothesis testing, and significance is reported against this threshold. There are some well-documented issues with this, but the convention is held strongly.
 
 For large clinical trials where the incidence of disease is uncertain, statistical power is estimated beforehand to ensure that a certain number of cases occurs.
+
+### More complex designs
 
 ### References
 
