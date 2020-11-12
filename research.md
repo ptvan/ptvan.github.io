@@ -32,9 +32,9 @@ As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R 
 
 ### Structured Illumination Gel Imager (SIGI) and 2DE protein gels (2009 - 2014)
 
-My PhD contained 3 parts: first, I built a high-dynamic-range imager to detect rare proteins in 2-dimensional electrophoretic (2DE) gels, which we dubbed SIGI. SIGI captured multiple exposures of the 2DE gels containing fluorescently-labelled proteins with structured illumination from an LCD projector and automatically assembled the final 32-bit grayscale images. SIGI also contained a robotic cutting arm that can excise the proteins from the gels for sequencing by tandem mass spectra (MS/MS).  Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on SIGI after I graduated. [publication](https://www.ncbi.nlm.nih.gov/pubmed/24935033)
+My PhD contained 3 parts: first, I built a high-dynamic-range imager to detect rare proteins in 2-dimensional electrophoretic (2DE) gels, which we dubbed SIGI. SIGI captured multiple exposures of the 2DE gels containing fluorescently-labelled proteins with structured illumination from an LCD projector and automatically assembled the final 32-bit grayscale images. SIGI also contained a robotic cutting arm that can excise the proteins from the gels for sequencing by tandem mass spectra (MS/MS).  Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on SIGI after I graduated. [link to paper](https://www.ncbi.nlm.nih.gov/pubmed/24935033)
 
-Second, I developed and refined an agarose stacking gel that improved protein retention during the preparation of 2DE gels for MS/MS sequencing. [publication](https://www.ncbi.nlm.nih.gov/pubmed/25042010)
+Second, I developed and refined an agarose stacking gel that improved protein retention during the preparation of 2DE gels for MS/MS sequencing. [link to paper](https://www.ncbi.nlm.nih.gov/pubmed/25042010)
 
 Lastly, I mentored three 2-person teams of CMU undergrads in preparing 2DE protein gels, operating the imager and performing data analysis on their experiments.
 
