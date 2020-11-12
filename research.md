@@ -42,7 +42,7 @@ Lastly, I mentored three 2-person teams of CMU undergrads in preparing 2DE prote
 
 ### Microbial oxidative stress response network (2008 - 2009)
 
-Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression at the time implemented in R. This branch of the algorithm ended up being superseded, but you can see what I worked on in this Github [repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of oxidative stress response in the archaeon _Halobacterium salinarum_, which can survive extremely salty environments like the Great Salt Lake. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/)
+Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression at the time implemented in R. This branch of the algorithm ended up being superseded, but you can see what I worked on in [this Github repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of oxidative stress response in the archaeon _Halobacterium salinarum_, which can survive extremely salty environments like the Great Salt Lake. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/)
 
 ![EGRIN_OS network](/images/EGRIN_OS-network.jpg "EGRIN_OS-network.jpg")
 
