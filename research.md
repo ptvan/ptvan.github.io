@@ -48,7 +48,7 @@ Working at the Institute for Systems Biology (ISB) as a research associate, I wo
 
 ### Microbial PeptideAtlas database and web portal (2006 - 2008)
 
-During my internship at ISB, I converted peptide mass spectra of _Halobacterium_ experiments from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on the sequencing method used. [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/)
+During my internship at ISB, I converted peptide mass spectra of _Halobacterium_ experiments from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on the sequencing method used. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/)
 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 
