@@ -33,3 +33,7 @@ The newest interface is [PyQt](https://wiki.python.org/moin/PyQt), the Python bi
 Being more modern, PyQt has more widgets, most notably `table`, which allow a spreadsheet-like layout. I used this to show the old and new file names side-by-side instead of two separate text fields in the `tkinter` version of the app.
 
 Event-handling is straightforwardly supported for each widget type.
+
+### Future plans
+
+A natural extension is to implement regular expression support, since it's native to many languages. A more advanced feature would be drag-and-drop, which is [supported by PyQt](https://doc.qt.io/qtforpython/overviews/dnd.html).
