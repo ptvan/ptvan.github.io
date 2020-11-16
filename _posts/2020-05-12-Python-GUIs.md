@@ -9,14 +9,14 @@ When working in R, my work mostly involved reproducible analyses, and consisted 
 
 One task that I find easier with a GUI is renaming lots of files, and it turns out to provide a good use case:
 
+* The operation is pretty simple, to focus mostly on the GUI aspects
 * The various renaming options (prefixing, suffixing, numbering, *etc*) require different types of widgets.
 * Live preview of the new file names require event-handling
-* If possible, I also want to drag-and-drop the files into the application.
 
 ### wxpython: old and outdated
 
 [wxPython](https://wxpython.org/) is a GUI library based on the cross-platform [wxWidgets](https://www.wxwidgets.org/) library.
-Setting up `wxPython` was problematic without using Conda, and although it's newer than `tkinter`, the documentation is somewhat spotty, so I decided to skip wxpython altogether.
+Setting up `wxPython` was problematic without using Conda, and although it's newer than `tkinter`, the documentation I could find is somewhat spotty, so I decided to skip wxpython altogether.
 
 ### tkinter: old but workable
 
