@@ -27,4 +27,4 @@ After doing a few problems in R, I reimplimented them in Python: [euler-python](
 
 * As was the case in R, it's good to be familiar with your libraries. For project Euler in particular, [math](https://pypi.org/project/maths/) is very helpful.
 
-As I grew more comfortable with Python, more code snippets were added to [python-snippets](https://github.com/ptvan/python-snippets).
+*Update: As I grew more comfortable with Python, more code snippets were added to [python-snippets](https://github.com/ptvan/python-snippets).*
