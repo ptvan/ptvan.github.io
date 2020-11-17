@@ -19,7 +19,7 @@ The lessons I learned so far are:
 
 * We stand on the shoulder of giants: the body of knowledge in math and algorithms is vast. It's fun to re-trace the steps of pioneers.
 
-After doing a few problems in R, I reimplimented them in [Python](https://github.com/ptvan/euler-python). I'm enjoying seeing the subtle (and not so subtle) ways the two languages differ. I like R but found its [TIMTOWTDI](https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it) approach to be bewildering at times (eg. do we really need [3 different object systems](http://adv-r.had.co.nz/OO-essentials.html) ?). Lessons learned for Python so far:
+After doing a few problems in R, I reimplimented them in Python: [euler-python](https://github.com/ptvan/euler-python). I'm enjoying seeing the subtle (and not so subtle) ways the two languages differ. I like R but found its [TIMTOWTDI](https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it) approach to be bewildering at times (eg. do we really need [3 different object systems](http://adv-r.had.co.nz/OO-essentials.html) ?). Lessons learned for Python so far:
 
 * [List comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) are nice syntactic sugar.
 
