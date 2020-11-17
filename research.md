@@ -26,7 +26,7 @@ My third project involves developing a positivity call for Intracellular Cytokin
 
 ### Flow cytometry (2014 - 2018)
 
-As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for analyzing high-dimensional flow-cytometry and mass-cytometry data. I also worked on ggCyto, an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets. [publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/)
+As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for analyzing high-dimensional flow-cytometry and mass-cytometry data. I also worked on ggCyto, an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/)
 
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
 
