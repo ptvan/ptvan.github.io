@@ -7,7 +7,7 @@ I thought it would be fun to test my R skills by doing [Project Euler](https://p
 
 The lessons I learned so far are:
 
-* Project Euler is great for stretching your programming muscles. Specifically, it forces you to really understand classic/fundamental structures and algorithms (through implementing them). You also learn the strengths of the language you're using (at the cost of also exposing its weaknesses).
+* Project Euler is great for stretching your programming muscles. Specifically, it forces you to really understand data structures and classic algorithms by implementing them. You also learn the strengths of the language you're using (at the cost of also exposing its weaknesses).
 
 * Libraries are wonderful: many Project Euler problems involve handling large integers, big matrices, or dates. It's tedious to re-invent low-level algorithms for common tasks. This point complements the point above.
 
