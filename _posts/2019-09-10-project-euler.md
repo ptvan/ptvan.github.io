@@ -25,6 +25,6 @@ After doing a few problems in R, I reimplimented them in Python: [euler-python](
 
 * The [with](https://docs.python.org/2.5/whatsnew/pep-343.html) statement is nice, especially in long pipelines where you otherwise would have to do a lot of cleaning up.
 
-* As was the case in R, it's good to be familiar with your libraries. For project Euler in particular, [math](https://pypi.org/project/maths/) is very helpful.
+* As was the case in R (or any language), it's good to be familiar with your libraries. For project Euler in particular, [math](https://pypi.org/project/maths/) is very helpful.
 
 *Update: As I grew more comfortable with Python, more code snippets were added to [python-snippets](https://github.com/ptvan/python-snippets).*
