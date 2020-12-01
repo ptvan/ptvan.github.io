@@ -13,6 +13,8 @@ Least squares linear regression have been known to [Legrendre](https://en.wikipe
 
 At its core, a linear model assumes that the output (presumably a continuous value) can is correlated with a linear combination of the input. To find the optimal solution, residuals are minimized between the observed output and predicted values.
 
+Statistical models can model either `fixed` or `random` effects, or in the case of `mixed-effects`, both.
+
 ### Model diagnostics
 
 It's always good to check the model before accepting the results, since problems could arise either from the data or violations of the model's assumptions.
@@ -27,7 +29,7 @@ It's always good to check the model before accepting the results, since problems
 
 A natural extension to basic linear regression to perform hypothesis testing, comparing two different explanatory models of the data.
 
-Another natural extension is logistic regression, predicting two categorical outcomes
+Another natural extension is logistic regression, predicting two categorical outcomes.
 
 *Cox proportional hazard* models are survival models that are based on regression.
 
