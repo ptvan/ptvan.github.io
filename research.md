@@ -16,9 +16,9 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ## Detailed descriptions of major projects
 
-### Transcriptomics (2017 - )
+### Transcriptomics (2017 - 2020)
 
-I've been lead analyst on a project with collaborators at the [University of Washington](https://www.washington.edu/) to identify genes that contribute to Tuberculosis resistance in African subjects. I performed data QC, genome alignment, transcript quantification, as well as downstream analyses (DEG, GSEA, functional annotation, network analysis, etc.). I contributed code to [RNASeq workflows](https://github.com/ptvan/workflows) and [analyses](https://github.com/ptvan/r-snippets).
+I've been lead analyst on a project with collaborators at the [University of Washington](https://www.washington.edu/) to identify genes that contribute to Tuberculosis resistance in African subjects. I performed data QC, genome alignment, transcript quantification, as well as downstream analyses (DEG, GSEA, functional annotation, network analysis, etc.). I contributed code to RNASeq workflows and [analyses](https://github.com/ptvan/r-snippets).
 
 Another project involves collaborators at the [South African Tuberculosis Vaccine Institute](http://www.satvi.uct.ac.za/) to identify possible diagnostic biomarkers for Tuberculosis. I perform my own analyses while also coordinating between Seattle and Cape Town teams in integrating transcriptomic, proteomic and antibody data.
 
