@@ -3,7 +3,7 @@ layout: post
 title: Workflow managers for bioinformatic pipelines
 ---
 
-Due to the growth of data, workflow managers (_eg._ [Airflow](https://airflow.apache.org/), [Prefect](https://www.prefect.io/)) have been growing in popularity. In bioinformatics this popularity is further accelerated by the [replication crisis in science](https://jamanetwork.com/journals/jama/fullarticle/201218). Workflow managers automate routine tasks while also ensuring reproducibility by enabling drop-in changes in data, runtime parameters, or even entire toolchains. At Fred Hutch where I work, [Nextflow and Cromwell](https://sciwiki.fredhutch.org/scicomputing/software_overview/#workflow-managers) are most popular. Elsewhere, [Snakemake](https://github.com/snakemake/snakemake) is also popular though I don't have much personal experience with it.
+Due to the growth of data, workflow managers (_eg._ [Airflow](https://airflow.apache.org/), [Prefect](https://www.prefect.io/)) have been growing in popularity. In bioinformatics this popularity is further accelerated by the [replication crisis in science](https://jamanetwork.com/journals/jama/fullarticle/201218). Workflow managers automate routine tasks while also ensuring reproducibility by enabling drop-in changes in data, runtime parameters, or even entire toolchains. At Fred Hutch where I used to work, [Nextflow and Cromwell](https://sciwiki.fredhutch.org/scicomputing/software_overview/#workflow-managers) were most popular. Elsewhere, [Snakemake](https://github.com/snakemake/snakemake) is also popular though I don't have much personal experience with it.
 
 ### Nextflow
 
