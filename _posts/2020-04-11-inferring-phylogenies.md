@@ -19,11 +19,11 @@ To grossly oversimply things, the basic steps of inferring a phylogeny are:
 
 ### Working with sequence data
 
-In 2020, getting sequence data is very straightforward. There are a number of general sources like [NCBI](https://www.ncbi.nlm.nih.gov/nucleotide/) or [modENCODE](http://www.modencode.org/) and more specific ones like [ViPR](https://www.viprbrc.org/). Handling sequence data is readily supported for both R (through Bioconductor's [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html), among others) and Python (through biopython's [Seq](https://biopython.org/wiki/Seq) class).
+In 2020, getting sequence data is very straightforward. There are a number of general sources like [NCBI](https://www.ncbi.nlm.nih.gov/nucleotide/) or [modENCODE](http://www.modencode.org/) and more specific ones like [ViPR](https://www.viprbrc.org/), which focuses on viruses. Handling sequence data is readily supported for both R (through Bioconductor's [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html), among others) and Python (through biopython's [Seq](https://biopython.org/wiki/Seq) class).
 
 ### Perform sequence alignment
 
-Whether your data is from different species or multiple sampling of the same rapidly-evolving species, the first step in inferring phylogenies is to perform a __multiple sequence alignment__ (MSA). Some of the tools used are [Clustal](http://www.clustal.org/clustal2/) and the newer [MAFFT](https://mafft.cbrc.jp/alignment/software/).
+Whether your data is from different species or multiple sampling of the same rapidly-evolving species, the first step in inferring phylogenies is to perform a __multiple sequence alignment__ (MSA). Some of the tools used are [Clustal](http://www.clustal.org/clustal2/), [MAFFT](https://mafft.cbrc.jp/alignment/software/), [parsnp](https://github.com/marbl/parsnp), [minimap](https://github.com/marbl/parsnp) and [mummer](https://mummer4.github.io/).
 
 ### Infer phylogenetic trees
 
@@ -41,4 +41,4 @@ For visualizing and annotating trees with metadata, the `treeio` package readily
 
 ### Acknowledgements
 
-A fairly comprehensive reference is [The Phylogenetic Handbook](https://www.kuleuven.be/aidslab/phylogenybook/home.html). Also, much of the information in this blog post wouldn't be possible without the great bodies of work by my FredHutch colleagues [Erick Matsen](https://matsen.fhcrc.org/) and [Trevor Bedford](https://bedford.io/).
+A fairly comprehensive reference is [The Phylogenetic Handbook](https://www.kuleuven.be/aidslab/phylogenybook/home.html). Also, much of the information in this blog post wouldn't be possible without the great bodies of work by my former FredHutch colleagues [Erick Matsen](https://matsen.fhcrc.org/) and [Trevor Bedford](https://bedford.io/). Lastly, my TwinStrand colleague Dan Sommer also gave considerable useful advice.
