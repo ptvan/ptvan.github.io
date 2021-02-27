@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Phu T. Van - photography
+title: 
 permalink: /photography/
 ---
 
@@ -16,10 +16,20 @@ permalink: /photography/
 
 ### Twelve Days in Japan (2007)
 
+![TwelveDaysInJapan](/images/TwelveDaysInJapan_cover.jpg "TwelveDaysInJapan_cover.jpg")
+
 ### Europa (2009)
+
+![Europa](/images/Europa_cover.jpg "Europa_cover.jpg")
 
 ### People & Places (2010)
 
+![PeoplePlaces](/images/PeoplePlaces_cover.jpg "PeoplePlaces_cover.jpg")
+
 ### Portraits (2012)
 
+![Portraits](/images/Portraits_-_cover.jpg "Portraits_cover.jpg")
+
 ### Dusk (2013)
+
+![Dusk](/images/Dusk_cover.jpg "Dusk_cover.jpg")

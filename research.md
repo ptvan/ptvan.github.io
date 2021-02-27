@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Phu T. Van - research
+title: 
 permalink: /research/
 ---
 
