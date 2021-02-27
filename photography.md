@@ -4,11 +4,17 @@ title:
 permalink: /photography/
 ---
 
-## A brief summary
+I started doing photography in highschool informally, learning B&W darkroom techniques, Ansel Adams' zone technique, etc.
 
 ## MUSICA
 
+In college I was introduced to a short-lived Seattle-based music newspaper where I photographed concerts, music festivals and club openings.
+
+![Musica](/images/Musica-2.jpg "Musica-2.jpg")
+
 ## Self-published photobooks
+
+After that I photographed regularly when I traveled, and also did shoots of friends occasionally.
 
 ### Indigo (2002)
 
