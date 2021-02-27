@@ -28,7 +28,7 @@ permalink: /photography/
 
 ### Portraits (2012)
 
-![Portraits](/images/Portraits_-_cover.jpg "Portraits_cover.jpg")
+![Portraits](/images/Portraits_cover.jpg "Portraits_cover.jpg")
 
 ### Dusk (2013)
 
