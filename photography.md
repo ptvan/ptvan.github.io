@@ -18,9 +18,9 @@ After that I photographed regularly when I traveled, and also did shoots of frie
 
 ### Indigo (2002)
 
-### Maroon (2004)
+Indigo was my first photobook, printed in the School of Art computer lab and bound at Kinko's. Only one copy was printed and the computer lab changed their policy, so that no other student will monopolize the printers to print entire books.
 
-![Maroon_cover](/images/Maroon_cover.jpg "Maroon_cover.jpg")
+### Maroon (2004)
 
 ![Maroon_pg07](/images/Maroon_pg07.jpg "Maroon_pg07.jpg")
 
