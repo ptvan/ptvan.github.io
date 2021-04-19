@@ -7,7 +7,9 @@ Due to the growth of data, workflow managers (_eg._ [Airflow](https://airflow.ap
 
 ### Nextflow
 
-[Nextflow](https://www.nextflow.io/) uses an extended version of [Groovy](http://groovy-lang.org) and is very portable. You download the Nextflow executable, call it on a script and off you go ! My former colleague [Sam Minot](https://www.minot.bio/) set up the FredHutch [Nextflow demos](https://github.com/FredHutch/nf-core-aligngenomes) leveraging his background in viral metagenomics. Simple tasks like batch-converting PNGs into JPEGs only took me a [few minutes](https://github.com/ptvan/aws/blob/master/image_processing.nf). Converting a simple [DataCarpentry genomic workflow](https://datacarpentry.org/wrangling-genomics/) into Nextflow DSL2 is a [weekend project](https://github.com/ptvan/workflows/tree/master/nextflow/wrangling_genomics).
+[Nextflow](https://www.nextflow.io/) is based on an extended version of [Groovy](http://groovy-lang.org) and is now on the second version. My former colleague [Sam Minot](https://www.minot.bio/) set up the FredHutch [Nextflow demos](https://github.com/FredHutch/nf-core-aligngenomes) leveraging his background in viral metagenomics.
+
+Simple tasks like batch-converting PNGs into JPEGs only took me a [few minutes](https://github.com/ptvan/aws/blob/master/image_processing.nf). Writing a simple [DataCarpentry genomic workflow](https://datacarpentry.org/wrangling-genomics/) into Nextflow DSL2 is a [weekend project](https://github.com/ptvan/workflows/tree/master/nextflow/wrangling_genomics).
 
 ### Cromwell
 
