@@ -4,7 +4,7 @@ title:
 permalink: /research/
 ---
 
-My resume is located here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you need a more comprehensive academic CV (*eg.* for federal grants), I have this: [PhuTVan-CV.pdf](PhuTVan-CV.pdf)
+My academic CV is located here: [PhuTVan-CV.pdf](PhuTVan-CV.pdf). My resume and references are available upon request.
 
 ## A brief summary
 
