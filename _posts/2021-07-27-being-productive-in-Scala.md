@@ -7,4 +7,8 @@ A long time ago, when the Earth's crust had just cooled, I learned Java. Some ye
 
 ### Language features
 
+Despite their similarities, Scala's syntax can cause some [problems for Java programmers](http://jim-mcbeath.blogspot.com/2008/09/scala-syntax-primer.html) beyond [different names for similar ideas](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html).
+
 ### Build systems
+
+You can compile and link Scala code with [sbt](https://www.scala-sbt.org/), the predominant build tool. However, it is by no means the only option. Others include [Gradle](https://gradle.org/) and [Mill](https://www.lihaoyi.com/post/MillBetterScalaBuilds.html), the latter which created to address some of sbt's perceived shortcomings.
