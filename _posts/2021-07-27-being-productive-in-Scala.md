@@ -15,4 +15,4 @@ Despite their similarities, Scala's syntax can trip up [Java programmers](https:
 
 You can compile and link Scala code with [sbt](https://www.scala-sbt.org/), the predominant build tool. However, it is by no means the only option. Others include [Gradle](https://gradle.org/) and [Mill](https://www.lihaoyi.com/post/MillBetterScalaBuilds.html), the latter which created to address some of sbt's perceived shortcomings.
 
-Regardless of what build system you choose, you will have to do some setup. If you instead would like to work immediately on a small project, [Ammonite](https://ammonite.io/) turns Scala files into executable code by compiling your code transparently behind the scene, while also adding some features to the Scala REPL.
+Regardless of the build system you choose, you will have to do some setup to get your Scala code to compile. If you instead would like to code and run a small project as quickly as possible, [Ammonite](https://ammonite.io/) turns Scala files into executable code by compiling your code transparently behind the scene, while also adding some features to the Scala REPL.
