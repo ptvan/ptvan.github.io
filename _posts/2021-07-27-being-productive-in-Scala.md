@@ -11,6 +11,8 @@ Scala is an object-oriented programming language due to objects being first-clas
 
 Despite their similarities, Scala's syntax can trip up [Java programmers](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html) since some common things in Java (*static* keyword, *break* statements, etc. ) [do not exist in Scala](http://jim-mcbeath.blogspot.com/2008/09/scala-syntax-primer.html) and other things are subtly different (infix statements)
 
-### Build systems
+### Building Scala code
 
 You can compile and link Scala code with [sbt](https://www.scala-sbt.org/), the predominant build tool. However, it is by no means the only option. Others include [Gradle](https://gradle.org/) and [Mill](https://www.lihaoyi.com/post/MillBetterScalaBuilds.html), the latter which created to address some of sbt's perceived shortcomings.
+
+The actual building process is streamlined using modern IDEs, most notably [IntelliJ](https://www.jetbrains.com/idea/), which was designed for JVM-targeting languages, but also VSCode (using its [Metals extension](https://scalameta.org/metals/docs/editors/vscode/) ).

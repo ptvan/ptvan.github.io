@@ -1,3 +1,5 @@
 _site/
 .DS_Store
 images/.DS_Store
+.metals/metals.lock.db
+.vscode/settings.json
