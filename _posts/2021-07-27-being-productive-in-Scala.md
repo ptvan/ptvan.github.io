@@ -19,4 +19,4 @@ The actual building process is streamlined using modern IDEs, most notably [Inte
 
 Regardless of the build system you choose, you will have to do some setup to get your Scala code to compile. You can call sbt/Mill manually, or have them watch source files to automatically recompile when there are changes.
 
-If you instead would like to code and run a small project as quickly as possible, [Ammonite](https://ammonite.io/) turns Scala files into executable code by compiling your code transparently behind the scene. Ammonite also adds some features to the Scala REPL.
+If you instead would like to code and run a small project as quickly as possible, [Ammonite](https://ammonite.io/) turns your Scala files into self-contained executable scripts by compiling transparently behind the scene. Ammonite also adds some features to the Scala REPL.
