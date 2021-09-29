@@ -18,6 +18,8 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ### Genomics (2021 - )
 
+I analyze [duplex sequencing](https://twinstrandbio.com/technology/) data from diverse sources for commercial and academic clients.
+
 ### Transcriptomics (2017 - 2020)
 
 I was the lead analyst on a project with collaborators at the [University of Washington](https://cerid.uw.edu/lab/hawn-lab) to identify genes that contribute to Tuberculosis resistance in African subjects. I performed data QC, genome alignment, transcript quantification, and downstream analyses (DEG, GSEA, functional annotation, network analysis, *etc.*). I also contributed [code](https://github.com/ptvan/r-snippets) to joint workflows and analyses. [link to paper](https://www.jci.org/articles/view/140073)
