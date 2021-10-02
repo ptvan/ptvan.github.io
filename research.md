@@ -18,7 +18,7 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ### Genomics (2021 - )
 
-I analyze [duplex sequencing](https://twinstrandbio.com/technology/) data from diverse sources for commercial and academic clients.
+I analyze [duplex sequencing](https://twinstrandbio.com/technology/) data from diverse sources for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests.
 
 ### Transcriptomics (2017 - 2020)
 
