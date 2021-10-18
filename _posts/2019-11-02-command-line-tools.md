@@ -7,7 +7,7 @@ Having been a UNIX user for a while, I know of the wonderful things built out of
 
 ### Bioinformatics and dealing with big data
 
-Working in bioinformatics, I have also come across a whole cottage industry of [bioinformatics oneliners](https://github.com/stephenturner/oneliners) using `bcftools` and `samtools`. There are also established workflow languages to glue these tools together, as I have described in a [previous post](https://ptvan.github.io/workflow-managers/).
+Working in bioinformatics, I have also come across a whole cottage industry of [bioinformatics oneliners](https://github.com/stephenturner/oneliners) using `bcftools` and `samtools` (and their refined variants, eg. [sambamba](https://lomereiter.github.io/sambamba/)). There are also established workflow languages to glue these tools together, as I have described in a [previous post](https://ptvan.github.io/workflow-managers/).
 
 There are also bioinformatic variants of classic UNIX tools, like `seqtk` and `bioawk` . When dealing with big data, it's good to use parallelize, using both a general-purpose tool like [GNU Parallel](https://www.gnu.org/software/parallel/) and parallelized versions of existing tools, like [pigz](https://zlib.net/pigz/). Often, these tools are picked the hard way, as documented in this wonderfully informative blogpost about [analyzing 25TB of sequencing data](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/).
 
