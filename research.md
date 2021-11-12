@@ -18,6 +18,8 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ### Genomics (2021 - )
 
+I analyze [duplex sequencing](https://twinstrandbio.com/technology/) data from diverse sources for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests.
+
 ### Transcriptomics (2017 - 2020)
 
 I was the lead analyst on a project with collaborators at the [University of Washington](https://cerid.uw.edu/lab/hawn-lab) to identify genes that contribute to Tuberculosis resistance in African subjects. I performed data QC, genome alignment, transcript quantification, and downstream analyses (DEG, GSEA, functional annotation, network analysis, *etc.*). I also contributed [code](https://github.com/ptvan/r-snippets) to joint workflows and analyses. [link to paper](https://www.jci.org/articles/view/140073)
@@ -26,13 +28,13 @@ Another project involved collaborators at the [South African Tuberculosis Vaccin
 
 My third project involved developing a positivity call for Intracellular Cytokine Staining (ICS) data from HIV vaccine trials. The goal of this project is to increase accuracy of the ICS assay while reducing the number of markers required.
 
-### Flow cytometry (2014 - 2018)
+### Flow cytometry & mass cytometry (2014 - 2018)
 
 As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for analyzing high-dimensional flow-cytometry and mass-cytometry data. I also worked on ggCyto, an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/)
 
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
 
-### Structured Illumination Gel Imager (SIGI) and 2DE protein gels (2009 - 2014)
+### Structured Illumination Gel Imager (SIGI) and 2DE proteomics (2009 - 2014)
 
 My PhD contained 3 parts: first, I built a high-dynamic-range imager to detect rare proteins in 2-dimensional electrophoretic (2DE) gels, which we dubbed SIGI. SIGI captured multiple exposures of the 2DE gels containing fluorescently-labelled proteins with structured illumination from an LCD projector and automatically assembled the final 32-bit grayscale images. SIGI also contained a robotic cutting arm that can excise the proteins from the gels for sequencing by tandem mass spectra (MS/MS).  Carnegie Mellon was granted a US [patent](https://patents.google.com/patent/US10362237B2/) on SIGI after I graduated. [link to paper](https://www.ncbi.nlm.nih.gov/pubmed/24935033)
 
