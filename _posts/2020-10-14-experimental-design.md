@@ -7,7 +7,7 @@ Having worked at both the wet bench and in field ecology, I had my fair share of
 
 ### Why experiments
 
-Purely observational studies can be informative, but are subject to biases in observation. Controlling some parts of your experiment enables you to identify and test causal relationships.
+Purely observational studies can be informative, but are subject to biases in observation. Controlling some parts of your experiment enables you to identify and test causal relationships. Most experiments are Simple Comparative Experiments where you're detecting differences between two or more groups, the prototypical of which is a 2-sample [t-test](https://en.wikipedia.org/wiki/Student%27s_t-test).
 
 ### Causality and confounding
 
@@ -34,6 +34,8 @@ For many experiments, a p-value threshold is established for hypothesis testing,
 For large clinical trials where the incidence of disease is uncertain, statistical power is estimated beforehand to ensure that a certain number of cases occurs.
 
 ### More complex designs
+
+An experiment may have more complex designs, like [blocked, or nested](https://online.stat.psu.edu/stat503/lesson/14).  
 
 ### References
 
