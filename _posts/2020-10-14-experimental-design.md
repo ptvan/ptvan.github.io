@@ -11,7 +11,7 @@ Purely observational studies can be informative, but are subject to biases in ob
 
 ### Causality and confounding
 
-Causality is a tricky philosophical concept. Thankfully in the smaller scope of experimental design, tools like [Bradford's Criteria]((https://en.wikipedia.org/wiki/Bradford_Hill_criteria)) help setting up concrete goals.
+Causality is a tricky philosophical concept. Thankfully in the smaller scope of experimental design, tools like [Bradford's Criteria](https://en.wikipedia.org/wiki/Bradford_Hill_criteria) help setting up concrete goals.
 
 A _confounder_ is a factor that causes spurious associations in the data by affecting both the dependent and independent variable. An example would be if the experiment looks to compare healthy and sick subjects, but all healthy subjects come from one location and all sick subjects came from another location. In this scenario, location is completely confounded with health status.
 
@@ -21,7 +21,7 @@ There are a number of ways to address confounders. Case-control studies aim to h
 
 A common experiment design is to compare means between two or more groups. Your choice of the experiment's outcome affect the type of distribution you would use for modelling the results: counts, continuous or [ipsative](https://en.wikipedia.org/wiki/Ipsative).
 
-### Replication, real or pseudo
+### Pseudoreplication
 
 Replication is central to reproducible research. Bench experiments should have both biological and technical replicates, while only the latter is possible for entirely _in silico_ experiments.
 
