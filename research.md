@@ -18,7 +18,9 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ### Genomics (2021 - )
 
-I analyze [duplex sequencing](https://twinstrandbio.com/technology/) data from diverse sources for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests.
+I currently act as a [Subject Matter Expert](https://en.wikipedia.org/wiki/Subject-matter_expert) for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company.
+
+I started out in the company as a Bioinformatics Scientist, analyzing genomic data for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests.
 
 ### Transcriptomics (2017 - 2020)
 
