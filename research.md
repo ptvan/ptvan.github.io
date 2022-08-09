@@ -8,7 +8,7 @@ My academic CV is here: [PhuTVan-CV.pdf](PhuTVan-CV.pdf). My resume and professi
 
 ## A brief summary
 
-I'm currently the Bioinformatics Solutions Manager at [TwinStrand Biosciences](https://twinstrandbio.com/). Previously I worked as a postdoc, then an analyst at [Fred Hutch](http://rglab.org) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
+I'm currently the Bioinformatics Solutions Manager at [TwinStrand Biosciences](https://twinstrandbio.com/), managing a team of Bioinformatics Scientists working on cross-functional projects. Previously I worked as a postdoc, then an analyst at [Fred Hutch](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
 
 My greatest strength is adaptability: prior to working as an analyst, I have had success as [field ecologist](https://www.fs.usda.gov/colville), [photojournalist](https://makingtheprince.blogspot.com/2013/11/meet-author.html) and bioengineer. I am motivated and organized, having worked 3 jobs simultaneously through college and self-published an illustrated children's book through KickStarter in graduate school.
 
@@ -18,9 +18,9 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ### Genomics (2021 - )
 
-I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company.
+I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists.
 
-I started out in the company as a Bioinformatics Scientist II, analyzing genomic data for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests.
+I started out in the company as a senior Bioinformatics Scientist, analyzing genomic data for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests. A year later, I was promoted to lead the newly-formed Bioinformatics Solutions group within the larger Data Sciences Department.
 
 ### Transcriptomics (2017 - 2020)
 
