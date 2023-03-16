@@ -20,3 +20,7 @@ While I'm familiar with many of the tools the author mentions, I have not heard 
 Increasing in complexity, the book also covers [Drake](https://github.com/Factual/drake), "GNU make for data", then onto visualization. I have to admit, I'm a little less convinced about using commandline tools to visualize data. Sure, [ImageMagick](https://imagemagick.org) is very powerful and have saved me tons of time processing images in batch mode, but calling ```tee some_exploratory_plot.png | display``` everytime seems a little tedious to me.
 
 Finally, the author covered [Weka](https://www.cs.waikato.ac.nz/ml/weka/), a Java-based tool for clustering/regression and [BigML](https://bigml.com/) for applying ML models.
+
+### Other Tools
+
+Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, since in addition to CSV/TSV it can also handle JSON, inviting natural comparisons to [JQ](https://stedolan.github.io/jq/).
