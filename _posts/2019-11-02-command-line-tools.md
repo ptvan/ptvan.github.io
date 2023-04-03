@@ -3,13 +3,13 @@ layout: post
 title: Command line tools for data cleaning and analysis
 ---
 
-Having been a UNIX user for a while, I know of the wonderful things built out of command line utilities, like one-liners in [awk](https://catonmat.net/awk-one-liners-explained-part-one), [sed](https://catonmat.net/sed-one-liners-explained-part-one), or [bash](http://www.bashoneliners.com). I also knew of Erick Matson's excellent guide to "second-generation" [shell tools](http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html) (`tmux`,`fd`, `ag`, etc.).
+Having been a UNIX user for a while, I know of the wonderful things built out of command line utilities, like one-liners in [awk](https://catonmat.net/awk-one-liners-explained-part-one), [sed](https://catonmat.net/sed-one-liners-explained-part-one), or even [bash] itself (http://www.bashoneliners.com). I also knew of Erick Matson's excellent guide to "second-generation" [shell tools](http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html) (`tmux`,`fd`, `ag`, etc.). You can use plain old shell scripting (`bash` as mentioned above, or something more modern like `zsh`), or wrapping it in [expect](https://core.tcl-lang.org/expect/index).
 
 ### Bioinformatics and dealing with big data
 
 Working in bioinformatics, I have also come across a whole cottage industry of [bioinformatics oneliners](https://github.com/stephenturner/oneliners) using `bcftools` and `samtools` (and their refined variants, eg. [sambamba](https://lomereiter.github.io/sambamba/)). For FASTQ files there is the excellent [fastp](https://github.com/OpenGene/fastp). To glue these tools together, there are workflow managers as I have described in a [previous post](https://ptvan.github.io/workflow-managers/).
 
-There are also bioinformatic variants of classic UNIX tools, like `seqtk` and `bioawk` . When dealing with big data, it's good to use parallelize, using both a general-purpose tool like [GNU Parallel](https://www.gnu.org/software/parallel/) and parallelized versions of existing tools, like [pigz](https://zlib.net/pigz/). Often, these tools are picked the hard way, as documented in this wonderfully informative blogpost about [analyzing 25TB of sequencing data](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/).
+There are also bioinformatic variants of classic UNIX tools, like `seqtk` and `bioawk` . When dealing with big data, it's good to parallelize your tasks, using both a general-purpose tool like [GNU Parallel](https://www.gnu.org/software/parallel/) and parallelized versions of existing tools, like [pigz](https://zlib.net/pigz/). Often, these tools are picked the hard way, as documented in this wonderfully informative blogpost about [analyzing 25TB of sequencing data](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/).
 
 ### Data Science at the Command Line
 
