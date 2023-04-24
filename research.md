@@ -18,9 +18,8 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ### Genomics (2021 - )
 
-I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I 
-co-author papers with our commercial and academic clients, write Application Notes and tutorials, and serve as second-line
-expertise for our tech support department.
+I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-author papers with our commercial and academic clients, write Application Notes and tutorials, and serve as second-line
+expertise for our tech support department. Most of my work have involved Mutagenesis projects  as published [here](https://www.biorxiv.org/content/10.1101/2023.02.22.529418v1) and [here](https://www.biorxiv.org/content/10.1101/2023.02.23.529719v1).
 
 I started out in the company as a senior Bioinformatics Scientist, analyzing genomic data for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests. A year later, I was promoted to lead the newly-formed Bioinformatics Solutions group within the larger Data Sciences Department.
 
