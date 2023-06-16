@@ -13,7 +13,7 @@ At its core, a linear model assumes that the outcome (both continuous or categor
 
 More complex linear models can include either `fixed` or `random` effects, or in the case of `mixed-effects`, both.
 
-*Cox proportional hazard* models are survival models that are based on regression.
+*Cox proportional hazard* models are survival models that are based on regression. *Time series* data can also be understood and predicted using linear models.
 
 LInear Models for MicroArray (limma) by [Gordon Smythe](https://www.wehi.edu.au/people/gordon-smyth), conceived for microarrays then extended for RNASeq, is used extensively in bioinformatics.
 
@@ -23,7 +23,7 @@ In simple cases, we have a handful of predictors affecting our outcome: for exam
 
 Generally speaking, we want to avoid overfitting models by using as few predictors as possible while still achieving reasonable accuracy. Assigning penalties, a.k.a. *regularization* can be helpful. **Lasso** ("Least Absolute Shrinkage and Selection Operator") by [Tibshirani](http://statweb.stanford.edu/~tibs/) and [Hastie](https://web.stanford.edu/~hastie/) shrinks the coefficients of certain predictors to zero, keeping other predictors in the model as "important" by assigning a penalty term (thus performing the "selection" function of its name). The lasso penalty term is the sum of the model's coefficients.
 
-Lasso works great if our predictors behave differently from each other, but if they are correlated, it will pick one correlated predictor over another since from its perspective, they are equally likely. Another issue with Lasso comes up when there are more predictors than observations (the so-called *p>n problem*), where Lasso will pick at most *n* predictors and shrink the rest away. An alternative approach is to use a different penalty term, specifically sum of *squares* of coefficients. This approach, called **ridge regression**, ensures that no predictor ever gets excluded from the model, effectively performing no selection.
+Lasso works great if our predictors behave differently from each other, but if they are correlated, it will pick one correlated predictor over another since from its perspective, they are equally likely. Another issue with Lasso comes up when there are more predictors than observations (the so-called *p>n problem*), where Lasso will pick at most *n* predictors and shrink the rest away. An alternative approach is to use a different penalty term, specifically the sum of *squares* of coefficients. This approach, called **ridge regression**, ensures that no predictor ever gets excluded from the model, effectively performing no selection.
 
 In a way, Lasso and ridge regression can be thought of as two extreme solutions to handling coefficients. The **elastic net** strikes a middleground between these extremes, including both penalty terms and solving the *p>n problem*.
 
@@ -41,10 +41,10 @@ It's also a good idea to perform *cross-validation*, dividing your dataset into 
 
 ### Implementations
 
-Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, a core installation often includes the `stats` package which provides the `lm()` and `glm()` functions. Regularization is supported by `glmnet`, `elasticnet`, among others.
+Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, a core installation often includes the `stats` package which provides the `lm()` and `glm()` functions. Regularization is supported by the `glmnet` and `elasticnet` packages, among others.
 
-In Python, the `linear_model` module in scikit-learn is fairly comprehensive, with OLS, regularization, logistic and GLM. Alternatvely, [statsmodels](https://www.statsmodels.org/stable/index.html) also provides these functionalities as well as survival and time series analysis.
+In Python, the `linear_model` module in **scikit-learn** is fairly comprehensive, with OLS, regularization, logistic and GLM. Alternatively, [statsmodels](https://www.statsmodels.org/stable/index.html) also provides these functionalities as well as survival and time series analysis.
 
 ### References
 
-Most general statistics books like the now-classic [Modern Applied Statistics with S](https://link.springer.com/book/10.1007/978-0-387-21706-2) and the more modern [An Introduction to Statistical Learning](https://www.statlearning.com/) include sections on linear models (the latter being much more accessible). Among books that focus specifically on linear models,  I find [Linear Models with R](https://people.bath.ac.uk/jjf23/LMR/index.html) and [Extending the Linear Model with R](https://people.bath.ac.uk/jjf23/ELM/index.html) from Julian Faraway particularly helpful though my reading of the field is by no means exhaustive.
+Most general statistics books like the now-classic [Modern Applied Statistics with S](https://link.springer.com/book/10.1007/978-0-387-21706-2) and the more modern [An Introduction to Statistical Learning](https://www.statlearning.com/) include sections on linear models (the latter being much more accessible). Among books that focus specifically on linear models, I find [Linear Models with R](https://people.bath.ac.uk/jjf23/LMR/index.html) and [Extending the Linear Model with R](https://people.bath.ac.uk/jjf23/ELM/index.html) from Julian Faraway particularly helpful, though my reading in the field is by no means exhaustive.
