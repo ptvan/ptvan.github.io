@@ -3,7 +3,7 @@ layout: post
 title: Command line tools for data cleaning and analysis
 ---
 
-Having been a UNIX user for a while, I know of the wonderful things built out of command line utilities, like one-liners in [awk](https://catonmat.net/awk-one-liners-explained-part-one), [sed](https://catonmat.net/sed-one-liners-explained-part-one), or even [bash] itself (http://www.bashoneliners.com). I also knew of Erick Matson's excellent guide to "second-generation" [shell tools](http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html) (`tmux`,`fd`, `ag`, etc.). You can use plain old shell scripting (`bash` as mentioned above, or something more modern like `zsh`), or wrapping it in [expect](https://core.tcl-lang.org/expect/index).
+Having been a UNIX user for a while, I know of the wonderful things built out of command line utilities, like one-liners in [awk](https://catonmat.net/awk-one-liners-explained-part-one), [sed](https://catonmat.net/sed-one-liners-explained-part-one), or even [bash](http://www.bashoneliners.com) itself. I also knew of Erick Matson's excellent guide to "second-generation" [shell tools](http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html) (`tmux`,`fd`, `ag`, etc.). The beauty of command link tools is you can chain them together, from the humble `cut`, `grep` to the new [verticalize](https://github.com/lindenb/verticalize), and you can wrapping your code in [expect](https://core.tcl-lang.org/expect/index) to handle interactivity.
 
 ### Bioinformatics and dealing with big data
 
