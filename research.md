@@ -4,7 +4,7 @@ title:
 permalink: /research/
 ---
 
-My resume is available here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you prefer a more formal, academic CV, that is also available: [PhuTVan-CV.pdf](PhuTVan-CV.pdf).
+My resume is available here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you prefer a more comprehensive academic CV, that is also available: [PhuTVan-CV.pdf](PhuTVan-CV.pdf).
 
 ## A brief summary
 
