@@ -3,7 +3,7 @@ layout: post
 title: Analyzing graphs and networks
 ---
 
-A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a small snippet of code [code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on gene networks (see below).
+A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a [small snippet of code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on gene networks (see below).
 
 ### Getting network data
 
@@ -11,13 +11,13 @@ There are many public sources of network data, notably [Stanford Large Network D
 
 ### Generating your own networks
 
-Rather than obtaining data on existing networks, you can also create a network using preset rules.  You can simply generate nodes with random attributes and place them using [Sobol sequences](https://cran.r-project.org/web/packages/SobolSequence/vignettes/sobolsequence.html), ensuring that the points are randomly but also evenly placed.
+Rather than obtaining data on existing networks, networks can also be generated _de novo_ using preset rules.  You can generate nodes with random attributes and place them using [Sobol sequences](https://cran.r-project.org/web/packages/SobolSequence/vignettes/sobolsequence.html), ensuring that the points are randomly but also evenly placed.
 
 More sophisticated network models include [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) or [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models).
 
-### Graph properties
+### Network properties
 
-Most networks have basic graph properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity) and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Graphs, especially multigraphs can pose interesting traversal problems, like [Eulerian](https://en.wikipedia.org/wiki/Hamiltonian_path) or [Hamiltonian path](https://en.wikipedia.org/wiki/Eulerian_path).
+Most networks have basic properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity)/homophily and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Graphs, especially multigraphs can pose interesting traversal problems, like [Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_path) or [Eulerian path](https://en.wikipedia.org/wiki/Eulerian_path). For statistical modeling, the Exponential Random Graph Model [ERGM] is a useful conceptualization of graphs.
 
 Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
