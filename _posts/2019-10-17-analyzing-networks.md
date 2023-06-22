@@ -13,11 +13,9 @@ There are many public sources of network data, notably [Stanford Large Network D
 
 Rather than obtaining data on existing networks, networks can also be generated _de novo_ using preset rules.  You can generate nodes with random attributes and place them using [Sobol sequences](https://cran.r-project.org/web/packages/SobolSequence/vignettes/sobolsequence.html), ensuring that the points are randomly but also evenly placed.
 
-More sophisticated network models include [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) or [exponential random graphs](https://en.wikipedia.org/wiki/Exponential_random_graph_models).
-
 ### Network properties
 
-Most networks have basic properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity)/homophily and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Graphs, especially multigraphs can pose interesting traversal problems, like [Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_path) or [Eulerian path](https://en.wikipedia.org/wiki/Eulerian_path). For statistical modeling, the Exponential Random Graph Model [ERGM] is a useful conceptualization of graphs.
+Most networks have basic properties like [assortativity](https://en.wikipedia.org/wiki/Assortativity)/homophily and [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Nodes also have [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory)) and [centrality](https://en.wikipedia.org/wiki/Centrality), which can be measured in several ways. Graphs, especially multigraphs can pose interesting traversal problems, like [Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_path) or [Eulerian path](https://en.wikipedia.org/wiki/Eulerian_path). For statistical modeling, the Exponential Random Graph Model [ERGM](https://en.wikipedia.org/wiki/Exponential_random_graph_models) and [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) are useful conceptualizations of networks.
 
 Depending on its _type_ of data, a network can also have additional properties brought on by the metadata of the nodes and edges, which you can query and model on.
 
