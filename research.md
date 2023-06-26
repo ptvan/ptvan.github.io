@@ -19,14 +19,25 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 ### Genomics (2021 - )
 
 I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-author papers with our commercial and academic clients, write Application Notes and tutorials, and serve as second-line
-expertise for our tech support department. One project I worked on assessed the reproducibility of our technology across
-multiple labs [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S1383571823000670). Another project I worked on compared the performance of our technology with the gold-standard LacZ test [link to paper](https://pubmed.ncbi.nlm.nih.gov/37341741/).
+expertise for our tech support department.
+
+One project I worked on assessed the reproducibility of our technology across multiple labs [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S1383571823000670).
+
+![HealthCanada_Inotive](/images/HealthCanada_Inotive_trinucleotide.jpg "HealthCanada_Inotive_trinucleotide.jpg")
+
+Another project I worked on compared DuplexSeq's mutagenic detection with the gold-standard LacZ test [link to paper](https://pubmed.ncbi.nlm.nih.gov/37341741/).
+
+![MutaMouse_PRC](/images/MutaMouse_PRC_MF.jpg "MutaMouse_PRC_MF.jpg")
 
 I started out in the company as a senior Bioinformatics Scientist, analyzing genomic data for commercial and academic clients, going from aligned reads to variants to modeling outcomes. I was also responsible for presenting findings and addressing post-analysis data requests. A year later, I was promoted to lead the newly-formed Bioinformatics Solutions group within the larger Data Sciences Department.
 
 ### Transcriptomics (2017 - 2020)
 
-I was the lead analyst on a project with collaborators at the [University of Washington](https://cerid.uw.edu/lab/hawn-lab) to identify genes that contribute to Tuberculosis resistance in African subjects. I performed data QC, genome alignment, transcript quantification, and downstream analyses (DEG, GSEA, functional annotation, network analysis, *etc*) [link to paper](https://www.jci.org/articles/view/140073). I also contributed [code](https://github.com/ptvan/r-snippets) to joint workflows and analyses and a co-author on a follow-up project on the same cohort. [link to paper](https://journals.asm.org/doi/full/10.1128/msphere.00159-22)
+I was the lead analyst on a project with collaborators at the [University of Washington](https://cerid.uw.edu/lab/hawn-lab) to identify genes that contribute to Tuberculosis resistance in African subjects. I performed data QC, genome alignment, transcript quantification, and downstream analyses (DEG, GSEA, functional annotation, network analysis, *etc*) [link to paper](https://www.jci.org/articles/view/140073).
+
+![RSTR_overview](/images/RSTR_overview.jpg "RSTR_overview.jpg")
+
+I also contributed [code](https://github.com/ptvan/r-snippets) to joint workflows and analyses and a co-author on a follow-up project on the same cohort. [link to paper](https://journals.asm.org/doi/full/10.1128/msphere.00159-22)
 
 Another project involved collaborators at the [South African Tuberculosis Vaccine Institute](http://www.satvi.uct.ac.za/) to identify possible diagnostic biomarkers for Tuberculosis. I performed my own analyses while also coordinating between Seattle and Cape Town teams in integrating transcriptomic, proteomic and antibody data.
 
