@@ -4,11 +4,11 @@ title:
 permalink: /research/
 ---
 
-My resume is available here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you prefer a more comprehensive academic CV, that is also available: [PhuTVan-CV.pdf](PhuTVan-CV.pdf).
+My resume is available here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you prefer something more academic and comprehensive, my CV is here: [PhuTVan-CV.pdf](PhuTVan-CV.pdf).
 
 ## A brief summary
 
-I'm currently the Bioinformatics Solutions Manager at [TwinStrand Biosciences](https://twinstrandbio.com/), managing a team of Bioinformatics Scientists working on cross-functional projects. Previously I worked as a postdoc, then an analyst at [Fred Hutch](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
+I'm currently the Bioinformatics Solutions Manager at [TwinStrand Biosciences](https://twinstrandbio.com/), managing a team of Bioinformatics Scientists working on cross-functional projects. Previously I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
 
 My greatest strength is adaptability: prior to working as an analyst, I have had success as [field ecologist](https://www.fs.usda.gov/colville), [photojournalist](https://makingtheprince.blogspot.com/2013/11/meet-author.html) and bioengineer. I am motivated and organized, having worked 3 jobs simultaneously through college and self-published an illustrated children's book through KickStarter in graduate school.
 
@@ -21,11 +21,11 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-author papers with our commercial and academic clients, write Application Notes and tutorials, and serve as second-line
 expertise for our tech support department.
 
-One project I worked on assessed the reproducibility of our technology across multiple labs [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S1383571823000670).
+One project I worked on assessed the reproducibility of duplex sequencing across multiple labs [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S1383571823000670).
 
 ![HealthCanada_Inotive](/images/HealthCanada_Inotive_trinucleotide.jpg "HealthCanada_Inotive_trinucleotide.jpg")
 
-Another project I worked on compared DuplexSeq's mutagenic detection with the gold-standard LacZ test [link to paper](https://pubmed.ncbi.nlm.nih.gov/37341741/).
+Another project I worked on compared DuplexSeq's mutagenic detection with the gold-standard *LacZ* test [link to paper](https://pubmed.ncbi.nlm.nih.gov/37341741/).
 
 ![MutaMouse_PRC](/images/MutaMouse_PRC_MF.jpg "MutaMouse_PRC_MF.jpg")
 
@@ -37,17 +37,17 @@ I was the lead analyst on a project with collaborators at the [University of Was
 
 ![RSTR_overview](/images/RSTR_overview.jpg "RSTR_overview.jpg")
 
-I also contributed [code](https://github.com/ptvan/r-snippets) to joint workflows and analyses and a co-author on a follow-up project on the same cohort. [link to paper](https://journals.asm.org/doi/full/10.1128/msphere.00159-22)
+I also contributed [code](https://github.com/ptvan/r-snippets) to joint workflows and analyses and was a co-author on a follow-up project on the same cohort. [link to paper](https://journals.asm.org/doi/full/10.1128/msphere.00159-22)
+
+My third publication during this period involved some data analysis for the RTS,S/AS01 vaccine for malaria. [link to paper](https://elifesciences.org/articles/70393).
 
 Another project involved collaborators at the [South African Tuberculosis Vaccine Institute](http://www.satvi.uct.ac.za/) to identify possible diagnostic biomarkers for Tuberculosis. I performed my own analyses while also coordinating between Seattle and Cape Town teams in integrating transcriptomic, proteomic and antibody data.
 
-My third project involved some data analysis for the RTS,S/AS01 vaccine for malaria. [link to paper](https://elifesciences.org/articles/70393).
-
-I also worked on developing a positivity call for Intracellular Cytokine Staining (ICS) data from HIV vaccine trials. The goal of this project is to increase accuracy of the ICS assay while reducing the number of markers required.
+Lastly also worked on developing a positivity call for Intracellular Cytokine Staining (ICS) data from HIV vaccine trials. The goal of this project is to increase accuracy of the ICS assay while reducing the number of markers required.
 
 ### Flow cytometry & mass cytometry (2014 - 2018)
 
-As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for analyzing high-dimensional flow-cytometry and mass-cytometry data. I also worked on ggCyto, an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/)
+As a postdoc, I helped extend [OpenCyto](http://opencyto.org), an open-source R software framework for analyzing high-dimensional flow-cytometry and mass-cytometry data. I also worked on [ggCyto](https://www.bioconductor.org/packages/release/bioc/html/ggcyto.html), an R package that enables ggplot-style plotting of flow- and mass-cytometry datasets. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6223365/)
 
 ![ggCyto](/images/ggcyto-example.jpg "ggcyto-example.jpg")
 
@@ -63,18 +63,18 @@ Lastly, I mentored three 2-person teams of CMU undergrads in preparing 2DE prote
 
 ### Microbial oxidative stress response network (2008 - 2009)
 
-Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extended version of [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression at the time implemented in R. This branch of the algorithm ended up being superseded, but you can see what I worked on in [this Github repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of oxidative stress response in the archaeon _Halobacterium salinarum_, which can survive extremely salty environments like the Great Salt Lake. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/)
+Working at the Institute for Systems Biology (ISB) as a research associate, I worked on an extension for [Inferelator](https://www.ncbi.nlm.nih.gov/pubmed/16686963), an algorithm for predicting regulators of gene expression, implemented in R at the time. This branch of the algorithm ended up being superseded, but you can see what I worked on in [this Github repository](https://github.com/ptvan/inferelator-ancient). This work enabled us to build and test a model of oxidative stress response in the archaeon *Halobacterium salinarum*, which can survive extremely salty environments like Utah's Great Salt Lake. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1987344/)
 
 ![EGRIN_OS network](/images/EGRIN_OS-network.jpg "EGRIN_OS-network.jpg")
 
 ### Microbial PeptideAtlas database and web portal (2006 - 2008)
 
-During my internship at ISB, I converted peptide mass spectra of _Halobacterium_ experiments from vendor-specific binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on the sequencing method used. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/)
+During my internship at ISB, I converted peptide mass spectra of *Halobacterium* experiments from vendor binary formats into mzXML, mapped spectra to peptides then loaded the proteins into SQLServer-backed web [portal](https://peptideatlas.org). We also found biases in peptide detection depending on the sequencing method used. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643335/)
 
 ![Halobacterium PeptideAtlas](/images/halopeptideatlas-peptidecount.jpg "halopeptideatlas-peptidecount.jpg")
 
 ### Geospatial model of rodent spread in Seattle (2006 - 2007)
 
-As part of our Bachelor theses, my University of Washington classmate and good friend Filip and I collected sightings of the rodent [nutria](https://en.wikipedia.org/wiki/Coypu) (Myocastor coypus) in western Washington, mainly in areas surrounding Union Bay. I create a linear model to predict the spread of the species in Seattle using R and ArcGIS. This project ended up informing a decision by the UW's Environmental Health and Safety not to undertake eradication efforts, since much of the nutria population was not surviving through the winters anyway.
+As part of our Bachelor theses, my University of Washington classmate and good friend Filip and I collected sightings of the rodent [nutria](https://en.wikipedia.org/wiki/Coypu) (*Myocastor coypus*) in western Washington, mainly in the area surrounding Union Bay. I created a linear model to predict the spread of the species in Seattle using R and ArcGIS. This project ended up informing a decision by the UW's Environmental Health and Safety not to undertake eradication efforts, since much of the nutria population was not surviving through the winters anyway.
 
 ![UBNA nutria map](/images/UBNA-model.jpg "UBNA-model.jpg")
