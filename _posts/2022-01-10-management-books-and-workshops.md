@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Management books & workshops
+title: Management books, workshops and advice
 ---
 
-Every grad student has to supervise younger students at some point in their career, and my experience managing 3 teams of undergrads were some of the highlights of my PhD experience. It was a relatively low-risk, informal introduction to management, I [learned a lot](https://medium.com/@nulzilla/10-pieces-of-advice-i-would-give-my-20-year-old-past-self-971017e0f5d) and I wanted more. After some more informal mentoring experiences at [FredHutch](https://fredhutch.org), I was a formal manager at my [next job](https://twinstrandbio.com), below are notes on some books  I have read on management.
+Every grad student has to supervise younger students at some point in their career, and my experience managing 3 teams of undergrads were some of the highlights of my PhD experience. It was a relatively low-risk, informal introduction to management, I [learned a lot](https://medium.com/@nulzilla/10-pieces-of-advice-i-would-give-my-20-year-old-past-self-971017e0f5d) and I wanted more. After some more informal mentoring experiences at [FredHutch](https://fredhutch.org), I was a formal manager at my [next job](https://twinstrandbio.com), below are notes I have collected on management.
 
 ### The 7 Habits of Highly Effective People (1989)
 
@@ -11,7 +11,11 @@ Good managers also need to be a good individual contributor, with good communica
 
 ### Berkeley New Manager Bootcamp (2021 offering)
 
-This is a course offered annually by [UCBerkeley](https://executive.berkeley.edu/programs/new-manager) through their Executive Education office. I took it as part of my promotion at TwinStrand and attended with other TwinStrand managers. The course attendees were a mix of existing and new managers coming from all over the world. Everyone was given a test to identify their "manager DNA" and corresponding advice. I liked the breakout sessions since they gave a broad exposure to the wide-range styles of people management.
+This is a course offered annually by [UCBerkeley](https://executive.berkeley.edu/programs/new-manager) through their Executive Education office. I took it as part of my promotion at TwinStrand and attended with other TwinStrand managers. The course attendees were a mix of existing and new managers coming from all over the world. Everyone was given a test to identify their "manager DNA" and corresponding advice. I liked the breakout sessions since they gave a broad exposure to the wide-range styles of people management. Here are some advice I have collected from conversations with other managers:
+
+- Reserve 15 minutes on Monday morning to block out your calendar for focus times or important tasks and cancel unnecessary meetings for the week.
+
+- Deliver criticisms in a "sandwich" format: start and end with a praise (_Note_: _The Making of A Manager_ below disagrees with this approach, saying it buries the criticism and gives a false sense of progress when you're seeking a correction).
 
 ### The Making of A Manager (2019)
 
