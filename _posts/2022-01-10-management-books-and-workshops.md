@@ -15,6 +15,12 @@ This is a course offered annually by [UCBerkeley](https://executive.berkeley.edu
 
 - Reserve 15 minutes on Monday morning to block out your calendar for focus times or important tasks and cancel unnecessary meetings for the week.
 
+- Be prepared to give instructions at least 3 times, especially when given verbally and/or the information is highly technical.
+
+- Don't be afraid to experiment and tweak your team culture.
+
+- Do not take obstacles personally, even if they came from a specific person. Go above or around them.
+
 - Deliver criticisms in a "sandwich" format: start and end with a praise (_Note_: _The Making of A Manager_ below disagrees with this approach, saying it buries the criticism and gives a false sense of progress when you're seeking a correction).
 
 ### The Making of A Manager (2019)
