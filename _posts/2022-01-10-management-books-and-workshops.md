@@ -11,11 +11,11 @@ Good managers also need to be a good individual contributor, with good communica
 
 ### Berkeley New Manager Bootcamp (2021 offering)
 
-This is a course offered annually by [UCBerkeley](https://executive.berkeley.edu/programs/new-manager) through their Executive Education office. I took it as part of my promotion at TwinStrand and attended with other TwinStrand managers. The course attendees came from all over the world and were a mix of existing and new managers. Everyone was given a test to identify their "manager DNA" and corresponding advice. I liked the breakout sessions since they gave a broad exposure to the wide-range styles of people management.
+This is a course offered annually by [UCBerkeley](https://executive.berkeley.edu/programs/new-manager) through their Executive Education office. I took it as part of my promotion at TwinStrand and attended with other TwinStrand managers. The course attendees were a mix of existing and new managers coming from all over the world. Everyone was given a test to identify their "manager DNA" and corresponding advice. I liked the breakout sessions since they gave a broad exposure to the wide-range styles of people management.
 
 ### The Making of A Manager (2019)
 
-This book was recommended to me during the bootcamp above, appropriately, since the author became a manager when Facebook was a startup like I was at TwinStrand. The book provides some good first questions to ask your team to set expectations both for when you're inheriting an existing team, or starting a new one. Some things I highlighted in this book are paraphrased below:
+This book was recommended to me during the bootcamp above, appropriately, since the author became a manager when Facebook was a startup like I was at TwinStrand. The book provides some good first questions to ask your team to set expectations both for when you're inheriting an existing team, or starting a new one. There were some advice about how to work in a large organization (running townhall meetings, how to work with other managers). Other things I highlighted in this book are paraphrased below:
 
 - If your report feels that your respect are based only on their performance, they will struggle to be honest when things are rocky. If instead they feel you care about them as individuals, you will get honesty in return.
 
@@ -25,4 +25,4 @@ This book was recommended to me during the bootcamp above, appropriately, since 
 
 - If a team member is a poor fit despite your effort and theirs to make things work, let them go (first elsewhere in the organization, then departing) rather have them stay too long.
 
-- Be prompt and specific when sharing feedback, provide examples and solutions. Confirm takeaways at the end to make sure there is no misunderstanding.
+- Set up regular Q&A sessions to solicit feedback and create an environment where feedback is encouraged. Be prompt and specific when _sharing_ feedback, provide examples and solutions. Confirm takeaways at the end to make sure there is no misunderstanding.
