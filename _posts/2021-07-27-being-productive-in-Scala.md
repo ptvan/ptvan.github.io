@@ -3,13 +3,13 @@ layout: post
 title: Being productive in Scala
 ---
 
-A long time ago, when the Earth's crust had just cooled, I learned Java. Some years later, my best friend told me about [Clojure](https://clojure.org/), a functional language that compiles to the JVM. The idea was intriguing to me, but at that point, I felt it was maybe a little niche (my friend had pitched Clojure as a language to do massively parallel simulations). Since then, other languages targeting the JVM had popped up. I re-entered the fray with Scala.
+A long time ago, when the Earth's crust had just cooled, I learned Java. Some years later, my best friend told me about [Clojure](https://clojure.org/), a functional language that compiles to the JVM. The idea was intriguing to me, but at that point, I felt Clojure was maybe a little niche (my friend had pitched Clojure as a language to do massively parallel simulations). Since then, other languages targeting the JVM had popped up. I re-entered the fray with Scala while playing with [Spark](https://ptvan.github.io/recommender-systems), and am aware of at least one group that uses [Scala on a regular basis](https://github.com/fulcrumgenomics/fgbio).
 
 ### Language features
 
 Scala is an object-oriented programming language due to objects being first-class entities, _ie._ everything is an object. Scala is also a functional programming language, with emphasis on recursion, minimizing side-effects and being able to pass functions as arguments.
 
-Despite their similarities, Scala's syntax can trip up [Java programmers](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html) since some common things in Java (*static* keyword, *break* statements, etc. ) [do not exist in Scala](http://jim-mcbeath.blogspot.com/2008/09/scala-syntax-primer.html) and other things are subtly different (infix statements)
+Despite their similarities, Scala's syntax can trip up [Java programmers](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html) since some common things in Java (_static_ keyword, _break_ statements, etc. ) [do not exist in Scala](http://jim-mcbeath.blogspot.com/2008/09/scala-syntax-primer.html) and other things are subtly different (infix statements).
 
 ### Building Scala code
 
