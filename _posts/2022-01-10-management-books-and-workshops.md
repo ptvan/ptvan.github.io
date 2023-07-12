@@ -19,7 +19,7 @@ This is a course offered annually by [UCBerkeley](https://executive.berkeley.edu
 
 - Don't be afraid to experiment and tweak your team culture.
 
-- Do not take obstacles personally, even if they came from a specific person. Go above or around them.
+- Don't take obstacles personally, even if they came from a specific person. Go above or around the obstacle.
 
 - Deliver criticisms in a "sandwich" format: start and end with a praise (_Note_: _The Making of A Manager_ below disagrees with this approach, saying it buries the criticism and gives a false sense of progress when you're seeking a correction).
 
