@@ -3,7 +3,7 @@ layout: post
 title: Designing Data-Intensive Applications book
 ---
 
-I've run across Martin Kleppman's [Designing Data-Intensive Applications](https://dataintensive.net/) book before, and it sounded interesting. A few weeks ago a colleague mentioned it again in passing, so I thought it was time to finally read it. Below are my thoughts, added as I work my way through the book:
+I've run across Martin Kleppman's [Designing Data-Intensive Applications](https://dataintensive.net/) book before, and it sounded interesting. A few weeks ago a colleague mentioned it again in passing, so I thought it was time to finally read it. Below are my notes, added as I work my way through the book:
 
 ### Chapter 1: Introduction
 
@@ -55,6 +55,10 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 
 ### Chapter 5: Replication
 
-1. There are 3 major modes of replicating data between different machines: _leaderless_, _single-leader_ and _multi-leader_. Furthermore, the replication can also be either _synchronous_ or _asynchronous_. Synchronous replication has the benefit of being sure that the data is always up-to-date, but if there is a break in communication, the write is not processed. As a result, typical setups will implement a compromise of having one synchronous follower and the rest being asynchronous.
+1. There are 3 major modes of replicating data between different nodes: _leaderless_, _single-leader_ and _multi-leader_. Furthermore, the replication can also be either _synchronous_ or _asynchronous_. Synchronous replication has the benefit of being sure that the data is always up-to-date, but if there is a break in communication, the write is not processed. As a result, typical setups will implement a compromise of having one synchronous follower and the rest being asynchronous. Replication can be statement-, row- or trigger-based.
 
-2. Replication can be statement-, row- or trigger-based.
+2. Multi-leader replication provides the largest scale of replication (_ie._ across data centers) but when they are retrofitted to existing systems there are be subtle pitfalls and should only be used as last resort. Some examples of multi-leader implementations are: [Tungsten Replicator](https://www.continuent.com/products/tungsten-replicator) (mySQL/mariaDB), [BDR](https://www.2ndquadrant.com/en/resources-old/postgres-bdr-2ndquadrant/) (PostgresSQL) and [GoldenGate](https://www.oracle.com/integration/goldengate/)(Oracle).
+
+3. In leaderless replication, clients send writes and reads to several nodes in parallel in order to ensure all nodes have most up-to-date data.
+
+4. Resolving conflicting changes can be performed either _on-write_ or _on-read_. Some strategies for resolving conflicting changes are: giving writes unique IDs, giving replicas unique IDs, merging changes, or prompting user to perform the resolution.
