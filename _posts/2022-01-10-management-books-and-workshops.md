@@ -36,3 +36,17 @@ This book was recommended to me during the bootcamp above, appropriately, since 
 - If a team member is a poor fit despite your effort and theirs to make things work, let them go (first elsewhere in the organization, then departing) rather have them stay too long.
 
 - Set up regular Q&A sessions to solicit feedback and create an environment where feedback is encouraged. Be prompt and specific when _sharing_ feedback, provide examples and solutions. Confirm takeaways at the end to make sure there is no misunderstanding.
+
+### The Effective Executive (1966)
+
+A co-worker recommended this book saying that despite the title, the advice in it can readily be applied to everyone, not just C-suite managers. The author Peter Drucker is credited with, among other things, the phrase "culture eats strategy for breakfast". The practices of the "effective executive" are:
+
+1. Actively keep track and manage time
+
+2. Focus on results rather than the amount of effort required
+
+3. Focus on your strengths and strengths of your subordinates, rather than the shortcomings
+
+4. Prioritize areas where you can be disproportionately effective, eliminate other areas
+
+5. Consider dissenting opinions when making decisions, picking few strategic decisions rather than many tactical ones
