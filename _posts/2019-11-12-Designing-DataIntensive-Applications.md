@@ -62,3 +62,13 @@ I've run across Martin Kleppman's [Designing Data-Intensive Applications](https:
 3. In leaderless replication, clients send writes and reads to several nodes in parallel in order to ensure all nodes have most up-to-date data.
 
 4. Resolving conflicting changes can be performed either _on-write_ or _on-read_. Some strategies for resolving conflicting changes are: giving writes unique IDs, giving replicas unique IDs, merging changes, or prompting user to perform the resolution.
+
+### Chapter 6: Partitioning
+
+1. Partitioning, breaking data up into _partitions_ is called different things in different implementations: _shards_, _regions_, _tablets_, _vnodes_ and _vBuckets_ .
+
+2. Data should be allocated evenly across partitions, avoiding _skew_.
+
+3. Partitioning can done by keys, or _hashes of keys_.
+
+4. Skewed data needs to be _rebalanced_ to avoid _hotspots_, where processing takes more time
