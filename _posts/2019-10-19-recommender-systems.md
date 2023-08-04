@@ -3,7 +3,7 @@ layout: post
 title: Recommender Systems
 ---
 
-I like movies, particularly cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies). Some common approaches to recommender systems are:
+I enjoy movies, particularly film critique and cinematography (you should check out the excellent YouTube series [Every Frame A Painting](https://www.youtube.com/user/everyframeapainting) for some thoughtful discussions on these topics). When looking for sample data to play with recommender systems, I compiled a list of movies I have seen, and my personal 1-10 rating for them [here](https://github.com/ptvan/movies). Some common approaches to recommender systems are:
 
 ### Demographic-based Recommendation
 
@@ -41,6 +41,10 @@ Here we're recommending movies with synopses similar to the ones the user likes.
 3. Reduced the synopsis into keywords using the Rapid Automatic Keyword Extraction ([RAKE](https://pypi.org/project/rake-nltk/)) algorithm, which is part of the Python Natural Language Toolkit ([NLTK](https://www.nltk.org/)).
 4. Calculate similarity between the movies' keywords. [Cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is often used, but other metrics could also work.
 5. Create a `recommendations()` function that gives the most similar movies (shortest cosine distance) to the one the user gives.
+
+### Evaluating recommendations
+
+Though accuracy is a traditional metric in recommendations, _serendipity_ or the ability of a recommendation to pleasantly surprise you, is also important, as eloquently explained in Eugene Yan's [blog post](https://github.com/ptvan/movies).
 
 ### References
 
