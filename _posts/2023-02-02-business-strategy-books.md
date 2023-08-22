@@ -34,3 +34,7 @@ The chapters have individual lessons that derive from these patterns:
 - Successful companies embrace changing market conditions and consumer tastes and adapt quickly, rather than holding on dogmatically to their original "mission".
 
 I don't see market value as the sole determinant of a company's greatness (though there is a strong business case for that view).
+
+### Lights Out (2020)
+
+I had reservations about this book and another book that covered the fall of General Electric ("Power Failure"). On the one hand, I appreciate the value of learning from your mistakes, and emergent complex mistakes that arise from large systems like multinational corporations are interesting. On the other hand, it's easier to explain why something fail than why it succeeds.

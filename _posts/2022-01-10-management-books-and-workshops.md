@@ -50,3 +50,5 @@ A co-worker recommended this book saying that despite the title, the advice in i
 4. Prioritize areas where you can be disproportionately effective, eliminate other areas
 
 5. Consider dissenting opinions when making decisions, picking few strategic decisions rather than many tactical ones
+
+### The Art of Action (2012)
