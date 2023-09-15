@@ -23,7 +23,7 @@ Some trends they observed in companies that transition from Good to Great are:
 
 - Mergers and acquisitions do not guarantee success, merging two mediocre companies results in a larger mediocre company.
 
-The chapters have individual lessons that derive from these patterns:
+The chapters have individual lessons that derive from these trends:
 
 - Prioritizing hiring good leaders over fleshing out strategy, since conditions can change that render old plans obsolete, but a good team would be able to adapt to those changes
 
@@ -33,8 +33,18 @@ The chapters have individual lessons that derive from these patterns:
 
 - Successful companies embrace changing market conditions and consumer tastes and adapt quickly, rather than holding on dogmatically to their original "mission".
 
-I don't see market value as the sole determinant of a company's greatness (though there is a strong business case for that view).
+While there is certainly a strong business case for market value as the indicator of a company's success, I don't see it as the only trait that matters.
 
 ### Lights Out (2020)
 
-I had reservations about this book and another book that covered the fall of General Electric ("Power Failure"). On the one hand, I appreciate the value of learning from your mistakes, and emergent complex mistakes that arise from large systems like multinational corporations are interesting. On the other hand, it's easier to explain why something fail than why it succeeds.
+I had reservations about this book and another book that covered the fall of General Electric ("Power Failure"). On the one hand, I appreciate the value of learning from your mistakes, and complex mistakes that arise from large organizations are interesting. On the other hand, hindsight is 20/20 it's easier to hypothesize why something fail than why it succeeds, especially from the outside.
+
+According to the author, GE's problems were:
+
+- Spiraling underperformance of the turbine division due to the global transition to wind and solar which was covered up by accounting
+
+- CEO transition in 2001 overlapping with the 9/11 attacks, which affected GE's core business of airplanes, insurance and power generation
+
+- A complex organization: workers often reported to multiple bosses, including finance
+
+- A changing financial landscape, including the passage of Sarbanes-Oxley Act which made GE Capital unable to absorb fluctuating performance
