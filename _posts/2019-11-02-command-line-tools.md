@@ -21,7 +21,7 @@ Increasing in complexity, the book also covers [Drake](https://github.com/Factua
 
 Finally, the author covered [Weka](https://www.cs.waikato.ac.nz/ml/weka/), a Java-based tool for clustering/regression and [BigML](https://bigml.com/) for applying ML models.
 
-The second edition added more tools: [Tapkee](https://tapkee.lisitsyn.me/) for dimensional reduction, regression with [Vowpal Wabbit](https://vowpalwabbit.org/), among others.
+The second edition added more tools: [Tapkee](https://tapkee.lisitsyn.me/) for dimensional reduction, regression with [Vowpal Wabbit](https://vowpalwabbit.org/), among others. The author also contributed additional utilities in his [own GitHub Repo](https://github.com/jeroenjanssens/data-science-at-the-command-line).
 
 ### Other Tools
 
