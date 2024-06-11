@@ -8,7 +8,7 @@ My resume is available here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you pr
 
 ## A brief summary
 
-I'm currently Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/). Previously I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
+Most recently I was Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/). Previously I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
 
 My greatest strength is adaptability: prior to working as an analyst, I have had success as [field ecologist](https://www.fs.usda.gov/colville), [photojournalist](https://makingtheprince.blogspot.com/2013/11/meet-author.html) and bioengineer. I am motivated and organized, having worked 3 jobs simultaneously through college and self-published an illustrated children's book through KickStarter in graduate school.
 
@@ -16,15 +16,19 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ## Detailed descriptions of major projects
 
-### Genomics (2021 - )
+### Genomics (2021 - 2024May)
 
-I currently act as a subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-author papers with our commercial and academic clients, write Application Notes and tutorials, and serve as second-line expertise for our tech support department.
+I acted as subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-authored papers with our commercial and academic clients, wrote Application Notes and tutorials, and served as second-line expertise for our tech support department.
 
-Most recently, I performed analyses comparing TwinStrand technology to the transgenic rodent assay (TGR) and the alkaline comet assay for detecting mutations induced by NDEA, a common carcinogen [link to paper](https://www.sciencedirect.com/science/article/pii/S1383571823001031).
+Most recently, I analyzed duplex sequencing data for a Liver-On-Chip (LOC) system, deconvolving mutations from the LOC's complex mixture of cell types to remove contamination and assess the system's response to different mutagens. [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S138357182400038X)
+
+![CRL_LOC_MFs](/images/CRL_LOC_MF.jpg "CRL_LOC_MF.jpg")
+
+Another project I worked on compared TwinStrand technology to the transgenic rodent assay (TGR) and the alkaline comet assay for detecting mutations induced by NDEA, a common carcinogen [link to paper](https://www.sciencedirect.com/science/article/pii/S1383571823001031).
 
 ![NDEA_simple_spectra](/images/NDEA_simple_spectra.jpg "NDEA_simple_spectra.jpg")
 
-Another project I worked on assessed the reproducibility of duplex sequencing across multiple labs [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S1383571823000670).
+Yet another project I worked on assessed the reproducibility of duplex sequencing across multiple labs [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S1383571823000670).
 
 ![HealthCanada_Inotive](/images/HealthCanada_Inotive_trinucleotide.jpg "HealthCanada_Inotive_trinucleotide.jpg")
 
