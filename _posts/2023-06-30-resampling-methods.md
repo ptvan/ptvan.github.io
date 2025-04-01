@@ -3,7 +3,7 @@ layout: post
 title: Resampling methods and Introduction To The Bootstrap book
 ---
 
-Personally we all like to have good luck. Professionally however, a "lucky" set of scientific results creates more problems than it solves, giving us false sense of success culminating in a biased view of reality. Whether you work at the wet bench or entirely _in silico_, a common question that comes up in research is: how likely was my results ? I find myself pondering this question often, and decided read up on bootstrapping and write down things I have learned.
+As humans we all like to have good luck. Professionally however, a "lucky" set of scientific results creates more problems than it solves, giving us false sense of success culminating in a biased view of reality. Whether you work at the wet bench or entirely _in silico_, a common question that comes up in research is: how likely was my results ? I find myself pondering this question often, and decided read up on bootstrapping and write down things I have learned.
 
 Conceptually, resampling is pretty simple: it just means creating new samples by drawing from your existing observation (usually with replacement). Doing this gives you some additional insights into your data in the form of parameter estimates for the population your observation was drawn from. In the case of my "how likely was my results ?" question, the parameter estimate I was looking for was the standard error.
 
