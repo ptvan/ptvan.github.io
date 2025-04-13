@@ -25,4 +25,4 @@ The second edition added more tools: [Tapkee](https://tapkee.lisitsyn.me/) for d
 
 ### Other Tools
 
-Since manipulating structured text is such a common task, there are [quite a few tools available](https://github.com/dbohdan/structured-text-tools). Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, since in addition to CSV/TSV it can also handle JSON, inviting natural comparisons to [JQ](https://stedolan.github.io/jq/), though the latter has a much stronger focus on JSON.
+Since manipulating structured text is such a common task, there are [quite a few tools available](https://github.com/dbohdan/structured-text-tools). Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, being able to not simply parse CSVs, but also perform SQL-like queries and joins, calculate summary statistics and perform basic regression. Miller will also handle JSONs. Though if you're working with JSONs a lot, it's probably better to use [JQ](https://stedolan.github.io/jq/) and [similar JSON utilities](https://github.com/fiatjaf/awesome-jq).
