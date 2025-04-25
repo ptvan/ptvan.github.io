@@ -21,7 +21,7 @@ The [Data Science at the Command Line](https://www.datascienceatthecommandline.c
 
 While I'm familiar with many of the tools the author covered, at the time I have not heard of [Vagrant](https://www.vagrantup.com/docs/cli/) and was only vaguely aware of [csvkit](https://source.opennews.org/articles/eleven-awesome-things-you-can-do-csvkit/)'s extensive capabilities. I like it when tools stay true to the UNIX ethos of "do one thing, do it well", but it's nice to have a comprehensive toolkit for a narrowly-defined task. Not re-inventing the wheel is a noble goal to strive for.
 
-Increasing in complexity, the book also covers [Drake](https://github.com/Factual/drake), "GNU make for data", then onto visualization. I have to admit, I'm a little less convinced about using command line tools to visualize data. Sure, [ImageMagick](https://imagemagick.org) is very powerful and have saved me tons of time processing images in batch mode, but calling ```tee some_exploratory_plot.png | display``` everytime seems a little tedious to me. **UPDATE: see below**
+Increasing in complexity, the book also covers [Drake](https://github.com/Factual/drake), "GNU make for data", then onto visualization. ~~I have to admit, I'm a little less convinced about using command line tools to visualize data. Sure, [ImageMagick](https://imagemagick.org) is very powerful and have saved me tons of time processing images in batch mode, but calling ```tee some_exploratory_plot.png | display``` every time seems a little tedious to me~~. **UPDATE: see below**
 
 Finally, the author covered [Weka](https://www.cs.waikato.ac.nz/ml/weka/), a Java-based tool for clustering/regression and [BigML](https://bigml.com/) for applying ML models.
 
