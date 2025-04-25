@@ -5,6 +5,10 @@ title: Command line tools for data cleaning and analysis
 
 Having been a UNIX user for a while, I know of the wonderful things built out of command line utilities, like one-liners in [awk](https://catonmat.net/awk-one-liners-explained-part-one), [sed](https://catonmat.net/sed-one-liners-explained-part-one), or even [bash](http://www.bashoneliners.com) itself. I also knew of Erick Matson's excellent guide to "second-generation" [shell tools](http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html) (`tmux`,`fd`, `ag`, etc.). The beauty of command line tools is you can chain them together, from the humble `cut`, `grep` to the new [verticalize](https://github.com/lindenb/verticalize), and you can wrapping your code in [expect](https://core.tcl-lang.org/expect/index) to handle interactivity.
 
+### Processing text: CSV and JSON
+
+Since manipulating structured text is such a common task, there are [quite a few tools available](https://github.com/dbohdan/structured-text-tools). Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, being able to not simply parse CSVs, but also perform SQL-like queries and joins, calculate summary statistics and perform basic regression. Miller will also handle JSONs. Though if you're working with JSONs a lot, it's probably better to use [JQ](https://stedolan.github.io/jq/) and [similar JSON utilities](https://github.com/fiatjaf/awesome-jq).
+
 ### Bioinformatics and dealing with big data
 
 Working in bioinformatics, I have also come across a whole cottage industry of [bioinformatics oneliners](https://github.com/stephenturner/oneliners) using `bcftools` and `samtools` (and their refined variants, eg. [sambamba](https://lomereiter.github.io/sambamba/)). For FASTQ files there is the excellent [fastp](https://github.com/OpenGene/fastp). To glue these tools together, there are workflow managers as I have described in a [previous post](https://ptvan.github.io/workflow-managers/).
@@ -23,6 +27,6 @@ Finally, the author covered [Weka](https://www.cs.waikato.ac.nz/ml/weka/), a Jav
 
 The second edition added more tools: [Tapkee](https://tapkee.lisitsyn.me/) for dimensional reduction, regression with [Vowpal Wabbit](https://vowpalwabbit.org/), among others. The author also contributed additional utilities in his [own GitHub Repo](https://github.com/jeroenjanssens/data-science-at-the-command-line).
 
-### Other Tools
+### Visualizing data in the command line
 
-Since manipulating structured text is such a common task, there are [quite a few tools available](https://github.com/dbohdan/structured-text-tools). Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, being able to not simply parse CSVs, but also perform SQL-like queries and joins, calculate summary statistics and perform basic regression. Miller will also handle JSONs. Though if you're working with JSONs a lot, it's probably better to use [JQ](https://stedolan.github.io/jq/) and [similar JSON utilities](https://github.com/fiatjaf/awesome-jq).
+Visualizing data in the command line used to mean _exporting_ your figures into JPG/PNG files, then opening them with another GUI program. However, now you can feed your CSV (or even STDIN pipes, from say, your favorite [light-weight database](https://duckdb.org)) into [YouPlot](https://github.com/red-data-tools/YouPlot) and make plots appear in the command line. 
