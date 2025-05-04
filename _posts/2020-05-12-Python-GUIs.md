@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Building Graphical User Interfaces for Python code
+title: Building desktop Graphical User Interfaces for Python code
 ---
 
-When working in R, my work mostly involved reproducible analyses, and consisted mostly of scripts. For the occasional interactive report, [Shiny](https://shiny.rstudio.com) works well for wrapping graphical interfaces around R scripts that can be made into stand-alone applications. For building GUIs in Python, there are more options, including `tkinter`, `wxPython` and `PyQt`.
+When working in R, my work mostly involved reproducible analyses, and consisted mostly of scripts. For the occasional interactive report, [Shiny](https://shiny.posit.co) works well for wrapping graphical interfaces around R scripts that can be made into stand-alone applications. For building Python GUI apps, there are more options, including `tkinter`, `wxPython` and `PyQt`.
 
 ### A graphical batch file renamer
 
