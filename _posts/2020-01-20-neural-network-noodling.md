@@ -11,7 +11,7 @@ The idea of artificial neural networks has been around since at least 1940s in t
 
 ### Network tuning
 
-One of the interesting and frustrating problems in modeling complex data is overfitting. The solution often involves a combination of picking the right tools, then knowing how to interpret their output. In a neural network context once you've picked the appropriate [architecture](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464), the right [activation functions](https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/), you may need to implement [dropout](http://jmlr.org/papers/v15/srivastava14a.html).
+One of the interesting and frustrating problems in modeling complex data is overfitting. The solution often involves a combination of picking the right tools, then knowing how to interpret their output. In a neural network context once you've picked the appropriate [architecture](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464), the right [activation functions](https://www.analyticssteps.com/blogs/7-types-activation-functions-neural-network), you may need to implement [dropout](http://jmlr.org/papers/v15/srivastava14a.html).
 
 [Neural Smithing](https://mitpress.mit.edu/books/neural-smithing) covers some network tuning issues.
 

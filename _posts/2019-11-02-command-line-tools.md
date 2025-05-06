@@ -7,7 +7,7 @@ Having been a UNIX user for a while, I know of the wonderful things built out of
 
 ### Processing text: CSV and JSON
 
-Since manipulating structured text is such a common task, there are [quite a few tools available](https://github.com/dbohdan/structured-text-tools). Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, being able to not simply parse CSVs, but also perform SQL-like queries and joins, calculate summary statistics and perform basic regression. Miller will also handle JSONs. Though if you're working with JSONs a lot, it's probably better to use [JQ](https://stedolan.github.io/jq/) and [similar JSON utilities](https://github.com/fiatjaf/awesome-jq).
+Since manipulating structured text is such a common task, there are [quite a few tools available](https://github.com/dbohdan/structured-text-tools). Recently, [Miller](https://github.com/johnkerl/miller/) has gained in popularity, being able to not simply parse CSVs, but also perform SQL-like queries and joins, calculate summary statistics and perform basic regression. Miller will also handle JSONs. Though if you're working with JSONs a lot, it's probably better to use [JQ](https://jqlang.org/) and [similar JSON utilities](https://github.com/fiatjaf/awesome-jq).
 
 ### Bioinformatics and dealing with big data
 

@@ -7,7 +7,7 @@ A while back, my labmate Ju showed me a visualization he was working on to explo
 
 ### Getting network data
 
-There are many public sources of network data, notably [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/), [UCIrvine Network Data Repository](http://networkdata.ics.uci.edu/), [KONECT](http://konect.uni-koblenz.de/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/). Biological data can be obtained from [KEGG](https://www.genome.jp/kegg/) or [STRING](https://string-db.org/).
+There are many public sources of network data, notably [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/), [UCIrvine Network Data Repository](http://networkdata.ics.uci.edu/), [KONECT](http://konect.cc/networks/) and academic groups like [Uri Alon](http://www.weizmann.ac.il/mcb/UriAlon/download/collection-complex-networks) and [Mark Newman](http://www-personal.umich.edu/~mejn/netdata/). Biological data can be obtained from [KEGG](https://www.genome.jp/kegg/) or [STRING](https://string-db.org/).
 
 ### Generating your own networks
 
@@ -40,7 +40,7 @@ For Python, [NetworkX](https://networkx.github.io/) is fairly mature package. Fo
 
 More interesting but complex are networks whose nodes, edges or attributes change over time. These can be relatively simple, like the classic social network [Marriage and Elite Structure in Renaissance Florence, 1282-1500](http://home.uchicago.edu/jpadgett/papers/unpublished/maelite.pdf), to the more complex network of healthy and infected people during the [2019-2020 coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic). These coronavirus networks are [varied](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/), ranging from classic [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) to much more sophisticated models, some are modelled and visualized using networks. One of the more informative explanations of epidemic simulations I have found is this [demonstration from Grant Sanderson](https://www.youtube.com/watch?v=gxAaO2rsdIs).
 
-I should note that while the tools are readily available, _eg._ from the [Institute for Disease Modeling](https://www.idmod.org/software), epidemiologic models require considerable expertise to properly parameterize and interpret, so they are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19).
+I should note that while the tools are readily available, _eg._ from the [Institute for Disease Modeling](https://www.idmod.org/all-tools/), epidemiologic models require considerable expertise to properly parameterize and interpret, so they are [prone to misuse by novices](https://www.tableau.com/about/blog/2020/4/you-are-almost-definitely-not-qualified-make-predictions-about-covid-19).
 
 ### References
 

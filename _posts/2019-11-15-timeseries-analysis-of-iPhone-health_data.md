@@ -37,7 +37,7 @@ For forecasting, extensions to STL could be used (eg. STLM, STLF), or depending 
 
 ### Time-series data sources
 
-Since my personal datasets are tiny, it's good to know sources for larger, richer datasets. Along with the well-known Kaggle [time-series datasets](https://www.kaggle.com/tags/time-series), the US Centers for Disease Control sponsors a competition to forecast flu spread at [FluSight](https://predict.cdc.gov/), providing ground truth using actual flu surveillance data along with test sets.
+Since my personal datasets are tiny, it's good to know sources for larger, richer datasets. Along with the well-known Kaggle [time-series datasets](https://www.kaggle.com/datasets?search=timeseries), ~~the US Centers for Disease Control sponsors a competition to forecast flu spread at [FluSight](https://predict.cdc.gov/), providing ground truth using actual flu surveillance data along with test sets.~~ (discontinued in 2025)
 
 ### Reference
 

@@ -15,7 +15,7 @@ This is where recommendations would be made based on the user's current context 
 
 ### Collaborative Filtering
 
-This is where I would look at people who like similar movies to me. The general assumption is that people who liked similar movies in the past will also like similar movies in the future. Collaborative filtering got attention in the wake othe [Netflix Prize](https://www.netflixprize.com/), where some competitors used [matrix factorization](https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)) on the matrix of reviews. One complication, called the "cold start" problem, is that since not everyone will have seen every movie, this matrix can be very sparse.
+This is where I would look at people who like similar movies to me. The general assumption is that people who liked similar movies in the past will also like similar movies in the future. Collaborative filtering got attention in the wake of the [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize), where some competitors used [matrix factorization](https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)) on the matrix of reviews. One complication, called the "cold start" problem, is that since not everyone will have seen every movie, this matrix can be very sparse.
 
 For my exercise, [MovieLens](https://grouplens.org/datasets/movielens/) has 2 free datasets available for public use: a more recent, frequently updated set with ~100,000 ratings and and larger archived set ~27,000,000 ratings. First, I had to clean my data a bit. Turns out, there are quite a few movies with the same titles (eg. "Richard III", or "Aladdin") but for simplicity's sake I simply [excluded them](https://github.com/ptvan/movies/blob/master/clean_movies_for_ALS.py).
 
