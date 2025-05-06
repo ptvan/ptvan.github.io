@@ -3,11 +3,11 @@ layout: post
 title: Neural network noodling
 ---
 
-One lesson I took away from my time in graduate school was the importance of understanding things from first principles. So for learning about neural networks, I really enjoyed reading [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), which implements neural networks using only `numpy`, keeping the reader from being bogged down with implementation details. Another excellent introduction is [this video](https://www.manning.com/livevideo/3blue1brown-neural-networks) video from Grant Sanderson*, which also goes into mathematical details. After that, Michael Nielsen's [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) is a good followup.
+One lesson I learned during graduate school was the importance of understanding things from first principles. So for learning about neural networks, I really enjoyed reading [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), which implements neural networks using only `numpy`, keeping the reader from being bogged down with implementation details. Another excellent introduction is [this video](https://www.manning.com/livevideo/3blue1brown-neural-networks) from Grant Sanderson*, which also goes into mathematical details.  If you prefer watching videos rather than reading, Josh Starmer's [StatQuest Neural Networks playlist](https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1) is also excellent. After that, Michael Nielsen's [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) is a good followup.
 
 ### A bit of history
 
-The idea of artificial neural networks has been around since at least 1940s in the form of [Hebbian theory](https://en.wikipedia.org/wiki/Hebbian_theory). But neural networks really took off after Geoffrey Hinton's [famous 1986 paper](https://www.nature.com/articles/323533a0) on backpropagation combined with the availability of big datasets and increased computational power.
+The idea of artificial neural networks has been around since at least 1940s in the form of [Hebbian theory](https://en.wikipedia.org/wiki/Hebbian_theory). But neural networks gained a lot of attention after Geoffrey Hinton's [famous 1986 paper](https://www.nature.com/articles/323533a0) on backpropagation combined with the availability of big datasets and increased computational power. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models.
 
 ### Network tuning
 
