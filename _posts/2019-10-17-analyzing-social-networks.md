@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analyzing graphs and networks
+title: Analyzing graphs and social networks
 ---
 
 A while back, my labmate Ju showed me a visualization he was working on to explore co-authorships at FredHutch, which inspired me to use [REntrez](https://cran.r-project.org/web/packages/rentrez/index.html) to visualize my much more modest publication network. I wrote a [small snippet of code](https://github.com/ptvan/R-snippets/blob/master/coauthor_network.R) that showed the different research circles I participated in over the years. Before this, I also did some analyses on gene networks (see below).
@@ -23,11 +23,11 @@ Depending on its _type_ of data, a network can also have additional properties b
 
 First, you have to get your data into a format amenable to network analysis. The simplest is a table containing nodes and edges, which most software can parse. If you have a lot of network data, you may want to use a graph database like [Neo4J](https://neo4j.com/). To make graph data easier to manipulate, you may want to consider [tidygraph](https://github.com/thomasp85/tidygraph), which uses syntax inspired by the [tidyverse](https://www.tidyverse.org/). Depending on how big your dataset is, you may want to create a subgraph, work on it before applying changes to the entire network. You can also choose to work with the edge and/or node attributes in tabular format before applying them to the network.
 
-For programmatic access, the cross-platform [igraph](https://igraph.org/r/) library is fairly well-known and has its own data structure. If you're working in R there is [intergraph](https://cran.r-project.org/web/packages/intergraph/) to interconvert between `igraph`, `network` and basic `data.frames` containing nodes and edges.
+For programmatic access, the cross-platform [igraph](https://igraph.org/r/) library is fairly well-known and has its own data structure. If you're working in R there is [intergraph](https://cran.r-project.org/web/packages/intergraph/) to interconvert between `igraph`, `network` and basic `data.frames` containing nodes and edges. 
 
 Graph traversal problems, which can also serve as abstractions of combinatorics (eg. [multiple comparisons](https://cran.r-project.org/web/packages/PairViz/vignettes/MultipleComparisons.html)), can be solved using the [PairViz](https://cran.r-project.org/web/packages/PairViz/index.html) package.
 
-While `igraph` has plotting capabilities, I personally find its plots unattractive. Instead I used [ggnetwork](https://briatte.github.io/ggnetwork/) and [ggraph](https://github.com/thomasp85/ggraph), which uses Grammar of Graphics syntax (made famous by the now standard [ggplot2](https://ggplot2.tidyverse.org/)), producing this image for my co-authorship network:
+While `igraph` has plotting capabilities, I personally find its plots unattractive. For larger graphs, [GraphViz](https://graphviz.org/gallery/) provides flexible programmatic plotting, though you have to manually re-render the graphs upon changes. I used [ggnetwork](https://briatte.github.io/ggnetwork/) and [ggraph](https://github.com/thomasp85/ggraph), which uses Grammar of Graphics syntax (made famous by the now standard [ggplot2](https://ggplot2.tidyverse.org/)), producing this image for my co-authorship network:
 ![coauthor-network](/images/coauthor-network.png "coauthor-network.png")
 
 Biological data can also benefit from network analysis, like genes that show co-expression or proteins that share structural similarity. Due to the availability of annotation data from sources like STRING, it's fairly straight-forward to [query and analyze](https://github.com/ptvan/R-snippets/blob/master/gene_networks_analysis.R) gene networks. More complex techniques like [network propagation](https://www.nature.com/articles/nrg.2017.38) could also be used.
