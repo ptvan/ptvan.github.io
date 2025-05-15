@@ -20,4 +20,4 @@ Philip Tetlock is a professor at the University of Pennsylvania who along with h
 
 Compared to The Signal and The Noise, Superforecasting is written in a more academic style.  Interestingly, Nate Silver had met Tetlock and devoted a section in his book in The Signal and The Noise to discuss Tetlock and his ideas.
 
-- Medical practice did not become evidence-based until randomized controlled trials were first seriously attempted after World War II. Prior to this many procedures were done despite dubious evidence of effectiveness.
+- Prior to World War II, many medical procedures were carried out despite dubious (or absence of) evidence for their effectiveness. Medical practice did not become evidence-based until randomized controlled trials were first seriously attempted in the late 1940s, advocated by [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane).
