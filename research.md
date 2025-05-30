@@ -50,7 +50,7 @@ My third publication during this period involved some data analysis for the RTS,
 
 Another project involved collaborators at the [South African Tuberculosis Vaccine Institute](http://www.satvi.uct.ac.za/) to identify possible diagnostic biomarkers for Tuberculosis. I performed my own analyses while also coordinating between Seattle and Cape Town teams in integrating transcriptomic, proteomic and antibody data.
 
-Lastly also worked on developing a positivity call for Intracellular Cytokine Staining (ICS) data from HIV vaccine trials. The goal of this project is to increase accuracy of the ICS assay while reducing the number of markers required.
+Lastly I also worked on developing a positivity call for Intracellular Cytokine Staining (ICS) data from HIV vaccine trials. The goal of this project is to increase accuracy of the ICS assay while reducing the number of markers required for predicting outcomes.
 
 ### Flow cytometry & mass cytometry (2014 - 2018)
 
