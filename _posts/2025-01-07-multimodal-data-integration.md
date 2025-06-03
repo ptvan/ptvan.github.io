@@ -30,7 +30,7 @@ This approach involves simply comparing individual genes or proteins that share 
 
 #### Manually modeling the datasets together
 
-The conceptual overlap approach above isn't very sophisticated. For example, it doesn't quantify the relative _importance_ of predictors.
+The conceptual overlap approach above isn't very sophisticated. For example, we only get _which_ predictors may be relevant, not their relative _importance_ of predictors. This can be addressed by manually specifying a model that covers both datasets, which would also give you quantitative results like confidence intervals and p-values. The usual modeling caveats of normalization and scaling, picking the right underlying distribution(s) apply. 
 
 #### Factor analysis
 
