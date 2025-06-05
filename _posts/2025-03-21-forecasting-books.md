@@ -9,10 +9,9 @@ Prediction and forecasting have always been interesting to me, both as personal 
 
 Nate Silver is known, among other things, for his work in forecasting elections through the now-defunct [FiveThirtyEight](https://en.wikipedia.org/wiki/FiveThirtyEight) website.
 
-- The difficulty of assessing aggregate risk of bundled mortgage-backed financial assets precipitated the 2018 financial crises since these assets' market performance were often dependent on each other. Credit rating agencies used house prices going back 2 decades to assess their assets' risk. However, house prices 1980s - 2000s were always stable or increasing, precluding the possibility of small declines, let alone crashes. This is an example of a _out-of-sample_ problem.
+- The difficulty of assessing aggregate risk of bundled mortgage-backed financial assets precipitated the 2018 financial crises since these assets' market performance were often dependent on each other. Credit rating agencies used house prices going back 2 decades to assess their assets' risk. However, house prices 1980s - 2000s were always stable or increasing, precluding the possibility of small declines, let alone crashes. This is an example of an _out-of-sample_ problem.
 
-- Political forecasters in the US are often fixated on broad stereotypes of what kinds of voters each of the two parties attract, rather than drawing on issue-specific polling to dissect smaller trends that sometimes run counter to overall ideology. To me, Silver seems to endorse a Bayesian approach of continually collecting information about the data, and updating inferences accordingly. FiveThirtyEight operate via three principles: think probablistically, good predictions change and look for consensus.
-
+- Political forecasters in the US are often fixated on broad stereotypes of what kinds of voters each of the two parties attract, rather than drawing on issue-specific polling to dissect smaller trends that sometimes run counter to party ideology. To me, Silver seems to endorse a Bayesian approach of continually collecting information about the data, and updating inferences accordingly. FiveThirtyEight operated via three principles: think probablistically, good predictions change and look for consensus.
 
 ### Superforecasting: The Art and Science of Prediction (2016)
 
