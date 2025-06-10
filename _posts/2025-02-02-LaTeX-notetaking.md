@@ -22,4 +22,4 @@ Except, occasionally I would need to write an equation or insert a citation. Wha
 Fortunately, here VSCode's extensions came to the rescue. Once set up, I can write LaTeX and upon saving, the `.tex` file would render and display a PDF, same for my `.bib` bibliography files. As an added bonus, there are also great LaTeX templates for common document types like theses, resumes, _etc._ I have achieved notetaking nirvana ! Or have I...?
 
 ### Typst+VSCode
-[Typst](https://typst.app/) looks pretty interesting, having many of LaTeX's greatest features while simplifying syntax and error messages. While there is a web interface, there also are [instructions to set up Typst in VSCode](https://gist.github.com/jason-s/a91b6b70017766ba9143b662405512a4).
+[Typst](https://typst.app/) looks pretty interesting, having many of LaTeX's greatest features while simplifying syntax and error messages. The project is open-source and there is a compiler for the command line, alleviating my fear of vendor lock-in. While there is a web interface, there are also [instructions to set up Typst in VSCode](https://gist.github.com/jason-s/a91b6b70017766ba9143b662405512a4).
