@@ -33,7 +33,7 @@ At this stage, it's good to familiarize yourself with the relevant file formats 
 
 ### Phylodynamic modeling
 
-Assigning time scales to branching points, or __phylodynamic__ modeling, can be done using [TreeTime](https://github.com/neherlab/treetime), [Beast2](https://www.beast2.org/) or [LSD](http://www.atgc-montpellier.fr/LSD/). These algorithms operates on a number of file types, `TreeTime`, for example, works on FASTA, PHYLIP, and VCF.
+Assigning time scales to branching points, or __phylodynamic__ modeling, can be done using [TreeTime](https://github.com/neherlab/treetime), [Beast2](https://www.beast2.org/) or [LSD](http://www.atgc-montpellier.fr/LSD/). These algorithms operate on a number of file types, `TreeTime`, for example, works on FASTA, PHYLIP, and VCF.
 
 ### Visualization
 

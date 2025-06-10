@@ -17,9 +17,9 @@ After graduate school my work involved an HPC cluster, my office desktop and som
 ### Markdown, LaTeX+VSCode
 I have used RStudio for a long time so was familiar with RMarkdown and by extension Markdown. Markdown text can be manually converted to most other formats using [Pandoc](https://pandoc.org/). At the same time, I also wrote and ran most of my Python code in VSCode, which can preview Markdown files. This meant that I can keep my notes and code together and sync both through GitHub, regardless of where or what I was doing.
 
-Except, occasionally I would need to write an equation or insert a citation. What I really needed was LaTeX. I have used it previously, but re-transcribing my PhD thesis into LaTeX showed me the exponential benefit LaTeX had for larger projects (my committee asked me to write my thesis in Word so they can edit and share it easily among themselves).
+Except, occasionally I would need to write an equation or insert a citation. What I really needed was LaTeX. I have used it previously, but re-transcribing my PhD thesis into LaTeX showed me the exponential benefit LaTeX had for larger projects (my committee asked me to write my thesis in Word so they can edit and share it easily among themselves). 
 
-Fortunately, here VSCode's extensions came to the rescue. Once set up, I can write LaTeX and upon saving, the `.tex` file would render and display a PDF, same for my `.bib` bibliography files. I have achieved notetaking nirvana ! Or have I...?
+Fortunately, here VSCode's extensions came to the rescue. Once set up, I can write LaTeX and upon saving, the `.tex` file would render and display a PDF, same for my `.bib` bibliography files. As an added bonus, there are also great LaTeX templates for common document types like theses, resumes, _etc._ I have achieved notetaking nirvana ! Or have I...?
 
 ### Typst+VSCode
-[Typst](https://typst.app/) looks pretty interesting, simplifying LaTeX syntax while preserving functionality. While there is a web interface, there also are [instructions to set up Typst in VSCode](https://gist.github.com/jason-s/a91b6b70017766ba9143b662405512a4).
+[Typst](https://typst.app/) looks pretty interesting, having many of LaTeX's greatest features while simplifying syntax and error messages. While there is a web interface, there also are [instructions to set up Typst in VSCode](https://gist.github.com/jason-s/a91b6b70017766ba9143b662405512a4).
