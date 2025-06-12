@@ -9,7 +9,7 @@ As competition between different LLMs rages on, it's interesting to speculate ho
 
 As I mentioned [previously](https://ptvan.github.io/neural-networks/), Ollama makes obtaining and updating open-source LLMs much simpler, which is great given how many are available. You can also launch an LLM and chat with it directly on your local machine, which is also helpful if you don't want to buy tokens just to prototype an app.
 
-For programmatic access, the major LLM vendors use RESTful APIs since the requests will be coming over HTTP. In addition to these APIs, the opaquely-named **Model Context Protocol** (or simply [https://modelcontextprotocol.io/](MCP)) bills itself as "the USB-C port of AI applications" and accomplishes this by providing SDKs for common LLM tasks in popular languages (the name is less opaque when you realize "Model" here refers to LLMs). In addition to serving API calls, MCP also features _dynamic self discovery_, asking the LLM it interfaces with what functionalities are available, and making those accessible to the programmer. 
+For programmatic access, the major LLM vendors use RESTful APIs since the requests will be coming over HTTP. In addition to these APIs, the opaquely-named **Model Context Protocol** (or simply [MCP](https://modelcontextprotocol.io/)) bills itself as "the USB-C port of AI applications" and accomplishes this by providing SDKs for common LLM tasks in popular languages (the name is less opaque when you realize "Model" here refers to LLMs). In addition to serving API calls, MCP also features _dynamic self discovery_, asking the LLM it interfaces with what functionalities are available, and making those accessible to the programmer. 
 
 ### The Age of Agents
 
