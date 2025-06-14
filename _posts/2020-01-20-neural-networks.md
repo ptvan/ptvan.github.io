@@ -15,15 +15,17 @@ One of the interesting and frustrating problems in modeling complex data is over
 
 The idea of artificial neural networks has been around since at least 1940s in the form of [Hebbian theory](https://en.wikipedia.org/wiki/Hebbian_theory), though modern artificial neural networks bear only vague conceptual resemblance to their biological analogues. Neural networks gained a lot of attention after Geoffrey Hinton's [famous 1986 paper](https://www.nature.com/articles/323533a0) on _backpropagation_, allowing for quick optimization of gradients, thus enabling multiple parameters to be learned efficiently. 
 
-The availability of big datasets and development of [GPGPUs](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units)s accelerated the use of neural networks in many areas, such as [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network) in image processing. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models, enabling the development of [GPTs](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) which power LLMs.
+The availability of big datasets and development of [GPGPUs](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) accelerated the use of neural networks in many areas, such as [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network) in image processing. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models, enabling the development of [GPTs](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) which power LLMs.
 
-As of 2024, the major development is **agentic AI**, smaller programs that _retrieve_ knowledge from LLMs, but can also use _external tools_. In increasing order of sophistication, the major conceptual types of agents are:
+As of 2024, one major development is **agentic AI**, smaller programs that _retrieve_ knowledge from LLMs, but can also use _external tools_. In increasing order of sophistication, the major conceptual types of agents are:
 
 - **Simple reflex agents**: reacts to input data via condition-action rules
 - **Model-based reflex agents**: remembers previous states in applying condition-action rules
 - **Goal-based agents**: works towards higher-level aims which can involve multiple steps
 - **Utility-based agents**: evaluates multiple runs of strategy
 - **Learning agents**: combines and optimizes strategies over time
+
+Tool use itself can be implemented in multiple ways: **Retrieval-Augmented Generation** (RAG) and **Cache-Augmented Generation** (CAG), optimizing for data freshness or latency, respectively.
 
 ### Implementation
 
