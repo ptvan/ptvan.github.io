@@ -3,23 +3,36 @@ layout: post
 title: Building AI apps
 ---
 
-As competition between different LLMs rages on, it's interesting to speculate how they (or rather, the companies that make them) will differentiate. At the same time, if you're a developer, these differences are a little annoying because programmers love abstraction. LLMs are evolving very fast, so unless you're committing to a single LLM vendor, discovering that the code you wrote for one LLM doesn't work for another is annoying. Thankfully, there are solutions to this abstraction problem. These solutions are also evolving, ...of course.
+As a technology matures, the focus gradually shifts from pure research to development tasks such as deploying, scaling and benchmarking. While some forms of AI such as the ChatGPT website have been accessible to non-programmers for a while, AI application development for specific domains have also progressed significantly. And while I think there is still much progress to be made by AI _researchers_, it's fun to learn some of the things dealt with by AI _developers_ if you were thinking about an AI-powered app yourself in 2025.
 
-### Abstraction and standardization are your friends: APIs and MCP
+### Implementing a backend to query LLMs: APIs and vector databases
 
-As I mentioned [previously](https://ptvan.github.io/neural-networks/), Ollama makes obtaining and updating open-source LLMs much simpler, which is great given how many are available. You can also launch an LLM and chat with it directly on your local machine, which is also helpful if you don't want to buy tokens just to prototype an app.
+The major AI vendors host LLMs on their own hardware which users can access via RESTful APIs after buying access tokens. Alternatively, as I mentioned previously, you can also download open-source LLMs and [run them locally]((https://ptvan.github.io/neural-networks/)). Using this approach, you don't need access tokens and your queries and results remain on your computer. For example, you can launch an LLM and interact with it directly on your local machine using the Ollama client (which is sending and receiving REST requests locally under the hood). This Ollama chat interface can feel like a functional app already: you can ask an LLM to do sentiment analysis on a text passage, or describe an image without writing a single line of code.
 
-For programmatic access, the major LLM vendors use RESTful APIs since the requests will be coming over HTTP. In addition to these APIs, the opaquely-named **Model Context Protocol** (or simply [MCP](https://modelcontextprotocol.io/)) bills itself as "the USB-C port of AI applications" and accomplishes this by providing SDKs for common LLM tasks in popular languages (the name is less opaque when you realize "Model" here refers to LLMs). In addition to serving API calls, MCP also features _dynamic self discovery_, asking the LLM it interfaces with what functionalities are available, and making those accessible to the programmer. 
+In addition to the vendor-specific RESTful APIs, which you can access through Python libraries like [LangChain](https://python.langchain.com/docs/introduction/), the opaquely-named **Model Context Protocol** (or simply [MCP](https://modelcontextprotocol.io/)) bills itself as "the USB-C port of AI applications" and accomplishes this by providing SDKs for common LLM tasks in popular languages (the name is less opaque when you realize "Model" here refers to LLMs). In addition to serving API calls, MCP also features _dynamic self discovery_, asking the LLM it interfaces with what functionalities are available, and making those accessible to the programmer. 
 
-### The Age of Agents
+Typical of application development, you'll need your AI app to store and retrieve data. Since many LLM operations depend on vectors (particularly embeddings), you'll want to implement a _vector database_ such as [Chroma](https://www.trychroma.com/), [Pinecone](https://www.pinecone.io/) or [Milvus](https://milvus.io/), _etc_. Here's a quick high-level [comparison of vector databases](https://medium.com/@EjiroOnose/vector-database-what-is-it-and-why-you-should-know-it-ae7e7dca82a4).
 
-In 2025, the AI app you create will likely involve an agent, which has the knowledge of LLMs and can also use tools. In increasing order of sophistication, the major conceptual types of agents are:
+### Putting a pleasant frontend on your AI app: Gradio
 
-- **Simple reflex agents**: reacts to input data via condition-action rules
-- **Model-based reflex agents**: remembers previous states in applying condition-action rules
-- **Goal-based agents**: works towards higher-level aims which can involve multiple steps
-- **Utility-based agents**: evaluates multiple runs of strategy
-- **Learning agents**: combines and optimizes strategies over time
+Once you have started querying an LLM and getting results back, you technically have your first AI app. However, these prototypes are usually Python scripts or IPython notebooks that are a little clumsy to use. Streamlit is a common framework for Python apps, as I have [written previously](https://ptvan.github.io/Python-interactive-dataviz/), and can also be used for AI apps. Another option is using [Gradio](https://www.gradio.app/) to embed interactive elements in your notebook, or have the entire app be a stand-alone webpage.
 
-Of course you can also use more than one agent in a _multi-agent system_, which requires _orchestration_. In building these systems, Anthropic (who created MCP) recommends that you use "[simple, composable patterns rather than complex frameworks](https://www.anthropic.com/engineering/building-effective-agents)". In the same blogpost they also listed several frameworks: LangGraph, Rivet, Vellum and Amazon Bedrock Agents. My friend and former colleague Dan told me about [PydanticAI](https://github.com/pydantic/pydantic-ai) which was great fun to play around in. 
+### Incorporating agents
 
+In 2025, many AI apps involve an _agent_, which retrieves knowledge from LLMs but also use tools to augment or update this knowledge. One such augmentation scheme is **Retrieval Augmented Generation** (RAG), where additional new information is retrieved by the AI app and used to generate output. Depending on the size and frequency of these retrievals, **Cache Augmented Generation** (CAG) can be more appropriate than RAG, as discussed [here](https://www.youtube.com/watch?v=HdafI0t3sEY). You can also use more than one agent in a _multi-agent system_, which requires _orchestration_. 
+
+In building these systems, Anthropic (who created MCP) has some [recommendations](https://www.anthropic.com/engineering/building-effective-agents). The same article also listed some agent frameworks current at the time: [Rivet](https://rivet.ironcladapp.com), [Vellum](https://www.vellum.ai/) and [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/). My former colleague Dan told me about [PydanticAI](https://github.com/pydantic/pydantic-ai) which was great fun to play around in. 
+
+### Benchmarking your AI app
+
+Another common task in application development is measuring performance, and there are many benchmarks available depending on the task the AI app is performing, as well as benchmarks for its safety: [SWE-bench](https://github.com/SWE-bench/SWE-bench) is commonly used for coding agents, [AI2 ARC](https://huggingface.co/datasets/allenai/ai2_arc) for question answering, [WinoGrande](https://winogrande.allenai.org/) for math, [HarmBench](https://github.com/centerforaisafety/HarmBench) for assessing AI safety, among others.
+
+### Weekend project: AIBookButler
+
+I had written previously that [recommender systems](https://ptvan.github.io/recommender-systems/) are really interesting, and while they don't need AI features to work well, I wanted to use a recommender as a project to explore AI tools. 
+
+Since I loved using Pandora in college, my first idea was an AI music recommender. But a bit of digging revealed two problems: music that is royalty-free and contains robust metadata is scarce, and audio data has many higher-order acoustic and temporal properties that greatly increases the number of features the recommender have to train on. An accurate and useful general-purpose music recommender would take money (not to mention licensing headache for commercial music) and time, too much for a weekend project.
+
+So instead I put together **AIBookButler** in a long afternoon. The app takes some publicly available book metadata (title, author, synopsis, _etc_ but not the full text itself), cleans them (which unsurprisingly removes a lot of the entries) and loads them into a vector database (I used [Chroma](https://python.langchain.com/docs/integrations/vectorstores/chroma/)) with some text embeddings using LangChain. This allows the database to be queried using similarity search which returns books related to your query. As you can see in my [repo](https://github.com/ptvan/AIBookButler), this doesn't take very much code, the majority of which is data cleaning. This is one area where AI overlaps with old-school data science: _garbage in, garbage out_. 
+
+A fun follow-up would be to make a chatbot that ingests a book's full text (likely from [project Gutenberg](https://www.gutenberg.org/)) and discusses the contents with you, making its "Book Butler" name a bit more accurate. 

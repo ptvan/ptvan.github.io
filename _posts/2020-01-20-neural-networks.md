@@ -27,8 +27,19 @@ As of 2024, one major development is **agentic AI**, smaller programs that _retr
 
 Tool use itself can be implemented in multiple ways: **Retrieval-Augmented Generation** (RAG) and **Cache-Augmented Generation** (CAG), optimizing for data freshness or latency, respectively.
 
-### Implementation
+### Running neural networks
 
-Because they require enormous investments of time, technical expertise and [electrical energy](https://cacm.acm.org/blogcacm/the-energy-footprint-of-humans-and-large-language-models/) to train and run, commercial LLMs are closed-source and operate on a subscription model. Their large size also means these commercial LLMs are cloud-hosted. However, smaller open-source models (still on the order of billions of parameters) can be obtained and run locally for free, such as through [Ollama](https://ollama.com/search).
+Because they require enormous investments of time, technical expertise and [electrical energy](https://cacm.acm.org/blogcacm/the-energy-footprint-of-humans-and-large-language-models/) to train and run, commercial LLMs are closed-source and operate on a subscription model. Their large size also means these commercial LLMs are cloud-hosted. However, smaller open-source models (still on the order of billions of parameters) can be obtained and run locally for free, using tools such as [LM Studio](https://lmstudio.ai/), [Ollama](https://ollama.com/search) or [vLLM](https://github.com/vllm-project/vllm).
+
+### Evaluating neural network performance 
+
+As decision systems, neural networks that perform a narrow, well-defined task like text classification can be evaluated using traditional metrics like accuracy, ROC, _etc_. However, as both neural networks and their tasks become more complex, culminating in general purpose LLMs like ChatGPT, it's important to note that benchmarking them present several unique issues. 
+
+First, because AIs can perform so many tasks, there exists many benchmarks (200 by [one count](https://www.evidentlyai.com/llm-evaluation-benchmarks-datasets)). Choosing one (or more) of these benchmarks to characterize overall "performance" can be tricky.
+
+Second, AIs raise some serious privacy and safety concerns, particularly around [fully autonomous agents](https://arxiv.org/pdf/2502.02649) that motivated separate _safety benchmarks_, testing the AI's susceptibility to illegal, harmful or false information. 
+
+Third, AIs are created to solve then optimize solutions to the problems we pose to them. As a result, sometimes benchmark performance becomes the problem that AIs solve, analogous to students studying to pass standardized tests rather than actually understanding their coursework. In the worst cases, much like these students, AIs can perform well on tests then fail to replicate good performance when [deployed to solve new problems](https://www.youtube.com/watch?v=d5EltXhbcfA).
+
 
 *_Vlogging on YouTube as [3Blue1Brown](https://en.wikipedia.org/wiki/3Blue1Brown), Sanderson has an excellent series where he [explained math concepts visually](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
