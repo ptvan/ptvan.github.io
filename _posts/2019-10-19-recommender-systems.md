@@ -44,7 +44,7 @@ Here we're recommending movies with synopses similar to the ones the user likes.
 
 ### Evaluating recommendations
 
-Though accuracy is a traditional metric in recommendations, _serendipity_ or the ability of a recommendation to pleasantly surprise you, is also important, as eloquently explained in Eugene Yan's [blog post](https://github.com/ptvan/movies).
+Though accuracy is a traditional metric in recommendations, _serendipity_ or the ability of a recommendation to pleasantly surprise you, is also important, as eloquently explained in Eugene Yan's [blog post](https://eugeneyan.com/writing/serendipity-and-accuracy-in-recommender-systems/).
 
 ### References
 
