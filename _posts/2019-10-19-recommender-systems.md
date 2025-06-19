@@ -27,9 +27,9 @@ Since I'd be handling fairly large datasets, I looked into Apache [Spark](https:
 
 Job management is done with a web GUI (default `http://localhost:4040`), where you can view the queue of current and past jobs. Performance tuning in Spark can be a bit [more involved](https://spark.apache.org/docs/latest/tuning.html).
 
-Spark's basic data structure is the Resilient Distributed Dataset ([RDD](https://spark.apache.org/docs/latest/rdd-programming-guide.html)). You can work with RDD directly, but for analyses it's nicer to use [Spark DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html). Spark DataFrames have similarities with, but are not entirely equivalent to [Pandas dataframes](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dataframe). For one, Spark DataFrames are immutable, since they're based on RDDs, which are themselves immutable, while Pandas dataframes are mutable. If that's not enough ways to work, Spark also has an [SQL interface](https://spark.apache.org/sql/).
+Spark's basic data structure is the Resilient Distributed Dataset ([RDD](https://spark.apache.org/docs/latest/rdd-programming-guide.html)). You can work with RDD directly, but for analyses it's nicer to use [Spark DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html). Spark DataFrames have similarities with, but are **not** entirely equivalent to [Pandas dataframes](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dataframe). For one, Spark DataFrames are immutable, since they're based on RDDs which are themselves immutable, while Pandas dataframes are mutable. If that's not enough ways to work, Spark also has an [SQL interface](https://spark.apache.org/sql/).
 
-Spark's machine learning API is changing from `spark.mllib` (supporting RDDs) to `spark.ml` (supporting Spark DataFrames), so new code should use the latter, though apparently the former is [not deprecated](https://spark.apache.org/docs/latest/ml-guide.html#announcement-dataframe-based-api-is-primary-api). You can also plug in your favorite deep learning frameworks ([Keras](http://maxpumperla.com/elephas/), [DeepLearning4J](https://deeplearning4j.org/docs/latest/deeplearning4j-scaleout-intro)) to do deep learning.
+Spark's machine learning API is changing from `spark.mllib` (supporting RDDs) to `spark.ml` (supporting Spark DataFrames), so new code should use the latter, though apparently the former is [not deprecated](https://spark.apache.org/docs/latest/ml-guide.html#announcement-dataframe-based-api-is-primary-api). You can also plug in your favorite deep learning frameworks ([Keras](https://github.com/maxpumperla/elephas/), [DeepLearning4J](https://github.com/deeplearning4j)) to do deep learning.
 
 ### Content-based filtering
 
@@ -48,4 +48,4 @@ Though accuracy is a traditional metric in recommendations, _serendipity_ or the
 
 ### References
 
-I find [Practical Recommender Systems](https://www.manning.com/books/practical-recommender-systems) to be a good overview, going from concepts to implementation details like how to track user interactions. As indicated by "practical" in the title, there is heavy emphasis on implementations at Netflix and Amazon, and an accompanying project.
+I find [Practical Recommender Systems](https://www.manning.com/books/practical-recommender-systems) to be a good overview, going from concepts to specific implementation. As indicated by "practical" in the title, there is heavy emphasis on project work.

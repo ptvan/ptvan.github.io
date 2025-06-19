@@ -6,7 +6,9 @@ permalink: /research/
 
 My resume is available here: [PhuTVan-resume.pdf](PhuTVan-resume.pdf). If you prefer something more academic and comprehensive, my CV is here: [PhuTVan-CV.pdf](PhuTVan-CV.pdf).
 
-## A brief summary
+For the more technically inclined, my GitHub repos are located at [https://github.com/ptvan](https://github.com/ptvan).
+
+## Brief executive summary
 
 Most recently I was Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/). Previously I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
 

@@ -3,8 +3,8 @@ layout: post
 title: Building AI apps
 ---
 
-As a technology matures, the focus gradually shifts from pure research to development tasks such as deploying, scaling and benchmarking. 
-Parallel to the [intense general AI usage by non-programmers](https://www.interconnects.ai/p/people-use-ai-more-than-you-think), tools for AI application development have also progressed significantly in the last few years. And while I think there is still much progress to be made by AI _researchers_, it's fun to learn some of the things dealt with by AI _developers_ if you were thinking about building an AI-powered app yourself in 2025.
+As a technology matures, the focus gradually shifts from pure research to development aspects such as deploying, scaling and benchmarking. 
+Paralleling the [intense general AI usage by non-programmers](https://www.interconnects.ai/p/people-use-ai-more-than-you-think), tools for AI application development have also progressed significantly, especially in the last few years. And while I think there is still much progress to be made by AI _researchers_, it's fun to learn some of the things AI _developers_ deal with if you were thinking about building an AI-powered app yourself in 2025.
 
 ### Implementing a backend to query LLMs: APIs and vector databases
 
@@ -14,21 +14,21 @@ In addition to these vendor-provided RESTful APIs, which you can access through 
 
 Typical of application development, you'll need your AI app to store and retrieve data. Since many LLM operations depend on vectors (particularly embeddings), you'll want to use a _vector database_ like [Chroma](https://www.trychroma.com/), [Pinecone](https://www.pinecone.io/), [Milvus](https://milvus.io/), _etc_. Here's a quick high-level [comparison of vector databases](https://medium.com/@EjiroOnose/vector-database-what-is-it-and-why-you-should-know-it-ae7e7dca82a4).
 
-### Putting a pleasant frontend on your AI app: Gradio
+### Putting a pleasant frontend on your AI app: Streamlit and Gradio
 
 Once you have started querying an LLM and getting results back, you technically have your first AI app. However, these prototypes are usually Python scripts or IPython notebooks that are clumsy to use. Streamlit is a common framework for Python apps, as I have [written previously](https://ptvan.github.io/Python-interactive-dataviz/), and can also be used for AI apps. Another option is using [Gradio](https://www.gradio.app/) to embed interactive elements in your notebook, or have the entire app be a stand-alone webpage.
 
-### Building more complex AI apps: workflows and agents
+### Building more complex AI apps: workflows, agents and orchestration
 
-As your app becomes more complex, it's good to consider how you would architect future iterations. Anthropic (who created MCP) has some [useful observations and recommendations](https://www.anthropic.com/engineering/building-effective-agents): you should start building apps up using _workflows_ which chain several LLMs or LLM-querying parts together. This simple design means you can see if any of the parts are malfunctioning, easing troubleshooting. As your app grows more complicated, perhaps the parts can augment the knowledge you get from the LLM(s). One such augmentation scheme is **Retrieval Augmented Generation** (RAG), where additional new information is retrieved by the AI app and used to generate final output. Depending on the size and frequency of these data retrievals, **Cache Augmented Generation** (CAG) can be more appropriate than RAG, as discussed [here](https://www.youtube.com/watch?v=HdafI0t3sEY). 
+As your app becomes more complex, it's good to consider how you would architect future iterations. Anthropic (who created MCP) has some [useful observations and recommendations](https://www.anthropic.com/engineering/building-effective-agents): you should start building apps up using _workflows_ which chain several LLMs or LLM-querying parts together. This simple design means you can see if any individual part is malfunctioning, easing troubleshooting. As your app grows more complicated, perhaps the parts can augment the knowledge you get from the LLM(s). One such augmentation scheme is **Retrieval Augmented Generation** (RAG), where additional new information is retrieved by the AI app and used to generate final output. Depending on the size and frequency of these data retrievals, **Cache Augmented Generation** (CAG) can be more appropriate than RAG, as discussed [here](https://www.youtube.com/watch?v=HdafI0t3sEY). 
 
 Eventually, you will encounter a use case where simply chaining tools together isn't enough: maybe the output from your tools aren't predictable, or the steps in your workflow change dynamically depending on input. In that situation, you may move beyond workflows onto _agents_, which can cope with this uncertainty but are also more complex. You can even use more than one agent in a _multi-agent system_, which requires _orchestration_. 
 
-In building these systems, Anthropic also listed some agent frameworks available at the time: [Rivet](https://rivet.ironcladapp.com), [Vellum](https://www.vellum.ai/) and [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/), though likely there will be others as time goes on.
+In the same article above, Anthropic also listed some agent frameworks available at the time: [Rivet](https://rivet.ironcladapp.com), [Vellum](https://www.vellum.ai/) and [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/), though likely there will be others as time goes on.
 
 ### Benchmarking your AI app
 
-Another common task in application development is measuring performance, and there are many benchmarks available depending on the task the AI app is performing, as well as benchmarks for its safety: [SWE-bench](https://github.com/SWE-bench/SWE-bench) is commonly used for coding agents, [AI2 ARC](https://huggingface.co/datasets/allenai/ai2_arc) for question answering, [WinoGrande](https://winogrande.allenai.org/) for math, [HarmBench](https://github.com/centerforaisafety/HarmBench) for assessing AI safety, among others.
+Another common task in application development is measuring performance, and there are many benchmarks available depending on the task your app is performing, as well as benchmarks for its safety: [SWE-bench](https://github.com/SWE-bench/SWE-bench) is commonly used for coding agents, [AI2 ARC](https://huggingface.co/datasets/allenai/ai2_arc) for question answering, [WinoGrande](https://winogrande.allenai.org/) for math, [HarmBench](https://github.com/centerforaisafety/HarmBench) for assessing AI safety, among others. While very important to app development, AI safety is a large and rapidly evolving field beyond the scope of this blog post.
 
 ### Weekend project: AIBookButler
 
