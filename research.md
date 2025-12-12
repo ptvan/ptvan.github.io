@@ -10,17 +10,21 @@ For the more technically inclined, my GitHub repos are located at [https://githu
 
 ## Brief executive summary
 
-Most recently I was Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/). Previously I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
+I'm currently the Bioinformatics Solutions Consultant at [Pluto Biosciences](https://pluto.bio), supporting our multi-omics computational biology platform. Previously I was the Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/), specializing on duplex sequencing for mutagenesis and cancer applications. Before that I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
 
-My greatest strength is adaptability: prior to working as an analyst, I have had success as [field ecologist](https://www.fs.usda.gov/colville), [photojournalist](https://makingtheprince.blogspot.com/2013/11/meet-author.html) and bioengineer. I am motivated and organized, having worked 3 jobs simultaneously through college and self-published an illustrated children's book through KickStarter in graduate school.
+My greatest strength is adaptability: in addition to my career in computational biology, I have had success as [field ecologist](https://www.fs.usda.gov/colville) and [photojournalist](https://makingtheprince.blogspot.com/2013/11/meet-author.html). I am motivated and organized, having worked 3 jobs simultaneously through college and self-published an illustrated children's book through KickStarter in graduate school.
 
-I enjoy explaining and applying complex ideas. I lectured introductory biology to 200 students and mentored 3 undergraduate teams during my PhD, and am currently collaborating with a diverse international team of researchers. Outside my research day job, I'm a strong advocate for science literacy, mentoring students from elementary school through PhD, and curating an open [wiki of data science best practices](https://sciwiki.fredhutch.org).
+I enjoy explaining and applying complex ideas. I lectured introductory biology to 200 students and mentored 3 undergraduate teams during my PhD, and my professional life involves collaboration with diverse international researchers. Outside my research day job, I'm a strong advocate for science literacy, mentoring students from elementary school through PhD, and curating an open [wiki of data science best practices](https://sciwiki.fredhutch.org).
 
 ## Detailed descriptions of major projects
 
-### Genomics (2021 - 2024May)
+### Multi-omics (2025 - )
 
-I acted as subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-authored papers with our commercial and academic clients, wrote Application Notes and tutorials, and served as second-line expertise for our tech support department.
+I served as the client-facing bioinformatics expert at [Pluto Biosciences](https://pluto.bio). I solved problems in ChIPseq/ATACseq, bulk and single-cell RNASeq and advised customers on bioinformatics and statistics. I also worked closely with the engineering team by creating working prototype pipelines to be productionized, collecting Voice of Customers and creating reproducible bug reports.
+
+### Genomics (2021 - 2024)
+
+I was the subject matter expert for the computational side of [duplex sequencing](https://twinstrandbio.com/technology/), connecting the various departments in the company, and overseeing a team of Bioinformatics Scientists. I co-authored papers with our commercial and academic clients, wrote Application Notes and tutorials, and served as second-line expertise for our tech support department.
 
 Most recently, I analyzed duplex sequencing data for a Liver-On-Chip (LOC) system, deconvolving mutations from the LOC's complex mixture of cell types to remove contamination and assess the system's response to different mutagens. [link to paper](https://www.sciencedirect.com/science/article/abs/pii/S138357182400038X)
 
