@@ -41,5 +41,6 @@ Second, AIs raise some serious privacy and safety concerns, particularly around 
 
 Third, AIs are created to solve then optimize solutions to the problems we pose to them. As a result, sometimes benchmark performance becomes the problem that AIs solve, analogous to students studying to pass standardized tests rather than actually understanding their coursework. In the worst cases, much like these students, AIs can perform well on tests then fail to replicate good performance when [deployed to solve new problems](https://www.youtube.com/watch?v=d5EltXhbcfA).
 
+That being said, there are general-purpose benchmarks like [LLMarena](https://llmarena.ai) and domain-specific benchmarks like [medArena](https://medarena.ai), [BixBench](https://github.com/Future-House/BixBench) and [BioMLBench](https://github.com/science-machine/biomlbench).
 
 *_Vlogging on YouTube as [3Blue1Brown](https://en.wikipedia.org/wiki/3Blue1Brown), Sanderson has an excellent series where he [explained math concepts visually](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
