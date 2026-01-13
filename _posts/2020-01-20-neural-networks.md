@@ -11,11 +11,13 @@ Like other machine learning systems, neural networks aim to return a set of outp
 
 One of the interesting and frustrating problems in modeling complex data is overfitting. The solution often involves a combination of picking the right tools, then knowing how to interpret their output. In a neural network context once you've picked the appropriate [architecture](https://medium.com/data-science/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464), the right [activation functions](https://www.analyticssteps.com/blogs/7-types-activation-functions-neural-network), you may need to implement [dropout](http://jmlr.org/papers/v15/srivastava14a.html). These, and other network tuning issues are covered in [Neural Smithing](https://mitpress.mit.edu/books/neural-smithing).
 
-### History and development
+### History and progress
 
 The idea of artificial neural networks has been around since at least 1940s in the form of [Hebbian theory](https://en.wikipedia.org/wiki/Hebbian_theory), though modern artificial neural networks bear only vague conceptual resemblance to their biological analogues. Neural networks gained a lot of attention after Geoffrey Hinton's [famous 1986 paper](https://www.nature.com/articles/323533a0) on _backpropagation_, allowing for quick optimization of gradients, thus enabling multiple parameters to be learned efficiently. 
 
-The availability of big datasets and development of [GPGPUs](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) accelerated the use of neural networks in many areas, such as [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network) in image processing. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models, enabling the development of [GPTs](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) which power LLMs. Over time, "neural networks" becomes replaced by the snappier and more marketable "AI".
+The availability of big datasets and development of [GPGPUs](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) accelerated the use of neural networks in many areas, such as [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network) in image processing. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models, enabling the development of [GPTs](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) which power LLMs. Over time, "neural networks" becomes replaced by the snappier and more marketable name of "AI".
+
+Because they require enormous investments of time, technical expertise and [electrical energy](https://cacm.acm.org/blogcacm/the-energy-footprint-of-humans-and-large-language-models/) there is a lot of interest in making LLMs more efficient. This can take several forms: making LLMs more efficient to train from scratch, making LLMs easier to tweak, speeding up LLM queries, among others. Since many applications only need a small portion of the LLM's weights to be tweaked, rather than all of them to be retrained, techniques like [LoRA](https://medium.com/@raquelhvaz/efficient-llm-fine-tuning-with-lora-e5edb88b64a1) (Low Rank Adaptation) can be used.
 
 As of 2024, one major development is **agentic AI**, smaller programs that _retrieve_ knowledge from LLMs, but can also use _external tools_. In increasing order of sophistication, the major conceptual types of agents are:
 
@@ -29,7 +31,7 @@ Tool use itself can be implemented in multiple ways: **Retrieval-Augmented Gener
 
 ### Running neural networks
 
-Because they require enormous investments of time, technical expertise and [electrical energy](https://cacm.acm.org/blogcacm/the-energy-footprint-of-humans-and-large-language-models/) to train and run, commercial LLMs are closed-source and operate on a subscription model. Their large size also means these commercial LLMs are cloud-hosted. However, smaller open-source models (still on the order of billions of parameters) can be obtained and run locally for free, using tools such as [LM Studio](https://lmstudio.ai/), [Ollama](https://ollama.com/search) or [vLLM](https://github.com/vllm-project/vllm).
+Because of their value and cost as mentioned above, commercial LLMs are closed-source and operate on a subscription model. Their large size also means these commercial LLMs are cloud-hosted. However, smaller open-source models (still on the order of billions of parameters) can be freely obtained and run locally on a reasonably powerful desktop computer, using tools such as [LM Studio](https://lmstudio.ai/), [Ollama](https://ollama.com/search) or [vLLM](https://github.com/vllm-project/vllm). Many of these tools come with a chat interface, though API access is also available.
 
 ### Evaluating neural network performance 
 
