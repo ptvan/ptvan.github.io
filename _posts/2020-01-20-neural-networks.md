@@ -3,7 +3,7 @@ layout: post
 title: Neural networks
 ---
 
-One lesson I learned during graduate school was the importance of understanding things from first principles. So for learning about neural networks, I really enjoyed reading [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), which implements neural networks using only `numpy`, keeping the reader from being bogged down with implementation details.   After that, Michael Nielsen's [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) is a good followup. If you prefer watching videos rather than reading, Josh Starmer's [StatQuest Neural Networks playlist](https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1) is also excellent. Another excellent introduction is [this video](https://www.manning.com/livevideo/3blue1brown-neural-networks) from Grant Sanderson*, which also goes into mathematical details.
+One lesson I learned in graduate school was the importance of understanding things from first principles. So for learning about neural networks, I really enjoyed reading [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning), which implements neural networks using only `numpy`, keeping the reader from being bogged down with implementation details. After that, Michael Nielsen's [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) is a good followup. If you prefer watching videos rather than reading, Josh Starmer's [StatQuest Neural Networks playlist](https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1) is also excellent. Another excellent introduction is [this video](https://www.manning.com/livevideo/3blue1brown-neural-networks) from Grant Sanderson*, which also goes into mathematical details.
 
 ### General concepts
 
@@ -15,7 +15,7 @@ One of the interesting and frustrating problems in modeling complex data is over
 
 The idea of artificial neural networks has been around since at least 1940s in the form of [Hebbian theory](https://en.wikipedia.org/wiki/Hebbian_theory), though modern artificial neural networks bear only vague conceptual resemblance to their biological analogues. Neural networks gained a lot of attention after Geoffrey Hinton's [famous 1986 paper](https://www.nature.com/articles/323533a0) on _backpropagation_, allowing for quick optimization of gradients, thus enabling multiple parameters to be learned efficiently. 
 
-The availability of big datasets and development of [GPGPUs](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) accelerated the use of neural networks in many areas, such as [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network) in image processing. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models, enabling the development of [GPTs](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) which power LLMs.
+The availability of big datasets and development of [GPGPUs](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) accelerated the use of neural networks in many areas, such as [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network) in image processing. Another big advance came in 2017 with the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper which described Transformer models, enabling the development of [GPTs](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) which power LLMs. Over time, "neural networks" becomes replaced by the snappier and more marketable "AI".
 
 As of 2024, one major development is **agentic AI**, smaller programs that _retrieve_ knowledge from LLMs, but can also use _external tools_. In increasing order of sophistication, the major conceptual types of agents are:
 
@@ -35,7 +35,7 @@ Because they require enormous investments of time, technical expertise and [elec
 
 As decision systems, neural networks that perform a narrow, well-defined task like text classification can be evaluated using traditional metrics like accuracy, ROC, _etc_. However, as both neural networks and their tasks become more complex, culminating in general purpose LLMs like ChatGPT, it's important to note that benchmarking them present several unique issues. 
 
-First, because AIs can perform so many tasks, there exists many benchmarks (200 by [one count](https://www.evidentlyai.com/llm-evaluation-benchmarks-datasets)). Choosing one (or more) of these benchmarks to characterize overall "performance" can be tricky.
+First, because AIs can perform so many tasks, there exists many benchmarks (200 by [one count](https://www.evidentlyai.com/llm-evaluation-benchmarks-datasets)). Choosing one (or more) of these benchmarks to characterize overall "performance" can be tricky, especially when at least for the moment, AIs seem to be significantly [better at some tasks than others](https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks).
 
 Second, AIs raise some serious privacy and safety concerns, particularly around [fully autonomous agents](https://arxiv.org/pdf/2502.02649) that motivated separate _safety benchmarks_, testing the AI's susceptibility to illegal, harmful or false information. 
 
