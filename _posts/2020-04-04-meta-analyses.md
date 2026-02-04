@@ -31,7 +31,7 @@ For exploratory data analysis, a [Q-Q plot](https://en.wikipedia.org/wiki/Q%E2%8
 
 There are a number of R packages to perform meta-analyses, including `meta`, `rmeta`, and [`metafor`](http://www.metafor-project.org/doku.php/help). The documentation for `metafor` has a handy chart [comparing the three packages](https://cran.r-project.org/web/packages/metafor/vignettes/metafor.pdf).
 
-`PyMeta` is an [online tool](http://www.pymeta.com/), which has a pip package counterpart called [PythonMeta](https://pypi.org/project/PythonMeta/).
+`PyMeta` is an [online tool](http://www.pymeta.com/), which has an offline package called [PythonMeta](https://pypi.org/project/PythonMeta/) obtainable via pip.
 
 ### References
 

@@ -7,7 +7,7 @@ I'm making my way through Robert C. Martin's classic [Clean Code](http://cleanco
 
 * The [replication crisis](https://jamanetwork.com/journals/jama/fullarticle/201218) likely results, at least in part from the way analysis pipelines are developed in the life sciences. Since biological experiments are expensive, and the pressure to publish is high, bioinformatics code can be more prone to bad practices, with little external corrective pressure. That's not to say that there aren't efforts to make bioinformatic code cleaner, there are in fact several: [TidyVerse](https://www.tidyverse.org/) and [PyData](https://pydata.org/) come to mind.
 
-* In a similar vein, there isn't much incentive to create re-usable software components. Fortunately for common data types like gene expression, there are some common data structures, tools and workflows in place, most notably [BioConductor](https://www.bioconductor.org/). 
+* In a similar vein, there isn't much incentive to create re-usable software components. Fortunately for common data types like gene expression, there are some common data structures, tools and workflows in place, most notably [BioConductor](https://www.bioconductor.org/).
 
 * As the saying goes, [naming is hard](https://carlalexander.ca/importance-naming-programming/), probably because it depends on the personality (and mood) of the programmer. I inherited one project where a file was named `ihatethis.dat` and another where all the variables were band names. In the latter case, having to explain to a supervisor why `bowie` and `ramones` were failing was funny the first time, and less so the second time.
 

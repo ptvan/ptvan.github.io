@@ -7,30 +7,31 @@ As the cost of high-throughput biological assays fall, it has become more common
 
 ### Assumptions and caveats
 
-Data integration presumes that the sum is better than its parts. For example, suppose you have an experiment where cells are treated with a drug, along with an unexposed control, and transcript and proteome data are collected. In the transcriptomic data, you see a number of genes being over-expressed in the treated group. Similarly in the proteomic data, you see the proteins from these genes also being over-expressed in the treated cells. So the two datasets are responding in the same direction: the exposed cells are up-transcribing some genes, then all those transcripts are being made into more proteins compared to the control.
+Data integration presumes that the sum is better than its parts. For example, suppose you have an experiment where cells are treated with a drug, along with an unexposed control. You imaged the cells, and transcript and proteome data are both collected. In the transcriptomic data, you see a number of genes being over-expressed in the treated group. Similarly in the proteomic data, you see the proteins from these genes also being over-expressed in the treated cells. So the two datasets are responding in the same direction: the exposed cells are up-transcribing some genes, then all those transcripts are being made into more proteins compared to the control.
 
 However, it's just as likely that the response in the two datasets are **not** in the same direction, at least not across all features (matched gene-protein in this case). Maybe only 80% of the up-regulated genes have increased protein counts, while the remaining have similar counts, or maybe even decreased protein counts. What does that mean ?
 
 It is important to ensure that the conclusions you are drawing are not confounded by biological or statistical problems. Some questions to ask yourself:
 
-- Were the samples processed in comparable ways across different assays ? Were all samples processed identically within the same assay ?
+- Were the samples processed in comparable ways across _different_ assays ? Within the _same_ assay, were all samples processed identically ?
 - Do the assays have the same sensitivity and dynamic range ? A large change in one assay may be undetectable in the other.
 - Are the datasets normalized in the same way ? Are the same samples/features outliers in both datasets ?
-- Do the timescales make sense ? Biological processes take time but many experiments are snapshots of cell states and your sampling may have missed the response. 
+- Do the timescales make sense ? Biological processes take time but many experiments are snapshots of cell states, and your sampling may have missed the response.
+- How do you combine _quantitative_ datasets _qualitative_ datasets, or _count_ datasets with _categorical_ ?
 
 If you have ruled all these problems out, _perhaps_ your data has generated some new insights.
 
 ### Approaches and implementations
 
-There are multiple ways to integrate data from multiple assays. In order of increasing sophistication:
+There are multiple ways to integrate data from multiple assays. In order of increasing sophistication, some of them are:
 
 #### Conceptual overlap
 
-This approach involves simply comparing individual genes or proteins that share the same function and/or response across different datasets. Many of the assumptions and caveats above apply.
+This approach involves simply comparing individual genes or proteins that share the same functional annotation and/or response across different datasets. Many of the assumptions and caveats above apply.
 
 #### Manually modeling the datasets together
 
-The conceptual overlap approach above isn't very sophisticated. For example, we only get _which_ predictors may be relevant, not their relative _importance_. This can be addressed by manually specifying a linear model that covers both datasets, which would also give you quantitative results like confidence intervals and p-values. The usual modeling caveats of picking the correct underlying distributions, data normalization and scaling, and correctly specifying covariates apply. 
+The conceptual overlap approach above isn't very sophisticated. For example, we only get _which_ predictors may be relevant, not their relative _importance_. This can be addressed by manually specifying a linear model that covers both datasets, which would also give you quantitative results like confidence intervals and p-values. The usual modeling caveats of picking the correct underlying distributions, data normalization and scaling, and correctly specifying covariates apply.
 
 #### Factor analysis
 

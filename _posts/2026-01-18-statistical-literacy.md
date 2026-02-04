@@ -3,7 +3,7 @@ layout: post
 title: Statistical literacy
 ---
 
-Whether we like it or not, we encounter a lot of claims during the course of everyday life. These claims range from the relatively trivial ("the best comedy series on television right now !") to the deeply significant with wide-ranging impacts ("drug X is better for this disease than drug Y"). Though my work often exposes me to the latter, I think everyone can benefit from statistical literacy: what these claims mean, how they are backed up by evidence, and being able to identify problems with them.
+Whether we like it or not, we encounter a lot of claims during the course of everyday life. These claims range from the trivial ("this is the best comedy series on television right now !") to the deeply significant with wide-ranging impacts ("drug X is better for this disease than drug Y"). Though my work often exposes me to the latter, I think everyone can benefit from statistical literacy: what these claims mean, how they are backed up by evidence, and being able to identify problems with them.
 
 ### Extraordinary claims require extraordinary evidence
 
@@ -42,4 +42,4 @@ Edward Tufte has a well-regarded series of [books on statistical graphics](https
 
 Berkson's paradox was recently illustrated using [real-world COVID data](https://pmc.ncbi.nlm.nih.gov/articles/PMC10016947/).
 
-Steven Goodmans' ["Twelve p-value misconceptions"](https://pubmed.ncbi.nlm.nih.gov/18582619/) is a good summary of the subject. The original is unfortunately locked behind a paywall, though you can find some of the same contents elsewhere, I find [this article](https://daniellakens.blogspot.com/2017/12/understanding-common-misconceptions.html) particularly useful due to its inclusion of plots showing the distributions. For multiple comparison correction, there is helpful coverage in [John McDonald's LibreTexts book](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/06%3A_Multiple_Tests/6.01%3A_Multiple_Comparisons).
+Steven Goodmans' ["Twelve p-value misconceptions"](https://pubmed.ncbi.nlm.nih.gov/18582619/) is a good summary of the subject. The original is unfortunately locked behind a paywall, though you can find some of the same contents elsewhere, I find [this article](https://daniellakens.blogspot.com/2017/12/understanding-common-misconceptions.html) particularly useful due to its inclusion of plots showing the distributions. For multiple comparison correction, there is helpful coverage in [John McDonald's Biological Statistics](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/06%3A_Multiple_Tests/6.01%3A_Multiple_Comparisons).
