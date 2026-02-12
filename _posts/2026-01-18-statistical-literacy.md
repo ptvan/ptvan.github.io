@@ -22,7 +22,7 @@ Further developing statistical literacy requires understanding fundamental conce
 
 **Statistical independence**: Many statistical tests and models assume that the observations in the data are independent, though in practice this assumption is sometimes violated. For example, weight and height are often correlated in biological data: a large mouse is usually also heavy so these two variables cannot be treated as independent.
 
-**Visually misleading graphics**: this is a large category of problems including: truncating axes, displaying quantities as volumes instead of lines which makes differences appear larger, omitting values which distort signficance of trends, improperly coloring or binning choropleths
+**Visually misleading graphics**: this is a large category of problems including truncating axes or displaying quantities as volumes instead of lines which makes differences appear larger, improperly binning or omitting values which distorts the signficance of trends.
 
 **Pseudoreplication**: I previously talked about pseudoreplication in [my post on experimental design](https://ptvan.github.io/experimental-design/). This occurs when the experiment does not have adequate replication, or the replications are not statistically independent.
 
