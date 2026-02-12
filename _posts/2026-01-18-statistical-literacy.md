@@ -16,11 +16,13 @@ in evaluating claims is to rule out _spurious associations_. It's easy to laugh 
 
 Returning to media coverage of new discoveries, these announcements rarely mention the _sample size_ or _effect size_ of the studies, and even more rarely do they cover the experimental design. Science generally develops slowly, and engineering is bound by physics, and while there are of course exceptions, dramatic discoveries or breakthroughs are rare.  Early studies that show positive results on drug X vs. drug Y may actually only have small percentage gain that is often invalidated by larger later follow-up experiments. This does not mean that the science is suspect. Science is informed by evidence, and when the evidence is incomplete or misunderstood, science suffers. Even more subjective claims like "best comedy series on television" falls apart under scrutiny: this result may have determined by polling a handful of audience members who already like comedies more than the average watcher. Observational, especially self-reported data is often less reliable, not because of malice, but because humans are subject to many [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases).
 
-Further developing statistical literacy requires understanding fundamental concepts like representative samples and confounders, what hypothesis testing requires and assumes, _etc_. It also requires more general scientific skills like experiment design and specific practical skills like making clear graphics and visualizations that do not mislead.
+Further developing statistical literacy requires understanding fundamental concepts like representative samples and confounders, what hypothesis testing requires and assumes, fluency in reading graphics, _etc_. It also requires more general scientific skills like experiment design and specific practical skills like making clear graphics and visualizations that do not mislead.
 
 ### Common statistical problems and fallacies
 
 **Statistical independence**: Many statistical tests and models assume that the observations in the data are independent, though in practice this assumption is sometimes violated. For example, weight and height are often correlated in biological data: a large mouse is usually also heavy so these two variables cannot be treated as independent.
+
+**Visually misleading graphics**: this is a large category of problems including: truncating axes, displaying quantities as volumes instead of lines which makes differences appear larger, omitting values which distort signficance of trends, improperly coloring or binning choropleths
 
 **Pseudoreplication**: I previously talked about pseudoreplication in [my post on experimental design](https://ptvan.github.io/experimental-design/). This occurs when the experiment does not have adequate replication, or the replications are not statistically independent.
 
@@ -36,9 +38,11 @@ Further developing statistical literacy requires understanding fundamental conce
 
 Carl Bergstrom's [Calling Bullshit](https://callingbullshit.org/) covers some of this blogpost's points. In addition, Bergstrom's efforts (working with colleague Jevin West) more recently include [Bullshit Machines](https://thebullshitmachines.com/) concerning LLMs. Other books on statistical literacy include [The Tiger That Isn't](https://plus.maths.org/content/tiger-isnt) and [The Art of Statistics](https://medium.com/@juntaah/review-the-art-of-statistics-david-spiegelhalter-ed366f4102ea). I haven't read these two books (the links are to reviews), but intend to in the future.
 
+Some examples of misleading graphics can be seen in this [Graph Gone Wrong article](https://medium.com/@Ana_kin/graphs-gone-wrong-misleading-data-visualizations-d4805d1c4700).
+
 Emily Oster documents several instances where health recommendations given to pregnant women were based on historical studies with small and/or unrepresentative samples in her book [Expecting Better](https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/).
 
-Edward Tufte has a well-regarded series of [books on statistical graphics](https://www.edwardtufte.com/books/) starting with the classic "The Visual Display of Quantitative Information".
+Edward Tufte has a well-regarded series of [books on statistical graphics](https://www.edwardtufte.com/books/) starting with the classic "The Visual Display of Quantitative Information" which discusses some visually misleading graphics.
 
 Berkson's paradox was recently illustrated using [real-world COVID data](https://pmc.ncbi.nlm.nih.gov/articles/PMC10016947/).
 
