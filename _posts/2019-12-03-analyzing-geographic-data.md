@@ -15,11 +15,9 @@ For obtaining data, the `rnaturalearth` package draws from the excellent [databa
 
 For data structures, one well-known package is [sf](https://r-spatial.github.io/sf/), which allows you to store **S**imple **F**eatures. For handling data larger than a single computer's memory, [Apache Arrow](https://arrow.apache.org/) and [Parquet](https://parquet.apache.org/) are very useful. These are supported in R through [geoarrow](https://github.com/geoarrow/geoarrow-r) and  [sfarrow](https://wcjochem.github.io/sfarrow/index.html) provided by [GeoParquet standard](https://geoparquet.org/).
 
-Geographic data are for the most part tabular, so you can do much of the data wrangling using `tidyverse` tools if you wish. For analysis, you can use the `spdep` package to calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), `spatstat` and `stpp` to understand point patterns.
+Geographic data are for the most part tabular, so you can do much of the data wrangling using `tidyverse` tools if you wish. For analysis, you can use the `spdep` package to calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), `spatstat` and `stpp` to understand point patterns and perform other statistical work. To detect clusters of objects in geographic data, particularly useful in spatial epidemiology, [https://cran.r-project.org/web/packages/SpatialEpi/index.html](SpatialEpi) implements the classic [Besag-Newell](https://www.jstor.org/stable/2982708) algorithm, and [scanstatistics](https://cran.r-project.org/web/packages/scanstatistics/vignettes/introduction.html) detects anomalous clusters using different scan statistics tosuch as [Kulldorff's](https://www.tandfonline.com/doi/abs/10.1080/03610929708831995).
 
 For handling projections, the low-level `GDAL` library provides bindings for both R (in the form of [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html)) and python.
-
-To detect clusters of objects in geographic data, particularly useful in spatial epidemiology, `SpatialEpi` implements the classic [Besag-Newell](https://www.jstor.org/stable/2982708) algorithm, and `scanstatistics` implements different scan statistics, such as [Kulldorff's](https://www.tandfonline.com/doi/abs/10.1080/03610929708831995).
 
 For plotting maps, `ggplot2` conveniently implements `geom_sf` for static maps, and `coord_sf` for projection, as described in this [great writeup on r-spatial.org](https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html).
 
@@ -33,6 +31,6 @@ If you're working in Python, [GeoViews](http://geoviews.org/) for handling large
 
 ### Further reading
 
-The [Spatial Data Science With Applications in R book](https://r-spatial.org/book/) is a good resource that covers both theory and applications.
+The [Spatial Data Science With Applications in R book](https://r-spatial.org/book/) is a good resource that covers both theory and general spatial applications. [Applied Spatial Analysis for Public Health](https://hughst.github.io/) is an online course that begins with spatial concepts before focusing on public health.
 
 *_Somewhat confusingly, HoloViz also provides `hvPlot`, which allows general-purpose plotting that partially overlaps with seaborn/matplotlib/ggplot._
