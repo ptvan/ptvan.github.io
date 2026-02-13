@@ -7,13 +7,15 @@ This post is written as a follow-up to my post on [JavaScript mapping](https://p
 
 ### Scale matters
 
-Before you install every R geographic package in CRAN or GitHub, it's important to know the physical scale of the task your're performing. Mapping at street level is different when mapping countries or entire regions. For one, you don't need to worry about projection in the former but they are critically important in the latter. So a static map of the continental US only needs a [single function call](https://github.com/ptvan/R-snippets/blob/master/geographic_analysis.R). Similarly, if you want to highlight a few cities on that map, simply adding the corresponding markers directly via their latitude+longitude will work, without needing the overkill of a full-blown geocoding workflow.
+Before you install every R geographic package in CRAN or GitHub, it's important to know the physical scale of the task you're performing. Mapping at street level is different when mapping countries or entire regions. For one, you don't need to worry about projection in the former but it is critically important in the latter. So a static map of the continental US only needs a [single function call](https://github.com/ptvan/R-snippets/blob/master/geographic_analysis.R). Similarly, if you want to highlight a few cities on that map, simply adding the corresponding markers directly via their latitude+longitude will work, without needing the overkill of a full-blown geocoding workflow.
 
 ### The R ecosystem for working with geographic data
 
 For obtaining data, the `rnaturalearth` package draws from the excellent [database of the same name](http://www.naturalearthdata.com/), similarly `osmdata` pulls from [OpenStreetMap](https://www.openstreetmap.org).
 
-For data structures, one well-known package is `sf`, which allows you to store **S**imple **F**eatures. Geographic data are for the most part tabular, so you can do all the wrangling using `tidyverse` tools if you wish. To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package.
+For data structures, one well-known package is `sf`, which allows you to store **S**imple **F**eatures. For handling data larger than a single computer's memory, [Apache Arrow](https://arrow.apache.org/) and [Parquet](https://parquet.apache.org/)are very useful. These are supported in R through [geoarrow](https://github.com/geoarrow/geoarrow-r), [sfarrow](https://wcjochem.github.io/sfarrow/index.html) provided by [GeoParquet standard](https://geoparquet.org/).
+
+Geographic data are for the most part tabular, so you can do much of the data wrangling using `tidyverse` tools if you wish. To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package.
 
 For handling projections, the low-level `GDAL` library provides bindings for both R (in the form of [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html)) and python.
 

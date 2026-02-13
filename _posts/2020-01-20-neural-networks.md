@@ -9,7 +9,7 @@ One lesson I learned in graduate school was the importance of understanding thin
 
 Like other machine learning systems, neural networks aim to return a set of outputs given some inputs: classes for a image classification task, phrases in the target language for translation task, _etc_.  What makes neural networks unique is the _scale_ of the inputs and outputs and thus the difficulty of training: modern Large Language Models (LLMs) are trained on billions to hundreds of billions of parameters. As a result, progress in Artificial Intelligence (now almost always synonymous with large neural networks) has often involved making the training process more efficient.
 
-The very first step of running a machine learning system is data preparation. This almost always involves data cleaning, and more more complex data types like audio or image data will need to be encoded. Next begins the model training process, where we detect patterns in data then find things that predict these patterns. One of the interesting and frustrating problems in modeling complex data is overfitting. The solution often involves a combination of picking the right tools, then knowing how to interpret their output. In a neural network context once you've picked the appropriate [architecture](https://medium.com/data-science/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464), the right [activation functions](https://www.analyticssteps.com/blogs/7-types-activation-functions-neural-network), you may need to implement [dropout](http://jmlr.org/papers/v15/srivastava14a.html). These, and other network tuning issues are covered in [Neural Smithing](https://mitpress.mit.edu/books/neural-smithing).
+The very first step of running a machine learning system is data preparation. This almost always involves data cleaning, and more more complex data types like audio or image data will need to be encoded. Next begins the model training process, where we detect patterns in data then find things that predict these patterns. One of the interesting and frustrating problems in modeling complex data is **overfitting**. The solution often involves a combination of picking the right tools, then knowing how to interpret their output. In a neural network context once you've picked the appropriate [architecture](https://medium.com/data-science/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464), the right [activation functions](https://www.analyticssteps.com/blogs/7-types-activation-functions-neural-network), you may need to implement [dropout](http://jmlr.org/papers/v15/srivastava14a.html). These, and other network tuning issues are covered in [Neural Smithing](https://mitpress.mit.edu/books/neural-smithing).
 
 ### History and progress
 
@@ -19,15 +19,9 @@ The availability of big datasets and development of [GPGPUs](https://en.wikipedi
 
 Because they require enormous investments of time, technical expertise and [electrical energy](https://cacm.acm.org/blogcacm/the-energy-footprint-of-humans-and-large-language-models/) there is a lot of interest in making LLMs more efficient. This can take several forms: making LLMs more efficient to train from scratch, making LLMs easier to tweak, or speeding up LLM queries. Since many applications only need a small portion of the LLM's weights to be updated, rather than all of them to be retrained, techniques like [LoRA](https://medium.com/@raquelhvaz/efficient-llm-fine-tuning-with-lora-e5edb88b64a1) (Low Rank Adaptation) can be used. LLM queries can be sped up using [Speculative decoding](https://research.google/blog/looking-back-at-speculative-decoding/) where multiple tokens of the response can be calculated simulaneously (_diffusion models_), replacing the older _autoregressive models_ that generate one response token at a time.
 
-As of 2024, one major development is **agentic AI**, smaller programs that _retrieve_ knowledge from LLMs, but can also use _external tools_. In increasing order of sophistication, the major conceptual types of agents are:
+As of 2024, one major development is **agentic AI**, smaller programs that _retrieve_ knowledge from LLMs, but can also use _external tools_. A good overview of the major types of agents can be found [on IBM's Think blog](https://www.ibm.com/think/topics/ai-agent-types).
 
-- **Simple reflex agents**: reacts to input data via condition-action rules
-- **Model-based reflex agents**: remembers previous states in applying condition-action rules
-- **Goal-based agents**: works towards higher-level aims which can involve multiple steps
-- **Utility-based agents**: evaluates multiple runs of strategy
-- **Learning agents**: combines and optimizes strategies over time
-
-Tool use itself can be implemented in multiple ways: **Retrieval-Augmented Generation** (RAG) and **Cache-Augmented Generation** (CAG), optimizing for data freshness or latency, respectively.
+Tool use itself can be implemented in multiple ways: **Retrieval-Augmented Generation** (RAG) and **Cache-Augmented Generation** (CAG), prioritizing data freshness or latency, respectively.
 
 ### Running neural networks
 
@@ -35,7 +29,7 @@ Because of their value and cost as mentioned above, commercial LLMs are closed-s
 
 ### Evaluating neural network performance
 
-As decision systems, neural networks that perform a narrow, well-defined task like text classification can be evaluated using traditional metrics like accuracy, ROC, _etc_. However, as both neural networks and their tasks become more complex, culminating in general purpose LLMs like ChatGPT, it's important to note that benchmarking them present several unique issues. 
+As decision systems, neural networks that perform a narrow, well-defined task like text classification can be evaluated using traditional metrics like accuracy, ROC, _etc_. However, as both neural networks and their tasks become more complex, culminating in general purpose LLMs like ChatGPT, it's important to note that benchmarking them present several unique issues.
 
 First, because AIs can perform so many tasks, there exists many benchmarks (200 by [one count](https://www.evidentlyai.com/llm-evaluation-benchmarks-datasets)). Choosing one (or more) of these benchmarks to characterize overall "performance" can be tricky, especially when at least for the moment, AIs seem to be significantly [better at some tasks than others](https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks).
 
