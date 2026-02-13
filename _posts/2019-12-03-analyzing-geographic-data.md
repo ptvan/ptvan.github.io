@@ -13,9 +13,9 @@ Before you install every R geographic package in CRAN or GitHub, it's important 
 
 For obtaining data, the `rnaturalearth` package draws from the excellent [database of the same name](http://www.naturalearthdata.com/), similarly `osmdata` pulls from [OpenStreetMap](https://www.openstreetmap.org).
 
-For data structures, one well-known package is `sf`, which allows you to store **S**imple **F**eatures. For handling data larger than a single computer's memory, [Apache Arrow](https://arrow.apache.org/) and [Parquet](https://parquet.apache.org/)are very useful. These are supported in R through [geoarrow](https://github.com/geoarrow/geoarrow-r), [sfarrow](https://wcjochem.github.io/sfarrow/index.html) provided by [GeoParquet standard](https://geoparquet.org/).
+For data structures, one well-known package is [sf](https://r-spatial.github.io/sf/), which allows you to store **S**imple **F**eatures. For handling data larger than a single computer's memory, [Apache Arrow](https://arrow.apache.org/) and [Parquet](https://parquet.apache.org/) are very useful. These are supported in R through [geoarrow](https://github.com/geoarrow/geoarrow-r) and  [sfarrow](https://wcjochem.github.io/sfarrow/index.html) provided by [GeoParquet standard](https://geoparquet.org/).
 
-Geographic data are for the most part tabular, so you can do much of the data wrangling using `tidyverse` tools if you wish. To calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), you can use the `spdep` package.
+Geographic data are for the most part tabular, so you can do much of the data wrangling using `tidyverse` tools if you wish. For analysis, you can use the `spdep` package to calculate spatial auto-correlation (eg. [Moran's I](https://en.wikipedia.org/wiki/Moran%27s_I)), `spatstat` and `stpp` to understand point patterns.
 
 For handling projections, the low-level `GDAL` library provides bindings for both R (in the form of [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html)) and python.
 
@@ -30,5 +30,9 @@ If instead you want to create [hexbin maps](https://www.data-to-viz.com/graph/he
 ### It's good to be polyglot: geographic data in Python
 
 If you're working in Python, [GeoViews](http://geoviews.org/) for handling large-scale maps, part of the [HoloViz](http://holoviz.org)* collection of libraries. For visualization, you can use the old-school [matplotlib](https://matplotlib.org/), the new-school [seaborn](https://seaborn.pydata.org/), as well as a [Python version of ggplot](http://ggplot.yhathq.com/). If you need interactivity, the web-oriented [Bokeh](https://docs.bokeh.org/en/latest) works well.
+
+### Further reading
+
+The [Spatial Data Science With Applications in R book](https://r-spatial.org/book/) is a good resource that covers both theory and applications.
 
 *_Somewhat confusingly, HoloViz also provides `hvPlot`, which allows general-purpose plotting that partially overlaps with seaborn/matplotlib/ggplot._
