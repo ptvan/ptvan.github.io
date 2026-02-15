@@ -16,9 +16,9 @@ While the idea of data needing to remain private might appear obvious, there are
 
 Handling data often involves striking a balance between privacy and accessibility: an inaccessible dataset is private, and vice versa. Some questions to ask yourself when addressing data privacy includes: how often does the data need to be accessed, how serious would a data breach be ?
 
-### Common attack vectors
+### Common attack types
 
-Some of the threads against data privacy include:
+Some of the threats against data privacy include:
 
 **Singling out attacks** focuses on gathering information about a single individual in a public dataset. Imagine you have a dataset on a company's employees with their names replaced with randomly-generated IDs. It's a safe bet that the individual with the highest salary is the CEO, but you can also identify specific individuals if you know for example, their gender, age and department. This attack can also be combined with the next attack.
 
@@ -29,6 +29,8 @@ Some of the threads against data privacy include:
 **Model-inversion attack** identifies individuals by exploiting machine learning models. For example, suppose you have access to a facial recognition API. You can use a search method that maximized activation to return an image that closely resemble a specific person in the training set.
 
 ### Processes and tools to improve data privacy
+
+Data privacy can include _data loss prevention_, measuring inbound and outbound traffic to detect if sensitive data is being exfiltrated without authorization.
 
 The most basic approach to improve privacy is **pseudonymization**, including **masking** (replacing PII with a randomly chosen string), **table-based tokenization** (replacing sensitive values with a corresponding entry from a look up table), **hashing** and similarly **format-preserving encryption**.  
 
@@ -43,3 +45,5 @@ Some of the data privacy concerns involve having data being concentrated at a si
 ### Further reading
 
 The Flower framework has a good [explanation of federated learning](https://flower.ai/docs/framework/tutorial-series-what-is-federated-learning.html).
+
+Battista Biggio has done a lot of work on [machine learning attacks](https://battistabiggio.github.io/publications/).
