@@ -11,11 +11,11 @@ Since manipulating structured text is such a common task, there are [quite a few
 
 ### Bioinformatics and dealing with big data
 
-Working in bioinformatics, I have also come across a whole cottage industry of [bioinformatics oneliners](https://github.com/stephenturner/oneliners) using `bcftools` and `samtools` (and their refined variants, eg. [sambamba](https://lomereiter.github.io/sambamba/)). For FASTQ files there is the excellent [fastp](https://github.com/OpenGene/fastp). To glue these tools together, there are workflow managers as I have described in a [previous post](https://ptvan.github.io/workflow-managers/).
+Working in bioinformatics, I have also come across a whole cottage industry of [bioinformatics oneliners](https://github.com/stephenturner/oneliners) using `bcftools` and `samtools` (and their refined variants, _eg._ [sambamba](https://lomereiter.github.io/sambamba/)). For FASTQ files there is the excellent [fastp](https://github.com/OpenGene/fastp). To glue these tools together, there are workflow managers as I have described in a [previous post](https://ptvan.github.io/workflow-managers/).
 
-There are also bioinformatic variants of classic UNIX tools, like `seqtk` and `bioawk` . When dealing with big data, it's good to parallelize your tasks, using both a general-purpose tool like [GNU Parallel](https://www.gnu.org/software/parallel/) and parallelized versions of existing tools, like [pigz](https://zlib.net/pigz/) for `gzip`. Often, these tools are picked the hard way, as documented in this wonderfully informative blogpost about [analyzing 25TB of sequencing data](https://livefreeordichotomize.com/posts/2019-06-04-using-awk-and-r-to-parse-25tb/).
+There are also bioinformatic variants of classic UNIX tools, like [seqtk](https://github.com/lh3/seqtk) and [bioawk](https://github.com/lh3/bioawk) . When dealing with big data, it's good to parallelize your tasks, using both a general-purpose tool like [GNU Parallel](https://www.gnu.org/software/parallel/) and parallelized versions of existing tools, like [pigz](https://zlib.net/pigz/) for `gzip`. Often, these tools are picked the hard way, as documented in this wonderfully informative blogpost about [analyzing 25TB of sequencing data](https://livefreeordichotomize.com/posts/2019-06-04-using-awk-and-r-to-parse-25tb/).
 
-### Data Science at the Command Line 
+### Data Science at the Command Line
 
 The [Data Science at the Command Line](https://www.datascienceatthecommandline.com/) book gives a pretty good overview of the subject (the second edition was published in 2021).
 
@@ -27,6 +27,6 @@ Finally, the author covered [Weka](https://www.cs.waikato.ac.nz/ml/weka/), a Jav
 
 The second edition added more tools: [Tapkee](https://tapkee.lisitsyn.me/) for dimensional reduction, regression with [Vowpal Wabbit](https://vowpalwabbit.org/), among others. The author also contributed additional utilities in his [own GitHub Repo](https://github.com/jeroenjanssens/data-science-at-the-command-line).
 
-### Visualizing data in the command line
+### Visualizing data on the command line
 
-Visualizing data in the command line used to mean _exporting_ your figures into JPG/PNG files, then opening them with another GUI program. However, now you can feed your CSV (or even STDIN pipes, from say, your favorite [light-weight database](https://duckdb.org)) into [YouPlot](https://github.com/red-data-tools/YouPlot) and make plots appear in the command line. 
+Visualizing data in the command line used to mean _exporting_ your figures into JPG/PNG files, then opening them with another GUI program. However, now you can feed your CSV (or even STDIN pipes) into [YouPlot](https://github.com/red-data-tools/YouPlot) and make plots appear in the command line. If your data is storedin [DuckDB](https://duckdb.org), you can use [textplot](https://github.com/query-farm/textplot) to plot the results.
