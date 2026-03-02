@@ -23,6 +23,12 @@ Philip Tetlock is a professor at the University of Pennsylvania who along with h
 
 Compared to _The Signal and The Noise_, Superforecasting is written in a more academic style.  Interestingly, Nate Silver had met Tetlock and devoted a section in in _The Signal and The Noise_ to discuss Tetlock and Tetlock's ideas.
 
-- Prior to World War II, many medical procedures were carried out despite dubious (or absence of) evidence for their effectiveness. Medical practice did not become evidence-based until randomized controlled trials were first seriously attempted in the late 1940s, advocated by [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane).
+- Prior to World War II, many medical procedures were carried out despite dubious (or absence of) evidence for their effectiveness. Medical practice did not become evidence-based until randomized controlled trials were first seriously attempted in the late 1940s, advocated by [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane). As late as 1921, the medical journal _The Lancet_ posed a question of whether statistics is important to medicine or "a trivial and time-wasting ingenuity".
 
 - News reports often state that stock markets rose or fell due to company announcements or press releases, but inspection of the timeline reveals that markets have closed by the time that announcement was made.
+
+- Tetlock posits that there are two systems of thinking: System 1, an instinctive "primitive psycho-logic", fast, constantly running in the background; and System 2, a conscious deliberative thought process. He then argues that decision making shouldn't employ either system exclusively at the expense of the other, but instead a blending of both: double-checking your intuitive feelings using conscious judgement.
+
+- Tetlock asserts that forecasts must have clearly defined terms (since even common expressions like "likely", "probable", "a fair chance" are often interpreted differently by different people), use numbers and express timelines. We must also use many forecasts for the same attempt at prediction.
+
+- _Brier score_, developed by [Glenn Brier in 1950](https://en.wikipedia.org/wiki/Brier_score) measures the distance between the forecast and the actual outcome: perfect predictions get a score of zero, random guessing gets 0.5 and a forecasts that predicts 100% chance of something that doesn't occur gets 2.0. Tetlock also noted that Brier score alone doesn't necessarily reveal the quality of the prediction, it's possible to get very high scores when the outcome is "no change" (coincidentally, he cited Nate Silver's 2012 state-level presidential election results as an example, 48 states did not change their party preference).
