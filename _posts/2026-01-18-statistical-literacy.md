@@ -28,7 +28,7 @@ Further developing statistical literacy requires understanding fundamental conce
 
 **Base-rate fallacy**: also called _false positive paradox_, this occurs when we ignore the general prevalence of a event, also called the _base rate_ of a statistical test.
 
-**Simpson's paradox**: this occurs when trends observed in different parts of a dataset reverses when these parts are combined into a single dataset. Usually this happens when a confounding variable is present in the data but hasn't been accounted for.
+**Simpson's paradox**: this occurs when trends observed in different parts of a dataset reverses when these parts are combined into a single dataset. Usually this happens when a confounding variable is present in the data but hasn't been accounted for. Simpson's often involves discrete values, for data containing continuous values the trend reversal can be a case of the related _Lord's paradox_.
 
 **Berkson's paradox**: also called _collider bias_ and closely related to Simpson's paradox, this occurs when two independent events appear to be correlated in a dataset.
 
