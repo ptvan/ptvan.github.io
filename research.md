@@ -10,7 +10,7 @@ For the more technically inclined, my GitHub repos are located at [https://githu
 
 ## Brief executive summary
 
-I'm currently the Bioinformatics Solutions Consultant at [Pluto Biosciences](https://pluto.bio), supporting our multi-omics computational biology platform. Previously I was the Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/), specializing on duplex sequencing for mutagenesis and cancer applications. Before that I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
+I was most recently the Bioinformatics Solutions Consultant at [Pluto Biosciences](https://pluto.bio), supporting the company's multi-omics computational biology platform and serving as a bioinformatics expert for our clients. Previously I was the Senior Manager of Bioinformatics Solutions at [TwinStrand Biosciences](https://twinstrandbio.com/), specializing on duplex sequencing for mutagenesis and cancer applications. Before that I worked as a postdoc, then an analyst at [Fred Hutch Cancer Center](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) on flow/mass cytometry and transcriptomics. I received my PhD at [Carnegie Mellon](https://cmu.edu/bio) where I designed and built a patented fluorescence imager to detect low-abundance proteins. Before grad school I worked on gene transcription networks and proteomics at the [Institute for Systems Biology](https://baliga.systemsbiology.net/).
 
 My greatest strength is adaptability: in addition to my career in computational biology, I have had success as [field ecologist](https://www.fs.usda.gov/colville) and [photojournalist](https://makingtheprince.blogspot.com/2013/11/meet-author.html). I am motivated and organized, having worked 3 jobs simultaneously through college and self-published an illustrated children's book through KickStarter in graduate school.
 
@@ -18,7 +18,7 @@ I enjoy explaining and applying complex ideas. I lectured introductory biology t
 
 ## Detailed descriptions of major projects
 
-### Multi-omics (2025 - )
+### Multi-omics (2025 - 2026)
 
 I served as the client-facing bioinformatics expert at [Pluto Biosciences](https://pluto.bio). I solved problems in ChIPseq/ATACseq, bulk and single-cell RNASeq and advised customers on bioinformatics and statistics. I also worked closely with the engineering team by creating working prototype pipelines to be productionized, collecting Voice of Customers and creating reproducible bug reports.
 
