@@ -23,7 +23,7 @@ In simple cases, we have a handful of predictors affecting our outcome: for exam
 
 Generally speaking, we want to avoid overfitting models by using as few predictors as possible while still achieving reasonable accuracy. Assigning penalties, a.k.a. *regularization* can be helpful. **Lasso** ("Least Absolute Shrinkage and Selection Operator") by [Tibshirani](https://tibshirani.su.domains/) and [Hastie](https://web.stanford.edu/~hastie/) shrinks the coefficients of certain predictors to zero, keeping other predictors in the model as "important" by assigning a penalty term (thus performing the "selection" function of its name). The lasso penalty term is the sum of the model's coefficients.
 
-Lasso works great if our predictors behave differently from each other, but if they are correlated, it will pick one correlated predictor over another since from its perspective, they are equally likely. Another issue with Lasso comes up when there are more predictors than observations (the so-called *p>n problem*), where Lasso will pick at most *n* predictors and shrink the rest away. 
+Lasso works great if our predictors behave differently from each other, but if they are correlated, it will pick one correlated predictor over another since from its perspective, they are equally likely. Another issue with Lasso comes up when there are more predictors than observations (the so-called *p>n problem*), where Lasso will pick at most *n* predictors and shrink the rest away.
 
 While it makes sense sometimes to discard some predictors, especially ones that have near-zero variance, sometimes there are [reasons not to](https://tgmstat.wordpress.com/2014/03/06/near-zero-variance-predictors/). An alternative approach is to use a different penalty term, specifically the sum of *squares* of coefficients. This approach, called **ridge regression**, ensures that no predictor ever gets excluded from the model, effectively performing no selection.
 
@@ -39,13 +39,15 @@ It's always good to check the model before accepting the results, since problems
 
 *Collinearity* as stated above, causes instability in the coefficients and occurs when one predictor can be predicted by linearly combining other predictors. This can be detected using tests (Condition Number Test, Farrar-Glauber), Variance Inflation Factor, or explicitly testing the stability of the coefficients by perturbing the data with random noise.
 
+Specific models can be interpreted using [LIME](https://cran.r-project.org/web/packages/lime/vignettes/Understanding_lime.html) or [SHAP](https://shap.readthedocs.io/en/latest/).
+
 It's also a good idea to perform *cross-validation*, dividing your dataset into *training* and *testing* partitions and as they say, rinse and repeat.
 
 ### Implementations
 
-Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, a core installation often includes the `stats` package which provides the `lm()` and `glm()` functions. Regularization is supported by the `glmnet` and `elasticnet` packages, among others.
+Thanks to its roots as a statistical programming language, R has particularly strong support of linear models, a core installation often includes the `stats` package which provides the `lm()` and `glm()` functions. Regularization is supported by the [glmnet](https://glmnet.stanford.edu/articles/glmnet.html) and [elasticnet](https://cran.r-project.org/web/packages/elasticnet/index.html) packages, among others.
 
-In Python, the `linear_model` module in **scikit-learn** is fairly comprehensive, with OLS, regularization, logistic and GLM. Alternatively, [statsmodels](https://www.statsmodels.org/stable/index.html) also provides these functionalities as well as survival and time series analysis.
+In Python, the [linear_model](https://scikit-learn.org/stable/modules/linear_model.html) module in **scikit-learn** is fairly comprehensive, with OLS, regularization, logistic and GLM. Alternatively, [statsmodels](https://www.statsmodels.org/stable/index.html) also provides these functionalities as well as survival and time series analysis.
 
 ### References
 
