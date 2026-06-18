@@ -3,7 +3,9 @@ layout: post
 title: AI for biology
 ---
 
-As AI (that is to say, LLM-based technology, until the current trend drastically changes) continues to mature and develop, it's interesting to think about its impact on different domains beyond software engineering. My domain is biology and certainly there have been significant developments there. Given the pace of LLM development, this post will likely remain perpetually out of date.
+As AI (that is to say, LLM-based technology, until the current trend drastically changes) continues to mature and develop, it's interesting to think about its impact on different domains beyond software engineering where it is arguably having the most visible impact. I have spent my professional career as a biologist and undeniably there have been enormous AI growth in my field. Given the pace of LLM development, this post will likely remain perpetually out of date.
+
+I think it's useful to frame these AI developments as enhancing the capabilities of biologists rather than replacing them outright, as very well articulated in [this article from May 2026](https://www.nature.com/articles/s41746-026-02777-1).
 
 ### Answering biomedical questions
 
