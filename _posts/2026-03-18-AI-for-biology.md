@@ -2,14 +2,14 @@
 layout: post
 title: AI for biology
 ---
-
+   
 As AI (that is to say, LLM-based technology, until the current trend drastically changes) continues to mature and develop, it's interesting to think about its impact on different domains beyond software engineering where it is arguably having the most visible impact. I have spent my professional career as a biologist and undeniably there have been enormous AI growth in my field. Given the pace of LLM development, this post will likely remain perpetually out of date.
 
 I think it's useful to frame these AI developments as enhancing the capabilities of biologists rather than replacing them outright, as very well articulated in [this article from May 2026](https://www.nature.com/articles/s41746-026-02777-1).
 
 ### Answering biomedical questions
 
-Since the most popular implementation of AI is chatbots, it's hardly surprising that there have been many attempts to implement AI biology expert systems. [Med-PaLM and its follow-up Med-PaLM 2](https://sites.research.google/gr/med-palm/) can answer medical questions drawn from the US Medical Licensing Exam (USMLE). [Heidi](https://www.heidihealth.com/en-us/evidence) can answer clinical questions.
+Since the most popular implementation of AI is chatbots, it's hardly surprising that there have been many attempts to implement AI biology expert systems. [Med-PaLM and its follow-up Med-PaLM 2](https://sites.research.google/gr/med-palm/) can answer medical questions drawn from the US Medical Licensing Exam (USMLE). [Heidi](https://www.heidihealth.com/en-us/evidence) can answer clinical questions. In a similar vein, Anthropic recently released [Claude Science](https://claude.com/product/claude-science) which integrates common research tools into a single AI workbench.
 
 ### Biological foundation models
 
