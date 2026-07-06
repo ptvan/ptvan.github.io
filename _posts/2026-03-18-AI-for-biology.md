@@ -23,6 +23,6 @@ For histology there is [H0-mini](https://huggingface.co/bioptimus/H0-mini), a di
 
 Modeling cell surface receptors, such as [Trex](https://github.com/BorchLab/Trex) for T cells and [Ibex](https://github.com/BorchLab/Ibex) for B cells.
 
-For designing mRNA sequence there is [mRNABERT](https://github.com/yyly6/mRNABERT).
+For designing mRNA sequences there are [mRNABERT](https://github.com/yyly6/mRNABERT), [RiboDecode](https://github.com/wangfanfff/RiboDecode) and [LinearDesign](https://github.com/LinearDesignSoftware/LinearDesign).
 
 For protein-ligand docking there are [DiffDock](https://github.com/gcorso/DiffDock), [IsoDDE](https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier), [Boltz-2](https://github.com/jwohlwend/boltz), [ESMFold](https://github.com/facebookresearch/esm).
