@@ -9,7 +9,7 @@ I think it's useful to frame these AI developments as enhancing the capabilities
 
 ### Answering biomedical questions
 
-Since the most popular implementation of AI is chatbots, it's hardly surprising that there have been many attempts to implement AI biology expert systems. [Med-PaLM and its follow-up Med-PaLM 2](https://sites.research.google/gr/med-palm/) can answer medical questions drawn from the US Medical Licensing Exam (USMLE). [Heidi](https://www.heidihealth.com/en-us/evidence) can answer clinical questions. In a similar vein, Anthropic recently released [Claude Science](https://claude.com/product/claude-science) which integrates common research tools into a single AI workbench.
+Since the most popular implementation of AI is chatbots, it's hardly surprising that there have been many attempts to implement AI biology expert systems. [Med-PaLM and its follow-up Med-PaLM 2](https://sites.research.google/gr/med-palm/) can answer medical questions drawn from the US Medical Licensing Exam (USMLE). [Heidi](https://www.heidihealth.com/en-us/evidence) can answer clinical questions. In a similar vein, Anthropic recently released [Claude Science](https://claude.com/product/claude-science) which integrates common research tools into a single AI workbench, following analogous offerings from Open AI and Google ([GPT-Rosalind](https://openai.com/index/introducing-gpt-rosalind/) and [Gemini for Science](https://ai.google/gemini-for-science/), respectively).
 
 ### Biological foundation models
 
