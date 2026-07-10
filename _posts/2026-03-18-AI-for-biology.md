@@ -13,7 +13,7 @@ Since the most popular implementation of AI is chatbots, it's hardly surprising 
 
 ### Biological foundation models
 
-Analogous to foundation large language models, there are _biological_ foundation models trained on biological sequences. Evo was trained on bacterial genomes and [Evo 2](https://github.com/arcinstitute/evo2) was trained on all domains of life. Models for more specific tasks involving DNA or protein sequences are then built upon these foundation models.
+Analogous to foundation large language models, there are _biological_ foundation models ("BioFM"s) trained on different biological sequences. For genomic data, Evo was trained on bacterial genomes and [Evo 2](https://github.com/arcinstitute/evo2) was trained on all domains of life. Protein structure prediction can be performed using [AlphaFold](https://alphafoldserver.com/welcome) and [ESMFold](https://esmatlas.com/).
 
 ### Modeling biological processes using AI
 
