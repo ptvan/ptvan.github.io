@@ -19,7 +19,7 @@ Analogous to foundation large language models, there are _biological_ foundation
 
 Deep learning have been applied to H&E slides to predict mutations ([DeepPATH](https://github.com/ncoudray/DeepPATH)), molecular phenotypes ([PACpAInt](https://github.com/owkin/pacpaint)), transcriptomic levels ([HE2RNA](https://github.com/owkin/HE2RNA_code)) and patient outcomes ([MesoNet](https://pubmed.ncbi.nlm.nih.gov/31591589/)).
 
-For histology there is [H0-mini](https://huggingface.co/bioptimus/H0-mini), a distillation of U-Optimus and M-Optimus foundational models.
+For histology there is the [H0-mini](https://huggingface.co/bioptimus/H0-mini) foundation model, a distillation of U-Optimus and M-Optimus. [HoVer-Net](https://github.com/vqdang/hover_net) segments histology images and classifies them. 
 
 Modeling cell surface receptors, such as [Trex](https://github.com/BorchLab/Trex) for T cells and [Ibex](https://github.com/BorchLab/Ibex) for B cells.
 
