@@ -29,4 +29,4 @@ The second edition added more tools: [Tapkee](https://tapkee.lisitsyn.me/) for d
 
 ### Visualizing data on the command line
 
-Visualizing data in the command line used to mean _exporting_ your figures into JPG/PNG files, then opening them with another GUI program. However, now you can feed your CSV (or even STDIN pipes) into [YouPlot](https://github.com/red-data-tools/YouPlot) and make plots appear in the command line. If your data is storedin [DuckDB](https://duckdb.org), you can use [textplot](https://github.com/query-farm/textplot) to plot the results.
+Visualizing data in the command line used to mean _exporting_ your figures into JPG/PNG files, then opening them with another GUI program. However, now you can feed your CSV (or even STDIN pipes) into [YouPlot](https://github.com/red-data-tools/YouPlot) and make plots appear in the command line. If your data is stored in [DuckDB](https://duckdb.org), you can use [textplot](https://github.com/query-farm/textplot) to plot the results.

@@ -3,7 +3,10 @@ layout: post
 title: Workflow managers for bioinformatic pipelines
 ---
 
-Due to the growth of data, workflow managers (_eg._ [Airflow](https://airflow.apache.org/), [Prefect](https://www.prefect.io/)) have been growing in popularity. In bioinformatics this popularity is further accelerated by the [replication crisis in science](https://jamanetwork.com/journals/jama/fullarticle/201218). Workflow managers automate routine tasks while also ensuring reproducibility by enabling drop-in changes in data, runtime parameters, or even entire toolchains. At Fred Hutch where I used to work, [Nextflow and Cromwell](https://sciwiki.fredhutch.org/scicomputing/software_overview/#workflow-managers) were most popular. Elsewhere, [Snakemake](https://github.com/snakemake/snakemake) is also popular though I don't have much personal experience with it.
+Due to the growth of data, workflow managers (_eg._ [Airflow](https://airflow.apache.org/), [Prefect](https://www.prefect.io/)) have been growing in popularity. In bioinformatics this popularity is further accelerated by the [replication crisis in science](https://jamanetwork.com/journals/jama/fullarticle/201218). Workflow managers automate routine tasks while also ensuring reproducibility by enabling drop-in changes in data, runtime parameters, or even entire toolchains. At Fred Hutch where I used to work, [Nextflow and Cromwell](https://sciwiki.fredhutch.org/scicomputing/software_overview/#workflow-managers) were most popular. Elsewhere, [Snakemake](https://github.com/snakemake/snakemake) is also popular though I don't have as much personal experience with it.
+
+### Snakemake
+[Snakemake](https://snakemake.github.io/) follows the GNU Make style of working, rules are connected automatically by matching inputs and outputs (_eg._ FASTQs, BAMs and VCFs in a basic variant calling bioinformatic pipeline), and represented programmatically as Directed Acyclic Graphs (DAGs), and you can manually render them as images for planning purposes. 
 
 ### Nextflow
 
